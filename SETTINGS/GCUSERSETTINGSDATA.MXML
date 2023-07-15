@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="100" />
-	<Property name="SfxVolume" value="100" />
+	<Property name="MusicVolume" value="80" />
+	<Property name="SfxVolume" value="60" />
 	<Property name="LookSensitivityMode1" value="35" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
