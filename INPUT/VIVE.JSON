@@ -1,5 +1,5 @@
 {
-   "action_manifest_version" : 2,
+   "action_manifest_version" : 3,
    "alias_info" : {},
    "bindings" : {
       "/actions/buildmenuanaloguerotate" : {
@@ -200,6 +200,24 @@
                   "sub_mode" : "click"
                },
                "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode/in/build_rot_axis"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/application_menu"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode/in/build_switchbase"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
             }
          ]
       },
@@ -209,15 +227,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_left/in/fire"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_left/in/select"
                   }
                },
                "mode" : "trigger",
@@ -249,15 +258,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_right/in/fire"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -326,6 +326,15 @@
                   "sub_mode" : "click"
                },
                "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode/in/report_base"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
             }
          ]
       },
@@ -335,15 +344,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuselectionmode_left/in/build_pickup"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuselectionmode_left/in/select"
                   }
                },
                "mode" : "trigger",
@@ -375,15 +375,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuselectionmode_right/in/build_pickup"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuselectionmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -875,7 +866,7 @@
                      "output" : "/actions/galacticmap/in/expand"
                   },
                   "south" : {
-                     "output" : "/actions/galacticmap/in/back"
+                     "output" : "/actions/galacticmap/in/galaxyback"
                   },
                   "west" : {
                      "output" : "/actions/galacticmap/in/home"
@@ -1561,15 +1552,6 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/onfootquickmenu_left/in/terrain_edit"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -1601,15 +1583,6 @@
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/onfootquickmenu_right/in/terrain_edit"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
             }
          ]
       },
@@ -1995,7 +1968,7 @@
             {
                "inputs" : {
                   "center" : {
-                     "output" : "/actions/shipcontrols/in/tagmarker"
+                     "output" : "/actions/shipcontrols/in/cycle_power"
                   },
                   "east" : {
                      "output" : "/actions/shipcontrols/in/ship_targetnext"

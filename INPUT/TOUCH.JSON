@@ -1,5 +1,5 @@
 {
-   "action_manifest_version" : 2,
+   "action_manifest_version" : 3,
    "alias_info" : {},
    "bindings" : {
       "/actions/buildmenuanaloguerotate" : {
@@ -165,6 +165,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode/in/build_rot_axis"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
             }
          ]
       },
@@ -179,15 +188,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_left/in/fire"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_left/in/select"
                   }
                },
                "mode" : "trigger",
@@ -224,15 +224,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_right/in/fire"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -324,15 +315,6 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/buildmenuselectionmode_left/in/select"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
                      "output" : "/actions/buildmenuselectionmode_left/in/back"
                   }
                },
@@ -361,15 +343,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuselectionmode_right/in/build_pickup"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuselectionmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -812,7 +785,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/galacticmap/in/back"
+                     "output" : "/actions/galacticmap/in/galaxyback"
                   }
                },
                "mode" : "button",
@@ -1948,6 +1921,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/shipcontrols/in/cycle_power"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
             }
          ]
       },

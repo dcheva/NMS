@@ -1,5 +1,5 @@
 {
-   "action_manifest_version" : 2,
+   "action_manifest_version" : 3,
    "alias_info" : {},
    "bindings" : {
       "/actions/buildmenuanaloguerotate" : {
@@ -186,6 +186,9 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/buildmenuplacementmode/in/build_rot_axis"
+                  },
                   "east" : {
                      "output" : "/actions/buildmenuplacementmode/in/rotate_right"
                   },
@@ -233,6 +236,15 @@
                   "sub_mode" : "click"
                },
                "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode/in/build_switchbase"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
             }
          ]
       },
@@ -255,15 +267,6 @@
                },
                "mode" : "trigger",
                "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_left/in/select"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -282,15 +285,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_right/in/fire"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuplacementmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -346,6 +340,15 @@
                   "sub_mode" : "click"
                },
                "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode/in/report_base"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
             }
          ]
       },
@@ -368,15 +371,6 @@
                },
                "mode" : "trigger",
                "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuselectionmode_left/in/select"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -386,15 +380,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuselectionmode_right/in/build_pickup"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuselectionmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -810,7 +795,7 @@
             {
                "inputs" : {
                   "east" : {
-                     "output" : "/actions/galacticmap/in/back"
+                     "output" : "/actions/galacticmap/in/galaxyback"
                   },
                   "north" : {
                      "output" : "/actions/galacticmap/in/alt_up"
@@ -2031,6 +2016,9 @@
             },
             {
                "inputs" : {
+                  "east" : {
+                     "output" : "/actions/shipcontrols/in/cycle_power"
+                  },
                   "north" : {
                      "output" : "/actions/shipcontrols/in/swap_weapon"
                   },

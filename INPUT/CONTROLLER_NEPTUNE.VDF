@@ -1,7 +1,7 @@
 "controller_mappings"
 {
 	"version"		"3"
-	"revision"		"618"
+	"revision"		"632"
 	"title"		"#Library_ControllerSaveDefaultTitle"
 	"description"		"#Library_ControllerSaveDefaultDescription"
 	"creator"		"76561198825835891"
@@ -9,9 +9,9 @@
 	"url"		"game://controller_neptune.vdf"
 	"controller_type"		"controller_neptune"
 	"controller_caps"		"23117823"
-	"major_revision"		"1026"
-	"minor_revision"		"0"
-	"Timestamp"		"1684318560"
+	"major_revision"		"1027"
+	"minor_revision"		"1"
+	"Timestamp"		"1692705575"
 	"actions"
 	{
 		"FRONTEND"
@@ -38,10 +38,9 @@
 			}
 			"Button"
 			{
-				"build_paint"		"#build_paint"
 				"pause_menu"		"#Action_Menu"
 				"SELECT"		"#Menu_Select"
-				"Back"		"#Menu_Cancel"
+				"back"		"#Menu_Cancel"
 				"left"		"#Menu_PrevPage"
 				"right"		"#Menu_NextPage"
 				"alt_left"		"#Menu_PrevCat"
@@ -52,7 +51,7 @@
 				"Down"		"#Stack_Split_Down"
 				"alt_up"		"#Menu_UpCat"
 				"alt_down"		"#Menu_LowCat"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"netretry"		"#Network_Retry"
 				"menu_upload"		"#Menu_Upload"
 				"menu_delete"		"#Menu_Delete"
@@ -71,7 +70,6 @@
 				"Unbound"		"#Unbound"
 				"menu_transfer"		"#Menu_Transfer"
 				"build_SelectionMode"		"#build_SelectionMode"
-				"menu_altselect"		"#Menu_AltSelect"
 			}
 		}
 		"OnFootControls"
@@ -95,7 +93,7 @@
 			{
 				"terrain_edit"		"#Terrain_Edit"
 				"tagmarker"		"#Tag_Marker"
-				"Forward"		"#Player_Forward"
+				"forward"		"#Player_Forward"
 				"reverse"		"#Player_Back"
 				"left"		"#Player_Left"
 				"right"		"#Player_Right"
@@ -117,7 +115,7 @@
 				"deconstruct"		"#Deconstruct"
 				"swap_secondary"		"#Action_SwapSeconday"
 				"placemarker"		"#Place_Marker"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"pause_menu"		"#Action_Menu"
 				"chat_toggle"		"#Chat_Toggle"
 				"chat_send"		"#Chat_Send"
@@ -130,11 +128,10 @@
 				"chat_paste"		"#Chat_Paste"
 				"autowalk"		"#AutoWalk"
 				"skipmessage"		"#Skip_Message"
-				"SELECT"		"#Menu_Select"
 				"bin_nextmode"		"#Binocs_NextMode"
 				"bin_prevmode"		"#Binocs_PrevMode"
 				"interactsecondary"		"#Action_InteractSecondary"
-				"Back"		"#Menu_Cancel"
+				"back"		"#Menu_Cancel"
 				"Unbound"		"#Unbound"
 			}
 		}
@@ -162,9 +159,9 @@
 			}
 			"Button"
 			{
-				"Back"		"#Menu_Cancel"
+				"back"		"#Menu_Cancel"
 				"quick_menu"		"#Action_QuickMenu"
-				"Forward"		"#Action_Accelerate"
+				"forward"		"#Action_Accelerate"
 				"brake"		"#Action_Brake"
 				"boost"		"#Action_Boost"
 				"left"		"#Action_RollLeft"
@@ -180,15 +177,15 @@
 				"ship_targetnext"		"#Ship_Target_Next"
 				"ship_targetprev"		"#Ship_Target_Prev"
 				"ship_targetcur"		"#Ship_Target_Current"
+				"cycle_power"		"#Ui_Power_Setting_Action_Name"
 				"zoom"		"#Ship_Zoom"
 				"pause_menu"		"#Action_Menu"
 				"chat_toggle"		"#Chat_Toggle"
 				"chat_send"		"#Chat_Send"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"chat_pastehold"		"#Chat_PasteHold"
 				"chat_paste"		"#Chat_Paste"
 				"skipmessage"		"#Skip_Message"
-				"interact"		"#Action_Interact"
 				"showhud"		"#Show_HUD"
 				"tagmarker"		"#Tag_Marker"
 				"TargetFollow_Toggle"		"#Ship_Follow_Toggle"
@@ -241,15 +238,13 @@
 				"pause_menu"		"#Action_Menu"
 				"chat_toggle"		"#Chat_Toggle"
 				"chat_send"		"#Chat_Send"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"chat_pastehold"		"#Chat_PasteHold"
 				"chat_paste"		"#Chat_Paste"
 				"tagmarker"		"#Tag_Marker"
-				"interact"		"#Action_Interact"
 				"showhud"		"#Show_HUD"
-				"Back"		"#Menu_Cancel"
+				"back"		"#Menu_Cancel"
 				"skipmessage"		"#Skip_Message"
-				"build_menu"		"#Action_BuildMenu"
 				"Unbound"		"#Unbound"
 			}
 		}
@@ -282,17 +277,16 @@
 				"alt_left"		"#GM_PrevType"
 				"alt_up"		"#GM_PrevFilter"
 				"alt_down"		"#GM_NextFilter"
-				"Back"		"#Menu_Cancel"
+				"galaxyback"		"#Galaxy_Back"
 				"SELECT"		"#Menu_Select"
 				"map_moveright"		"#GM_MoveRight"
 				"map_moveleft"		"#GM_MoveLeft"
 				"up"		"#GM_MoveUp"
 				"Down"		"#GM_MoveDown"
-				"Forward"		"#GM_MoveForward"
+				"forward"		"#GM_MoveForward"
 				"reverse"		"#GM_MoveBack"
 				"scan"		"#Action_Scan"
 				"expand"		"#Galaxy_Expand"
-				"map_gesture"		"#GM_Gesture"
 				"boost"		"#GM_FlyFaster"
 				"Unbound"		"#Unbound"
 			}
@@ -322,9 +316,8 @@
 				"hide_hud"		"#Photo_HideHud"
 				"fire"		"#Photo_SunPos"
 				"SELECT"		"#Menu_Select"
-				"Back"		"#Menu_Cancel"
 				"pause_menu"		"#Action_Menu"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"Unbound"		"#Unbound"
 			}
 		}
@@ -356,11 +349,11 @@
 				"SELECT"		"#Photo_TakePhoto"
 				"alt_left"		"#Photo_CamRollLeft"
 				"alt_right"		"#Photo_CamRollRight"
-				"Forward"		"#Player_Forward"
+				"forward"		"#Player_Forward"
 				"reverse"		"#Player_Back"
 				"left"		"#Player_Left"
 				"right"		"#Player_Right"
-				"Inventory"		"#Inventory"
+				"inventory"		"#Inventory"
 				"pause_menu"		"#Action_Menu"
 				"Unbound"		"#Unbound"
 			}
@@ -380,15 +373,13 @@
 				"ui_right"		"#Action_QuickRight"
 				"Down"		"#Action_QuickDown"
 				"up"		"#Action_QuickUp"
-				"swap_weapon"		"#Action_SwapWeapon"
 				"terrain_shape"		"#Terrain_Shape"
 				"alt_left"		"#Terrain_Left"
 				"alt_right"		"#Terrain_Right"
 				"Unbound"		"#Unbound"
-				"Back"		"#Action_QuickBack"
+				"back"		"#Action_QuickBack"
 				"SELECT"		"#Action_QuickConfirm"
 				"terrain_switch"		"#Terrain_SwitchMode"
-				"terrain_edit"		"#Terrain_Edit"
 			}
 		}
 		"ShipQuickMenu"
@@ -399,8 +390,7 @@
 			"parent_set_name"		"ShipControls"
 			"Button"
 			{
-				"quick_menu"		"#Action_QuickMenu"
-				"Back"		"#Action_QuickBack"
+				"back"		"#Action_QuickBack"
 				"ui_right"		"#Action_QuickRight"
 				"ui_left"		"#Action_QuickLeft"
 				"up"		"#Action_QuickUp"
@@ -417,8 +407,7 @@
 			"parent_set_name"		"VehicleMode"
 			"Button"
 			{
-				"quick_menu"		"#Action_QuickMenu"
-				"Back"		"#Action_QuickBack"
+				"back"		"#Action_QuickBack"
 				"ui_right"		"#Action_QuickRight"
 				"ui_left"		"#Action_QuickLeft"
 				"up"		"#Action_QuickUp"
@@ -435,16 +424,12 @@
 			"parent_set_name"		"OnFootControls"
 			"Button"
 			{
-				"ui_left"		"#Action_QuickLeft"
-				"ui_right"		"#Action_QuickRight"
-				"Back"		"#Action_QuickBack"
-				"up"		"#Action_QuickUp"
-				"Down"		"#Action_QuickDown"
+				"back"		"#Action_QuickBack"
 				"build_pickup"		"#build_pickup"
 				"build_duplicate"		"#build_duplicate"
 				"build_delete"		"#build_delete"
-				"toggle_info"		"#Action_ToggleInfo"
-				"build_switchbase"		"#Build_SwitchBase"
+				"build_camera"		"#Build_Camera"
+				"report_base"		"#Report_Base"
 				"build_paint"		"#build_paint"
 				"build_wiring"		"#build_wiring"
 				"build_menu"		"#Action_BuildMenu"
@@ -466,7 +451,7 @@
 			"Button"
 			{
 				"fire"		"#Action_QuickBuild"
-				"Back"		"#Action_QuickBack"
+				"back"		"#Action_QuickBack"
 				"build_togglevisions"		"#Build_ToggleVisions"
 				"build_scaleup"		"#Build_Scale_Up"
 				"build_scaledown"		"#Build_Scale_Down"
@@ -474,7 +459,7 @@
 				"rotate_right"		"#Action_Rotate"
 				"build_arotleft"		"#Build_ARotate_Left"
 				"build_arotright"		"#Build_ARotate_Right"
-				"toggle_info"		"#Action_ToggleInfo"
+				"build_camera"		"#Build_Camera"
 				"build_switchbase"		"#Build_SwitchBase"
 				"build_snapping"		"#build_snapping"
 				"build_paint"		"#build_paint"
@@ -483,6 +468,7 @@
 				"build_menu"		"#Action_BuildMenu"
 				"Unbound"		"#Unbound"
 				"build_SelectionMode"		"#build_SelectionMode"
+				"build_rot_axis"		"#build_rot_axis"
 			}
 		}
 	}
@@ -494,7 +480,6 @@
 			"Action_Cursor"		"Cursor Movement"
 			"Action_Camera"		"Look"
 			"Char_Camera"		"Rotate Camera"
-			"build_paint"		"Recolour Building Part"
 			"Action_Menu"		"Discoveries / Options"
 			"Menu_Select"		"Confirm (Menus)"
 			"Menu_Cancel"		"Back"
@@ -508,7 +493,7 @@
 			"Stack_Split_Down"		"Decrease Item Stack"
 			"Menu_UpCat"		"Upper Category / Shop Page Up"
 			"Menu_LowCat"		"Lower Category / Shop Page Down"
-			"Inventory"		"Inventories"
+			"inventory"		"Inventories"
 			"Network_Retry"		"Retry Network Connection"
 			"menu_upload"		"Initiate Process"
 			"menu_delete"		"Discard Item"
@@ -527,7 +512,6 @@
 			"Unbound"		"Unbound"
 			"menu_transfer"		"Quick Transfer"
 			"build_SelectionMode"		"Toggle Edit/Build"
-			"menu_altselect"		"Confirm (Weapon Menu)"
 			"Set_Onfoot"		"On Foot"
 			"Action_Move"		"Move"
 			"terrain_edit"		"Manipulate Terrain"
@@ -548,7 +532,7 @@
 			"Action_Fire"		"Fire Weapons"
 			"Action_Secondary"		"Activate Alt Weapon"
 			"Action_Reload"		"Reload Weapon"
-			"Action_SwapWeapon"		"Switch Weapon Mode"
+			"Action_SwapWeapon"		"Change Weapon Mode"
 			"Action_QuickMenu"		"Quick Menu"
 			"Action_BuildMenu"		"Build Menu"
 			"deconstruct"		"Pick Up Technology"
@@ -582,6 +566,7 @@
 			"Ship_Target_Next"		"Next Target"
 			"Ship_Target_Prev"		"Previous Target"
 			"Ship_Target_Current"		"Closest Target"
+			"Ui_Power_Setting_Action_Name"		"Cycle Ship Power"
 			"Ship_Zoom"		"Zoom In"
 			"Ship_Follow_Toggle"		"Combat Autopilot (Toggle)"
 			"Ship_Follow_Hold"		"Combat Autopilot (Hold)"
@@ -614,6 +599,7 @@
 			"GM_PrevType"		"Previous Navigation Mode"
 			"GM_PrevFilter"		"Previous Filter"
 			"GM_NextFilter"		"Next Filter"
+			"Galaxy_Back"		"Toggle Free Look"
 			"GM_MoveRight"		"Move Right"
 			"GM_MoveLeft"		"Move Left"
 			"GM_MoveUp"		"Move Up"
@@ -621,7 +607,6 @@
 			"GM_MoveForward"		"Player Movement (Forward)"
 			"GM_MoveBack"		"Player Movement (Back)"
 			"Galaxy_Expand"		"Expand System Info"
-			"GM_Gesture"		"Camera Look"
 			"GM_FlyFaster"		"Fast Navigation"
 			"Set_PhotoMode"		"Photo Mode (Menu)"
 			"Photo_ToggleCamera"		"View / Save Camera Effects"
@@ -655,8 +640,9 @@
 			"build_pickup"		"Select Part"
 			"build_duplicate"		"Duplicate Part"
 			"build_delete"		"Delete Part"
-			"Action_ToggleInfo"		"Toggle Build Camera"
-			"build_switchbase"		"Switch Base"
+			"build_camera"		"Toggle Build Camera"
+			"report_base"		"Report Offensive or Inappropriate Base"
+			"build_paint"		"Recolour Building Part"
 			"build_nextpart"		"Cycle Base Part"
 			"Set_BuildMenuPlacementMode"		"Base Part Placing"
 			"build_rotatey"		"Free Rotate Y-Axis"
@@ -668,7 +654,9 @@
 			"Action_Rotate"		"Rotate Snapping Part Right"
 			"Build_ARotate_Left"		"Rotate Part Left"
 			"Build_ARotate_Right"		"Rotate Part Right"
+			"build_switchbase"		"Switch Base"
 			"build_snapping"		"Toggle Free Part Placement"
+			"build_rot_axis"		"Toggle Free Rotation Axis"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Steam Deck Layout with Gyro Support"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Layout created by Hello Games for use with the Steam Deck. Includes gyro support."
 		}
@@ -678,7 +666,6 @@
 			"Action_Cursor"		"Movimento do cursor"
 			"Action_Camera"		"Olhar"
 			"Char_Camera"		"Girar câmera"
-			"build_paint"		"Recolorir Peça de Construção"
 			"Action_Menu"		"Descobertas/Opções"
 			"Menu_Select"		"Confirmar (menus)"
 			"Menu_Cancel"		"Voltar"
@@ -692,7 +679,7 @@
 			"Stack_Split_Down"		"Reduzir pilha de itens"
 			"Menu_UpCat"		"Categoria superior/Subir página da loja"
 			"Menu_LowCat"		"Categoria inferior/Descer página da loja"
-			"Inventory"		"Inventários"
+			"inventory"		"Inventários"
 			"Network_Retry"		"Reconectar rede"
 			"menu_upload"		"Iniciar processo"
 			"menu_delete"		"Descartar item"
@@ -708,9 +695,9 @@
 			"disc_wonder"		"Adicionar descoberta como maravilha"
 			"build_wiring"		"Alternar Modo de Fiação"
 			"build_pinrecipe"		"Fixar fórmula"
-			"Unbound"		"Nenhum"
+			"Unbound"		"Não associado"
 			"menu_transfer"		"Transferência rápida"
-			"build_SelectionMode"		"Alternar editar/construir"
+			"build_SelectionMode"		"Alternar edit./constr."
 			"Set_Onfoot"		"A pé"
 			"Action_Move"		"Mover-se"
 			"terrain_edit"		"Manipular terreno"
@@ -731,7 +718,7 @@
 			"Action_Fire"		"Disparar armas"
 			"Action_Secondary"		"Ativar arma alternativa"
 			"Action_Reload"		"Recarregar arma"
-			"Action_SwapWeapon"		"Alternar modo de arma"
+			"Action_SwapWeapon"		"Alterar modo de arma"
 			"Action_QuickMenu"		"Menu rápido"
 			"Action_BuildMenu"		"Menu de construção"
 			"deconstruct"		"Recolher tecnologia"
@@ -765,6 +752,7 @@
 			"Ship_Target_Next"		"Alvo seguinte"
 			"Ship_Target_Prev"		"Alvo anterior"
 			"Ship_Target_Current"		"Alvo mais próximo"
+			"Ui_Power_Setting_Action_Name"		"Alternar energia da nave"
 			"Ship_Zoom"		"Aumentar zoom"
 			"Ship_Follow_Toggle"		"Piloto automático de combate (alternar)"
 			"Ship_Follow_Hold"		"Piloto automático de combate (segurar)"
@@ -797,6 +785,7 @@
 			"GM_PrevType"		"Modo de navegação anterior"
 			"GM_PrevFilter"		"Filtro anterior"
 			"GM_NextFilter"		"Próximo filtro"
+			"Galaxy_Back"		"Alternar visão livre"
 			"GM_MoveRight"		"Mover para a direita"
 			"GM_MoveLeft"		"Mover para a esquerda"
 			"GM_MoveUp"		"Mover para cima"
@@ -804,7 +793,6 @@
 			"GM_MoveForward"		"Movimento do jogador (para a frente)"
 			"GM_MoveBack"		"Movimento do jogador (para trás)"
 			"Galaxy_Expand"		"Expandir informações do sistema"
-			"GM_Gesture"		"Visão da câmera"
 			"GM_FlyFaster"		"Navegação rápida"
 			"Set_PhotoMode"		"Modo de foto (Menu)"
 			"Photo_ToggleCamera"		"Ver/salvar efeitos da câmera"
@@ -833,13 +821,14 @@
 			"Action_QuickConfirm"		"Confirmar (menu rápido)"
 			"Terrain_SwitchMode"		"Alternar entre minerar/criar terreno"
 			"Set_ShipQuickMenu"		"Menu rápido (na nave)"
-			"Set_VehicleQuickMenu"		"Menu rápido (Exoveículo)"
+			"Set_VehicleQuickMenu"		"Menu rápido (exoveículo)"
 			"Set_BuildMenuSelectionMode"		"Edição de Partes de Base"
 			"build_pickup"		"Selecionar Peça"
 			"build_duplicate"		"Duplicar Peça"
 			"build_delete"		"Excluir Peça"
-			"Action_ToggleInfo"		"Alternar câmera de construção"
-			"build_switchbase"		"Alternar base"
+			"build_camera"		"Alternar câmera de construção"
+			"report_base"		"Denunciar base ofensiva ou inapropriada"
+			"build_paint"		"Recolorir Peça de Construção"
 			"build_nextpart"		"Alternar Partes de Base"
 			"Set_BuildMenuPlacementMode"		"Posicionamento de Partes de Base"
 			"build_rotatey"		"Giro livre do eixo Y"
@@ -851,7 +840,9 @@
 			"Action_Rotate"		"Girar peça de encaixe para a direita"
 			"Build_ARotate_Left"		"Girar peça para a esquerda"
 			"Build_ARotate_Right"		"Girar peça para a direita"
+			"build_switchbase"		"Alternar base"
 			"build_snapping"		"Alternar Posicionamento de Peças Livre"
+			"build_rot_axis"		"Alternar Eixo de Rotação Livre"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Layout de Steam Deck com suporte para giroscópio"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Layout criado pela Hello Games para uso com o Steam Deck. Inclui suporte para giroscópio."
 		}
@@ -861,7 +852,6 @@
 			"Action_Cursor"		"Aanwijzer verplaatsen"
 			"Action_Camera"		"Rondkijken"
 			"Char_Camera"		"Camera draaien"
-			"build_paint"		"Kleur bouwonderdeel wijzigen"
 			"Action_Menu"		"Ontdekkingen/opties"
 			"Menu_Select"		"Bevestigen (menu's)"
 			"Menu_Cancel"		"Terug"
@@ -875,7 +865,7 @@
 			"Stack_Split_Down"		"Voorwerpstapel verlagen"
 			"Menu_UpCat"		"Omhoog/Vorige winkelpagina"
 			"Menu_LowCat"		"Omlaag/Volgende winkelpagina"
-			"Inventory"		"Inventarissen"
+			"inventory"		"Inventarissen"
 			"Network_Retry"		"Opnieuw verbinden met netwerk"
 			"menu_upload"		"Procedure initiëren"
 			"menu_delete"		"Voorwerp afdanken"
@@ -891,7 +881,7 @@
 			"disc_wonder"		"Ontdekking toevoegen als wonder"
 			"build_wiring"		"Bedradingsstand aan/uit"
 			"build_pinrecipe"		"Formule vastzetten"
-			"Unbound"		"Geen"
+			"Unbound"		"Vrij"
 			"menu_transfer"		"Snel verplaatsen"
 			"build_SelectionMode"		"Bewerken/Constructie"
 			"Set_Onfoot"		"Te voet"
@@ -948,6 +938,7 @@
 			"Ship_Target_Next"		"Volgend doelwit"
 			"Ship_Target_Prev"		"Vorig doelwit"
 			"Ship_Target_Current"		"Dichtstbijzijnd doelwit"
+			"Ui_Power_Setting_Action_Name"		"Wisselen tussen vermogen van schip"
 			"Ship_Zoom"		"Inzoomen"
 			"Ship_Follow_Toggle"		"Automatische gevechtspiloot (aan/uit)"
 			"Ship_Follow_Hold"		"Automatische gevechtspiloot (ingedrukt houden)"
@@ -980,6 +971,7 @@
 			"GM_PrevType"		"Vorige navigatiefunctie"
 			"GM_PrevFilter"		"Vorig filter"
 			"GM_NextFilter"		"Volgend filter"
+			"Galaxy_Back"		"Vrij rondkijken aan/uit"
 			"GM_MoveRight"		"Naar rechts"
 			"GM_MoveLeft"		"Naar links"
 			"GM_MoveUp"		"Omhoog bewegen"
@@ -987,7 +979,6 @@
 			"GM_MoveForward"		"Speler verplaatsen (vooruit)"
 			"GM_MoveBack"		"Speler verplaatsen (achteruit)"
 			"Galaxy_Expand"		"Info stelsel uitvouwen"
-			"GM_Gesture"		"Camerabeweging"
 			"GM_FlyFaster"		"Snel navigeren"
 			"Set_PhotoMode"		"Fotomodule (menu)"
 			"Photo_ToggleCamera"		"Camera-effecten weergeven/opslaan"
@@ -1016,13 +1007,14 @@
 			"Action_QuickConfirm"		"Bevestigen (snelmenu)"
 			"Terrain_SwitchMode"		"Wisselen tussen terrein delven/maken"
 			"Set_ShipQuickMenu"		"Snelmenu (schip)"
-			"Set_VehicleQuickMenu"		"Snelmenu (Exocraft)"
+			"Set_VehicleQuickMenu"		"Snelmenu (exocraft)"
 			"Set_BuildMenuSelectionMode"		"Basisonderdeel bewerken"
 			"build_pickup"		"Onderdeel selecteren"
 			"build_duplicate"		"Onderdeel dupliceren"
 			"build_delete"		"Onderdeel verwijderen"
-			"Action_ToggleInfo"		"Bouwcamera aan/uit"
-			"build_switchbase"		"Andere basis"
+			"build_camera"		"Bouwcamera aan/uit"
+			"report_base"		"Beledigende of ongepaste basis rapporteren"
+			"build_paint"		"Kleur bouwonderdeel wijzigen"
 			"build_nextpart"		"Door basisonderdelen bladeren"
 			"Set_BuildMenuPlacementMode"		"Basisonderdeel plaatsen"
 			"build_rotatey"		"Vrij ronddraaien y-as"
@@ -1034,7 +1026,9 @@
 			"Action_Rotate"		"Klikonderdeel rechtsom draaien"
 			"Build_ARotate_Left"		"Onderdeel linksom draaien"
 			"Build_ARotate_Right"		"Onderdeel rechtsom draaien"
+			"build_switchbase"		"Andere basis"
 			"build_snapping"		"Onderdeel vrij plaatsen aan/uit"
+			"build_rot_axis"		"Vrij rond as draaien aan/uit"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Steam Deck-indeling met gyro-ondersteuning"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Door Hello Games gemaakte indeling voor de Steam Deck. Inclusief gyro-ondersteuning."
 		}
@@ -1044,7 +1038,6 @@
 			"Action_Cursor"		"Déplacement du curseur"
 			"Action_Camera"		"Regarder"
 			"Char_Camera"		"Faire pivoter la caméra"
-			"build_paint"		"Changer la couleur de l'élément de construction"
 			"Action_Menu"		"Découvertes / options"
 			"Menu_Select"		"Confirmer (Menus)"
 			"Menu_Cancel"		"Retour"
@@ -1058,7 +1051,7 @@
 			"Stack_Split_Down"		"Réduire nombre"
 			"Menu_UpCat"		"Défiler vers le haut (Catégorie / Boutique)"
 			"Menu_LowCat"		"Défiler vers le bas (Catégorie / Boutique)"
-			"Inventory"		"Inventaires"
+			"inventory"		"Inventaires"
 			"Network_Retry"		"Réessayer de se connecter"
 			"menu_upload"		"Démarrer le processus"
 			"menu_delete"		"Jeter objet"
@@ -1074,9 +1067,9 @@
 			"disc_wonder"		"Ajouter la découverte en tant que merveille"
 			"build_wiring"		"Activer/désactiver le mode câblage"
 			"build_pinrecipe"		"Épingler formule"
-			"Unbound"		"Aucune"
+			"Unbound"		"Libéré"
 			"menu_transfer"		"Transfert rapide"
-			"build_SelectionMode"		"Basculer mode Modifier/Construire"
+			"build_SelectionMode"		"Mode Modifier/Construire"
 			"Set_Onfoot"		"À pied"
 			"Action_Move"		"Se déplacer"
 			"terrain_edit"		"Manipuler le terrain"
@@ -1131,6 +1124,7 @@
 			"Ship_Target_Next"		"Cible suivante"
 			"Ship_Target_Prev"		"Cible précédente"
 			"Ship_Target_Current"		"Cible la plus proche"
+			"Ui_Power_Setting_Action_Name"		"Changer l'alimentation du vaisseau"
 			"Ship_Zoom"		"Zoom avant"
 			"Ship_Follow_Toggle"		"Pilote automatique de combat (activer/désactiver)"
 			"Ship_Follow_Hold"		"Pilote automatique de combat (maintenir)"
@@ -1163,6 +1157,7 @@
 			"GM_PrevType"		"Mode de navigation précédent"
 			"GM_PrevFilter"		"Filtre précédent"
 			"GM_NextFilter"		"Filtre suivant"
+			"Galaxy_Back"		"Activer la vue libre"
 			"GM_MoveRight"		"Déplacer à droite"
 			"GM_MoveLeft"		"Déplacer à gauche"
 			"GM_MoveUp"		"Monter"
@@ -1170,7 +1165,6 @@
 			"GM_MoveForward"		"Déplacement du joueur (avant)"
 			"GM_MoveBack"		"Déplacement du joueur (arrière)"
 			"Galaxy_Expand"		"Agrandir informations système"
-			"GM_Gesture"		"Vue caméra"
 			"GM_FlyFaster"		"Navigation rapide"
 			"Set_PhotoMode"		"Mode photo (menu)"
 			"Photo_ToggleCamera"		"Voir / sauvegarder effets de caméra"
@@ -1199,13 +1193,14 @@
 			"Action_QuickConfirm"		"Confirmer (Menu rapide)"
 			"Terrain_SwitchMode"		"Activer/désactiver mine du terrain / Créer"
 			"Set_ShipQuickMenu"		"Menu rapide (vaisseau)"
-			"Set_VehicleQuickMenu"		"Menu rapide (Exonef)"
+			"Set_VehicleQuickMenu"		"Menu rapide (exonef)"
 			"Set_BuildMenuSelectionMode"		"Modifier l'élément de base"
 			"build_pickup"		"Sélectionner l'élément"
 			"build_duplicate"		"Dupliquer l'élément"
 			"build_delete"		"Supprimer l'élément"
-			"Action_ToggleInfo"		"Caméra de construction"
-			"build_switchbase"		"Changer de base"
+			"build_camera"		"Caméra de construction"
+			"report_base"		"Signaler base inappropriée "
+			"build_paint"		"Changer la couleur de l'élément de construction"
 			"build_nextpart"		"Changer d'élément de base"
 			"Set_BuildMenuPlacementMode"		"Placer l'élément de base"
 			"build_rotatey"		"Faire pivoter librement sur l'axe Y"
@@ -1217,7 +1212,9 @@
 			"Action_Rotate"		"Faire pivoter l'élément à emboîter vers la droite"
 			"Build_ARotate_Left"		"Faire pivoter l'élément à gauche"
 			"Build_ARotate_Right"		"Faire pivoter l'élément à droite"
+			"build_switchbase"		"Changer de base"
 			"build_snapping"		"Activer/désactiver le placement libre"
+			"build_rot_axis"		"Activer/désactiver l'axe de rotation libre"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Modèle Steam Deck avec support gyroscopique"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Modèle créé par Hello Games pour une utilisation avec le Steam Deck. Comprend un support gyroscopique."
 		}
@@ -1227,7 +1224,6 @@
 			"Action_Cursor"		"Cursor-Bewegung"
 			"Action_Camera"		"Umsehen"
 			"Char_Camera"		"Kamera drehen"
-			"build_paint"		"Gebäudeteile umfärben"
 			"Action_Menu"		"Entdeckungen/Optionen"
 			"Menu_Select"		"Bestätigen (Menüs)"
 			"Menu_Cancel"		"Zurück"
@@ -1241,7 +1237,7 @@
 			"Stack_Split_Down"		"Gegenstandsstapel reduzieren"
 			"Menu_UpCat"		"Obere Kategorie/Shop-Seite nach oben"
 			"Menu_LowCat"		"Untere Kategorie/Shop-Seite nach unten"
-			"Inventory"		"Inventare"
+			"inventory"		"Inventare"
 			"Network_Retry"		"Netzwerkverbindung erneuern"
 			"menu_upload"		"Vorgang starten"
 			"menu_delete"		"Gegenstand verwerfen"
@@ -1257,7 +1253,7 @@
 			"disc_wonder"		"Entdeckung als Wunder hinzufügen"
 			"build_wiring"		"Verkabelungsmodus umschalten"
 			"build_pinrecipe"		"Formel anpinnen"
-			"Unbound"		"Nichts"
+			"Unbound"		"Entfesselt"
 			"menu_transfer"		"Schnellübertragung"
 			"build_SelectionMode"		"Bearbeiten/Bauen umschalten"
 			"Set_Onfoot"		"Zu Fuß"
@@ -1280,7 +1276,7 @@
 			"Action_Fire"		"Waffen abfeuern"
 			"Action_Secondary"		"Zweitwaffe aktivieren"
 			"Action_Reload"		"Waffe nachladen"
-			"Action_SwapWeapon"		"Waffenmodus wechseln"
+			"Action_SwapWeapon"		"Waffenmodus ändern"
 			"Action_QuickMenu"		"Schnellmenü"
 			"Action_BuildMenu"		"Baumenü"
 			"deconstruct"		"Technologie aufnehmen"
@@ -1314,6 +1310,7 @@
 			"Ship_Target_Next"		"Nächstes Ziel"
 			"Ship_Target_Prev"		"Vorheriges Ziel"
 			"Ship_Target_Current"		"Nächstgelegenes Ziel"
+			"Ui_Power_Setting_Action_Name"		"Schiffsenergie durchschalten"
 			"Ship_Zoom"		"Heranzoomen"
 			"Ship_Follow_Toggle"		"Kampf-Autopilot (umschalten)"
 			"Ship_Follow_Hold"		"Kampf-Autopilot (halten)"
@@ -1346,6 +1343,7 @@
 			"GM_PrevType"		"Vorheriger Navigationsmodus"
 			"GM_PrevFilter"		"Vorheriger Filter"
 			"GM_NextFilter"		"Nächster Filter"
+			"Galaxy_Back"		"Freies Umsehen ein/aus"
 			"GM_MoveRight"		"Nach rechts bewegen"
 			"GM_MoveLeft"		"Nach links bewegen"
 			"GM_MoveUp"		"Nach oben bewegen"
@@ -1353,7 +1351,6 @@
 			"GM_MoveForward"		"Spielerbewegung (vorwärts)"
 			"GM_MoveBack"		"Spielerbewegung (zurück)"
 			"Galaxy_Expand"		"Systeminfo erweitern"
-			"GM_Gesture"		"Kamerabewegung"
 			"GM_FlyFaster"		"Schnellnavigation"
 			"Set_PhotoMode"		"Fotomodus (Menü)"
 			"Photo_ToggleCamera"		"Kameraeffekte ansehen/speichern"
@@ -1387,8 +1384,9 @@
 			"build_pickup"		"Teil auswählen"
 			"build_duplicate"		"Teil duplizieren"
 			"build_delete"		"Teil löschen"
-			"Action_ToggleInfo"		"Baukamera ein/aus"
-			"build_switchbase"		"Basis wechseln"
+			"build_camera"		"Baukamera ein/aus"
+			"report_base"		"Beleidigende oder unangemessene Basis melden"
+			"build_paint"		"Gebäudeteile umfärben"
 			"build_nextpart"		"Basisteil durchwechseln"
 			"Set_BuildMenuPlacementMode"		"Basisteilplatzierung"
 			"build_rotatey"		"Frei drehen (Y-Achse)"
@@ -1400,7 +1398,9 @@
 			"Action_Rotate"		"Einrastteil nach rechts drehen"
 			"Build_ARotate_Left"		"Teil nach links drehen"
 			"Build_ARotate_Right"		"Teil nach rechts drehen"
+			"build_switchbase"		"Basis wechseln"
 			"build_snapping"		"Freie Teileplatzierung ein/aus"
+			"build_rot_axis"		"Freie Rotationsachse ein/aus"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"„Steam Deck“-Layout mit Gyro-Unterstützung"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Layout von Hello Games für die Verwendung mit dem Steam Deck. Bietet Gyro-Unterstützung."
 		}
@@ -1410,7 +1410,6 @@
 			"Action_Cursor"		"Movimento cursore"
 			"Action_Camera"		"Guarda"
 			"Char_Camera"		"Rotazione visuale"
-			"build_paint"		"Ricolora parte di costruzione"
 			"Action_Menu"		"Scoperte/Opzioni"
 			"Menu_Select"		"Conferma (menu)"
 			"Menu_Cancel"		"Indietro"
@@ -1424,7 +1423,7 @@
 			"Stack_Split_Down"		"Riduci raggruppamento oggetto"
 			"Menu_UpCat"		"Categoria superiore/Scorri pagina negozio su"
 			"Menu_LowCat"		"Categoria inferiore/Scorri pagina negozio giù"
-			"Inventory"		"Inventari"
+			"inventory"		"Inventari"
 			"Network_Retry"		"Ritenta connessione di rete"
 			"menu_upload"		"Avvia procedura"
 			"menu_delete"		"Elimina oggetto"
@@ -1440,7 +1439,7 @@
 			"disc_wonder"		"Aggiungi scoperta come meraviglia"
 			"build_wiring"		"Attiva/Disattiva modalità cablaggio"
 			"build_pinrecipe"		"Metti in evidenza formula"
-			"Unbound"		"Nessuno"
+			"Unbound"		"Liberazione"
 			"menu_transfer"		"Trasferimento veloce"
 			"build_SelectionMode"		"Alterna Modifica/Costruisci"
 			"Set_Onfoot"		"A piedi"
@@ -1497,6 +1496,7 @@
 			"Ship_Target_Next"		"Bersaglio successivo"
 			"Ship_Target_Prev"		"Bersaglio precedente"
 			"Ship_Target_Current"		"Bersaglio più vicino"
+			"Ui_Power_Setting_Action_Name"		"Cambia energia nave"
 			"Ship_Zoom"		"Ingrandisci"
 			"Ship_Follow_Toggle"		"Pilota automatico da combattimento (attiva/disattiva)"
 			"Ship_Follow_Hold"		"Pilota automatico da combattimento (tieni premuto)"
@@ -1529,6 +1529,7 @@
 			"GM_PrevType"		"Modalità di navigazione precedente"
 			"GM_PrevFilter"		"Filtro precedente"
 			"GM_NextFilter"		"Prossimo filtro"
+			"Galaxy_Back"		"Attiva/Disattiva visuale libera"
 			"GM_MoveRight"		"Movimento a destra"
 			"GM_MoveLeft"		"Movimento a sinistra"
 			"GM_MoveUp"		"Su"
@@ -1536,7 +1537,6 @@
 			"GM_MoveForward"		"Movimento giocatore (avanti)"
 			"GM_MoveBack"		"Movimento giocatore (indietro)"
 			"Galaxy_Expand"		"Espandi informazioni sistema"
-			"GM_Gesture"		"Visuale"
 			"GM_FlyFaster"		"Navigazione veloce"
 			"Set_PhotoMode"		"Modalità Foto (menu)"
 			"Photo_ToggleCamera"		"Visualizza/Salva effetti visuale"
@@ -1565,13 +1565,14 @@
 			"Action_QuickConfirm"		"Conferma (menu rapido)"
 			"Terrain_SwitchMode"		"Alterna scavo/creazione terreno"
 			"Set_ShipQuickMenu"		"Menu rapido (nave)"
-			"Set_VehicleQuickMenu"		"Menu rapido (Exoscafo)"
+			"Set_VehicleQuickMenu"		"Menu rapido (exoscafo)"
 			"Set_BuildMenuSelectionMode"		"Modifica parti della base"
 			"build_pickup"		"Seleziona parte"
 			"build_duplicate"		"Duplica parte"
 			"build_delete"		"Elimina parte"
-			"Action_ToggleInfo"		"Alterna visuale costruzione"
-			"build_switchbase"		"Cambia base"
+			"build_camera"		"Alterna visuale costruzione"
+			"report_base"		"Segnala base offensiva o inappropriata"
+			"build_paint"		"Ricolora parte di costruzione"
 			"build_nextpart"		"Scorri parte della base"
 			"Set_BuildMenuPlacementMode"		"Posizionamento parti della base"
 			"build_rotatey"		"Rotazione libera asse Y"
@@ -1583,7 +1584,9 @@
 			"Action_Rotate"		"Ruota parte agganciata a destra"
 			"Build_ARotate_Left"		"Ruota parte a sinistra"
 			"Build_ARotate_Right"		"Ruota parte a destra"
+			"build_switchbase"		"Cambia base"
 			"build_snapping"		"Attiva/Disattiva posizionamento libero parti"
+			"build_rot_axis"		"Attiva/Disattiva rotazione libera degli assi"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Layout Steam Deck con supporto a giroscopio"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Layout creato da Hello Games per l'utilizzo su Steam Deck. Include il supporto al giroscopio."
 		}
@@ -1593,7 +1596,6 @@
 			"Action_Cursor"		"カーソル移動"
 			"Action_Camera"		"見る"
 			"Char_Camera"		"カメラ回転"
-			"build_paint"		"建築用パーツの色を変える"
 			"Action_Menu"		"ディスカバリー / オプション"
 			"Menu_Select"		"決定（メニュー）"
 			"Menu_Cancel"		"戻る"
@@ -1607,7 +1609,7 @@
 			"Stack_Split_Down"		"アイテムのストック数を減らす"
 			"Menu_UpCat"		"上のカテゴリー / 前のショップページ"
 			"Menu_LowCat"		"下のカテゴリー / 次のショップページ"
-			"Inventory"		"アイテムケース"
+			"inventory"		"アイテムケース"
 			"Network_Retry"		"ネットワーク接続を再試行"
 			"menu_upload"		"加工を開始"
 			"menu_delete"		"アイテムを捨てる"
@@ -1623,7 +1625,7 @@
 			"disc_wonder"		"ディスカバリーをワンダーズとして加える"
 			"build_wiring"		"配線モードの切り替え"
 			"build_pinrecipe"		"レシピをブックマークする"
-			"Unbound"		"生命レベル 最低1"
+			"Unbound"		"解かれる呪縛"
 			"menu_transfer"		"即輸送"
 			"build_SelectionMode"		"編集/建築の切り替え"
 			"Set_Onfoot"		"歩行時の操作"
@@ -1646,7 +1648,7 @@
 			"Action_Fire"		"武器を発射する"
 			"Action_Secondary"		"サブ武器を起動する"
 			"Action_Reload"		"武器をリロードする"
-			"Action_SwapWeapon"		"武器のモードを変更する"
+			"Action_SwapWeapon"		"武器変更モード"
 			"Action_QuickMenu"		"クイックメニュー"
 			"Action_BuildMenu"		"ビルドメニュー"
 			"deconstruct"		"テクノロジーを回収する"
@@ -1680,6 +1682,7 @@
 			"Ship_Target_Next"		"次のターゲット"
 			"Ship_Target_Prev"		"前のターゲット"
 			"Ship_Target_Current"		"最も近いターゲット"
+			"Ui_Power_Setting_Action_Name"		"船体パワーを切り替える"
 			"Ship_Zoom"		"ズームイン"
 			"Ship_Follow_Toggle"		"戦闘オートパイロット（切り替え）"
 			"Ship_Follow_Hold"		"戦闘オートパイロット（長押し）"
@@ -1712,6 +1715,7 @@
 			"GM_PrevType"		"前のナビゲーションモード"
 			"GM_PrevFilter"		"前のフィルター"
 			"GM_NextFilter"		"次のフィルター"
+			"Galaxy_Back"		"自由視点オン/オフ"
 			"GM_MoveRight"		"移動（右）"
 			"GM_MoveLeft"		"移動（左）"
 			"GM_MoveUp"		"上に動かす"
@@ -1719,7 +1723,6 @@
 			"GM_MoveForward"		"プレイヤー移動(前進)"
 			"GM_MoveBack"		"プレイヤー移動(後退)"
 			"Galaxy_Expand"		"システム情報を拡大"
-			"GM_Gesture"		"カメラ移動"
 			"GM_FlyFaster"		"高速ナビゲーション"
 			"Set_PhotoMode"		"フォトモード（メニュー）"
 			"Photo_ToggleCamera"		"カメラのエフェクトを保存/確認"
@@ -1748,13 +1751,14 @@
 			"Action_QuickConfirm"		"決定（クイックメニュー）"
 			"Terrain_SwitchMode"		"地形の採掘/作成の切り替え"
 			"Set_ShipQuickMenu"		"クイックメニュー（船）"
-			"Set_VehicleQuickMenu"		"クイックメニュー (エクソクラフト)"
+			"Set_VehicleQuickMenu"		"クイックメニュー（エクソクラフト）"
 			"Set_BuildMenuSelectionMode"		"基地部品を編集中"
 			"build_pickup"		"パーツを選択する"
 			"build_duplicate"		"パーツを複製する"
 			"build_delete"		"パーツを削除する"
-			"Action_ToggleInfo"		"建築カメラをオン/オフ"
-			"build_switchbase"		"基地を切り替え"
+			"build_camera"		"建築カメラをオン/オフ"
+			"report_base"		"侮辱的または不適切な基地を通報する"
+			"build_paint"		"建築用パーツの色を変える"
 			"build_nextpart"		"基地部品の交換"
 			"Set_BuildMenuPlacementMode"		"基地部品を配置中"
 			"build_rotatey"		"自由回転（Y軸）"
@@ -1766,7 +1770,9 @@
 			"Action_Rotate"		"スナップパーツ回転（右）"
 			"Build_ARotate_Left"		"パーツ回転（左）"
 			"Build_ARotate_Right"		"パーツ回転（右）"
+			"build_switchbase"		"基地を切り替え"
 			"build_snapping"		"パーツの自由配置の切り替え"
+			"build_rot_axis"		"フリー回転軸の切り替え"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"ジャイロ操作対応のSteam Deckレイアウト"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Hello GamesがSteam Deckで使用するために作成したレイアウトです。ジャイロ操作に対応しています。"
 		}
@@ -1776,7 +1782,6 @@
 			"Action_Cursor"		"커서 이동"
 			"Action_Camera"		"보기"
 			"Char_Camera"		"카메라 회전"
-			"build_paint"		"건설 부품 재도색"
 			"Action_Menu"		"발견 / 옵션"
 			"Menu_Select"		"확인 (메뉴)"
 			"Menu_Cancel"		"뒤로"
@@ -1790,7 +1795,7 @@
 			"Stack_Split_Down"		"아이템 적재 감소"
 			"Menu_UpCat"		"상위 범주 / 상점 페이지 위로 올리기"
 			"Menu_LowCat"		"하위 범주 / 상점 페이지 아래로 내리기"
-			"Inventory"		"인벤토리"
+			"inventory"		"인벤토리"
 			"Network_Retry"		"네트워크 접속 재시도"
 			"menu_upload"		"절차 개시"
 			"menu_delete"		"아이템 버리기"
@@ -1806,7 +1811,7 @@
 			"disc_wonder"		"발견을 경이로 추가"
 			"build_wiring"		"배선 모드 토글"
 			"build_pinrecipe"		"제조법 고정"
-			"Unbound"		"무"
+			"Unbound"		"할당 해제"
 			"menu_transfer"		"빠른 전송"
 			"build_SelectionMode"		"편집/건설 토글"
 			"Set_Onfoot"		"도보 이동"
@@ -1829,7 +1834,7 @@
 			"Action_Fire"		"무기 발사"
 			"Action_Secondary"		"보조 무기 활성화"
 			"Action_Reload"		"무기 재장전"
-			"Action_SwapWeapon"		"무기 모드 전환"
+			"Action_SwapWeapon"		"무기 모드 변경"
 			"Action_QuickMenu"		"빠른 메뉴"
 			"Action_BuildMenu"		"건설 메뉴"
 			"deconstruct"		"기술 회수"
@@ -1863,6 +1868,7 @@
 			"Ship_Target_Next"		"다음 표적"
 			"Ship_Target_Prev"		"이전 표적"
 			"Ship_Target_Current"		"가장 가까운 표적"
+			"Ui_Power_Setting_Action_Name"		"함선 동력 순환"
 			"Ship_Zoom"		"확대"
 			"Ship_Follow_Toggle"		"전투 자동 조종 (토글)"
 			"Ship_Follow_Hold"		"전투 자동 조종 장치 (길게 누르기)"
@@ -1895,6 +1901,7 @@
 			"GM_PrevType"		"이전 항법 모드"
 			"GM_PrevFilter"		"이전 필터"
 			"GM_NextFilter"		"다음 필터"
+			"Galaxy_Back"		"자유롭게 둘러보기 토글"
 			"GM_MoveRight"		"오른쪽으로 이동"
 			"GM_MoveLeft"		"왼쪽으로 이동"
 			"GM_MoveUp"		"올라가기"
@@ -1902,7 +1909,6 @@
 			"GM_MoveForward"		"플레이어 이동(앞으로)"
 			"GM_MoveBack"		"플레이어 이동(뒤로)"
 			"Galaxy_Expand"		"성계 정보 확장"
-			"GM_Gesture"		"카메라 둘러보기"
 			"GM_FlyFaster"		"빠른 이동"
 			"Set_PhotoMode"		"사진 모드 (메뉴)"
 			"Photo_ToggleCamera"		"카메라 효과 보기 / 저장하기"
@@ -1931,13 +1937,14 @@
 			"Action_QuickConfirm"		"확인 (빠른 메뉴)"
 			"Terrain_SwitchMode"		"지형 채광/만들기 토글"
 			"Set_ShipQuickMenu"		"빠른 메뉴(함선 탑승)"
-			"Set_VehicleQuickMenu"		"빠른 메뉴 (엑소크래프트)"
+			"Set_VehicleQuickMenu"		"빠른 메뉴(엑소크래프트)"
 			"Set_BuildMenuSelectionMode"		"기지 부품 편집 중"
 			"build_pickup"		"부품 선택"
 			"build_duplicate"		"부품 복제"
 			"build_delete"		"부품 삭제"
-			"Action_ToggleInfo"		"건설 카메라 토글"
-			"build_switchbase"		"기지 전환"
+			"build_camera"		"건설 카메라 토글"
+			"report_base"		"불쾌하거나 부적절한 기지 신고"
+			"build_paint"		"건설 부품 재도색"
 			"build_nextpart"		"순환 기지 부품"
 			"Set_BuildMenuPlacementMode"		"기지 부품 배치 중"
 			"build_rotatey"		"자유 회전(Y축)"
@@ -1949,7 +1956,9 @@
 			"Action_Rotate"		"스냅 부품을 오른쪽으로 회전"
 			"Build_ARotate_Left"		"부품을 왼쪽으로 회전"
 			"Build_ARotate_Right"		"부품을 오른쪽으로 회전"
+			"build_switchbase"		"기지 전환"
 			"build_snapping"		"자유 부품 설치 토글"
+			"build_rot_axis"		"자유 회전 축 토글"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Gyro 지원 Steam Deck 레이아웃"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Hello Games 제작 Steam Deck용 레이아웃입니다. Gyro를 지원합니다."
 		}
@@ -1959,7 +1968,6 @@
 			"Action_Cursor"		"Ruch kursorem"
 			"Action_Camera"		"Rozglądanie się"
 			"Char_Camera"		"Obrót kamery"
-			"build_paint"		"Przemaluj element budowlany"
 			"Action_Menu"		"Odkrycia/opcje"
 			"Menu_Select"		"Potwierdź (w menu)"
 			"Menu_Cancel"		"Wstecz"
@@ -1973,7 +1981,7 @@
 			"Stack_Split_Down"		"Zmniejsz stos przedmiotów"
 			"Menu_UpCat"		"Wyższa kategoria / Strona w sklepie w górę"
 			"Menu_LowCat"		"Niższa kategoria / Strona w sklepie w dół"
-			"Inventory"		"Ekwipunki"
+			"inventory"		"Ekwipunki"
 			"Network_Retry"		"Ponów połączenie z siecią"
 			"menu_upload"		"Rozpocznij proces"
 			"menu_delete"		"Wyrzuć przedmiot"
@@ -1989,7 +1997,7 @@
 			"disc_wonder"		"Dodaj odkrycie jako cud"
 			"build_wiring"		"Przełącz tryb okablowania"
 			"build_pinrecipe"		"Przypnij formułę"
-			"Unbound"		"Brak"
+			"Unbound"		"Wolność"
 			"menu_transfer"		"Szybki transfer"
 			"build_SelectionMode"		"Edycja/budowa"
 			"Set_Onfoot"		"Pieszo"
@@ -2046,6 +2054,7 @@
 			"Ship_Target_Next"		"Kolejny cel"
 			"Ship_Target_Prev"		"Poprzedni cel"
 			"Ship_Target_Current"		"Najbliższy cel"
+			"Ui_Power_Setting_Action_Name"		"Przełącz moc statku"
 			"Ship_Zoom"		"Przybliżenie"
 			"Ship_Follow_Toggle"		"Autopilot bojowy (przełącz)"
 			"Ship_Follow_Hold"		"Autopilot bojowy (przytrzymaj)"
@@ -2078,6 +2087,7 @@
 			"GM_PrevType"		"Poprzedni tryb nawigacji"
 			"GM_PrevFilter"		"Poprzedni filtr"
 			"GM_NextFilter"		"Następny filtr"
+			"Galaxy_Back"		"Przełącz widok dowolny"
 			"GM_MoveRight"		"Ruch w prawo"
 			"GM_MoveLeft"		"Ruch w lewo"
 			"GM_MoveUp"		"Ruch w górę"
@@ -2085,7 +2095,6 @@
 			"GM_MoveForward"		"Ruch gracza (naprzód)"
 			"GM_MoveBack"		"Ruch gracza (wstecz)"
 			"Galaxy_Expand"		"Rozwiń informacje o układzie"
-			"GM_Gesture"		"Patrzenie kamerą"
 			"GM_FlyFaster"		"Szybka nawigacja"
 			"Set_PhotoMode"		"Tryb foto (Menu)"
 			"Photo_ToggleCamera"		"Zobacz/zapisz efekty kamery"
@@ -2114,13 +2123,14 @@
 			"Action_QuickConfirm"		"Potwierdź (szybkie menu)"
 			"Terrain_SwitchMode"		"Przełącz wydobywaj/twórz teren"
 			"Set_ShipQuickMenu"		"Szybkie menu (na statku)"
-			"Set_VehicleQuickMenu"		"Szybkie menu (Egzopojazd)"
+			"Set_VehicleQuickMenu"		"Szybkie menu (egzopojazd)"
 			"Set_BuildMenuSelectionMode"		"Edycja elementów bazy"
 			"build_pickup"		"Wybierz element"
 			"build_duplicate"		"Zduplikuj element"
 			"build_delete"		"Usuń element"
-			"Action_ToggleInfo"		"Przełącz kamerę budowy"
-			"build_switchbase"		"Przełącz podstawę"
+			"build_camera"		"Przełącz kamerę budowy"
+			"report_base"		"Zgłoś obraźliwą lub niewłaściwą bazę"
+			"build_paint"		"Przemaluj element budowlany"
 			"build_nextpart"		"Przełączaj elementy bazy"
 			"Set_BuildMenuPlacementMode"		"Rozmieszczanie elementów bazy"
 			"build_rotatey"		"Swobodny obrót wg osi y"
@@ -2132,7 +2142,9 @@
 			"Action_Rotate"		"Obróć dołączaną część w prawo"
 			"Build_ARotate_Left"		"Obróć część w lewo"
 			"Build_ARotate_Right"		"Obróć część w prawo"
+			"build_switchbase"		"Przełącz podstawę"
 			"build_snapping"		"Przełącz swobodne umieszczanie elementów"
+			"build_rot_axis"		"Przełącz oś swobodnego obracania"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Układ dla Steam Deck ze wsparciem dla żyroskopu"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Układ stworzony przez Hello Games specjalnie dla Steam Deck. Ma wsparcie dla żyroskopu."
 		}
@@ -2142,7 +2154,6 @@
 			"Action_Cursor"		"Movimento do cursor"
 			"Action_Camera"		"Observar"
 			"Char_Camera"		"Rodar câmara"
-			"build_paint"		"Recolorir o Componente do Edifício"
 			"Action_Menu"		"Descobertas/Opções"
 			"Menu_Select"		"Confirmar (Menus)"
 			"Menu_Cancel"		"Retroceder"
@@ -2156,7 +2167,7 @@
 			"Stack_Split_Down"		"Diminuir armaz. itens"
 			"Menu_UpCat"		"Cat. Superior/Avançar Pág."
 			"Menu_LowCat"		"Cat. Inferior/Retroceder Pág."
-			"Inventory"		"Inventários"
+			"inventory"		"Inventários"
 			"Network_Retry"		"Tentar ligar à rede"
 			"menu_upload"		"Iniciar Processo"
 			"menu_delete"		"Descartar Item"
@@ -2172,7 +2183,7 @@
 			"disc_wonder"		"Adicionar Descoberta como Maravilha"
 			"build_wiring"		"Ativar/Desativar o Modo de Ligação"
 			"build_pinrecipe"		"Afixar fórmula"
-			"Unbound"		"Nenhuma"
+			"Unbound"		"Libertação"
 			"menu_transfer"		"Transferência Rápida"
 			"build_SelectionMode"		"Alternar Editar/Construir"
 			"Set_Onfoot"		"A Pé"
@@ -2195,7 +2206,7 @@
 			"Action_Fire"		"Armas de Fogo"
 			"Action_Secondary"		"Ativar Arma Alt"
 			"Action_Reload"		"Recarregar Arma"
-			"Action_SwapWeapon"		"Alterar modo da arma"
+			"Action_SwapWeapon"		"Mudar Modo de Arma"
 			"Action_QuickMenu"		"Menu Rápido"
 			"Action_BuildMenu"		"Menu de Construção"
 			"deconstruct"		"Recolher Tecnologia"
@@ -2229,6 +2240,7 @@
 			"Ship_Target_Next"		"Alvo seguinte"
 			"Ship_Target_Prev"		"Alvo anterior"
 			"Ship_Target_Current"		"Alvo mais próximo"
+			"Ui_Power_Setting_Action_Name"		"Percorrer Energia da Nave"
 			"Ship_Zoom"		"Ampliar"
 			"Ship_Follow_Toggle"		"Piloto Automático de Combate (alternar)"
 			"Ship_Follow_Hold"		"Piloto Automático de Combate (manter)"
@@ -2261,6 +2273,7 @@
 			"GM_PrevType"		"Modo de navegação anterior"
 			"GM_PrevFilter"		"Filtro Anterior"
 			"GM_NextFilter"		"Filtro seguinte"
+			"Galaxy_Back"		"Alternar observação livre"
 			"GM_MoveRight"		"Mover Direita"
 			"GM_MoveLeft"		"Mover Esquerda"
 			"GM_MoveUp"		"Mover para cima"
@@ -2268,7 +2281,6 @@
 			"GM_MoveForward"		"Movimento do jogador (à frente)"
 			"GM_MoveBack"		"Movimento do jogador (atrás)"
 			"Galaxy_Expand"		"Expandir Informação do Sistema"
-			"GM_Gesture"		"Visão de Câmara"
 			"GM_FlyFaster"		"Navegação rápida"
 			"Set_PhotoMode"		"Modo Foto (Menu)"
 			"Photo_ToggleCamera"		"Ver/Guardar Efeitos Câmara"
@@ -2297,13 +2309,14 @@
 			"Action_QuickConfirm"		"Confirmar (Menu Rápido)"
 			"Terrain_SwitchMode"		"Alternar Minar/Criar Terreno"
 			"Set_ShipQuickMenu"		"Menu Rápido (Na Nave)"
-			"Set_VehicleQuickMenu"		"Menu Rápido (Exonave)"
+			"Set_VehicleQuickMenu"		"Menu rápido (Exonave)"
 			"Set_BuildMenuSelectionMode"		"Edição do Componente da Base"
 			"build_pickup"		"Selecionar Componente"
 			"build_duplicate"		"Duplicar o Componente"
 			"build_delete"		"Eliminar o Componente"
-			"Action_ToggleInfo"		"Alternar Câmara de Construção"
-			"build_switchbase"		"Alterar base"
+			"build_camera"		"Alternar Câmara de Construção"
+			"report_base"		"Denunciar Base (Ofensiva/Inapropriada)"
+			"build_paint"		"Recolorir o Componente do Edifício"
 			"build_nextpart"		"Mudar de Componente da Base"
 			"Set_BuildMenuPlacementMode"		"Colocação do Componente da Base"
 			"build_rotatey"		"Rotação Livre Eixo Y"
@@ -2315,7 +2328,9 @@
 			"Action_Rotate"		"Rodar a parte de encaixe para a direita"
 			"Build_ARotate_Left"		"Rodar peça: esquerda"
 			"Build_ARotate_Right"		"Rodar peça: direita"
+			"build_switchbase"		"Alterar base"
 			"build_snapping"		"Ativar/Desativar o Posicionamento Livre do Componente"
+			"build_rot_axis"		"Ativar/Desativar a Rotação Livre"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Configuração da Steam Deck com Suporte para Giroscópio"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Configuração criada pela Hello Games para utilização com a Steam Deck. Inclui suporte para giroscópio."
 		}
@@ -2325,7 +2340,6 @@
 			"Action_Cursor"		"Перемещение указателя"
 			"Action_Camera"		"Обзор"
 			"Char_Camera"		"Поворот камеры"
-			"build_paint"		"Перекрасить строительный элемент"
 			"Action_Menu"		"Открытия / Настройки"
 			"Menu_Select"		"Подтвердить (в меню)"
 			"Menu_Cancel"		"Назад"
@@ -2339,7 +2353,7 @@
 			"Stack_Split_Down"		"Уменьшить стопку предметов"
 			"Menu_UpCat"		"Выше на категорию или страницу в магазине"
 			"Menu_LowCat"		"Ниже на категорию или страницу в магазине"
-			"Inventory"		"Инвентарь"
+			"inventory"		"Инвентарь"
 			"Network_Retry"		"Повторное подключение к сети"
 			"menu_upload"		"Запустить процесс"
 			"menu_delete"		"Выбросить предмет"
@@ -2355,7 +2369,7 @@
 			"disc_wonder"		"Добавить открытие как чудо"
 			"build_wiring"		"Переключить режим прокладки проводки"
 			"build_pinrecipe"		"Закрепить формулу"
-			"Unbound"		"Нет"
+			"Unbound"		"Свобода"
 			"menu_transfer"		"Быстрое перемещение"
 			"build_SelectionMode"		"Переключить режим редактирования/строительства"
 			"Set_Onfoot"		"Пешком"
@@ -2412,6 +2426,7 @@
 			"Ship_Target_Next"		"Следующая цель"
 			"Ship_Target_Prev"		"Предыдущая цель"
 			"Ship_Target_Current"		"Ближайшая цель"
+			"Ui_Power_Setting_Action_Name"		"Переключить мощность корабля"
 			"Ship_Zoom"		"Приблизить"
 			"Ship_Follow_Toggle"		"Боевой автопилот (переключить)"
 			"Ship_Follow_Hold"		"Боевой автопилот (удерживать)"
@@ -2444,6 +2459,7 @@
 			"GM_PrevType"		"Предыдущий режим навигации"
 			"GM_PrevFilter"		"Предыдущий фильтр"
 			"GM_NextFilter"		"Следующий фильтр"
+			"Galaxy_Back"		"Вкл./откл. свободный обзор"
 			"GM_MoveRight"		"Двигаться вправо"
 			"GM_MoveLeft"		"Двигаться влево"
 			"GM_MoveUp"		"Двигаться вверх"
@@ -2451,7 +2467,6 @@
 			"GM_MoveForward"		"Перемещение игрока (вперед)"
 			"GM_MoveBack"		"Перемещение игрока (назад)"
 			"Galaxy_Expand"		"Развернуть данные о системе"
-			"GM_Gesture"		"Управление камерой"
 			"GM_FlyFaster"		"Быстрая навигация"
 			"Set_PhotoMode"		"Фоторежим (меню)"
 			"Photo_ToggleCamera"		"Посмотреть/сохранить эффекты камеры"
@@ -2480,13 +2495,14 @@
 			"Action_QuickConfirm"		"Подтвердить (быстрое меню)"
 			"Terrain_SwitchMode"		"Добыча / Создание ландшафта"
 			"Set_ShipQuickMenu"		"Быстрое меню (на корабле)"
-			"Set_VehicleQuickMenu"		"Быстрое меню (Вездеход)"
+			"Set_VehicleQuickMenu"		"Быстрое меню (вездеход)"
 			"Set_BuildMenuSelectionMode"		"Редактирование деталей базы"
 			"build_pickup"		"Выбрать деталь"
 			"build_duplicate"		"Скопировать деталь"
 			"build_delete"		"Удалить деталь"
-			"Action_ToggleInfo"		"Вкл./откл. камеру строит."
-			"build_switchbase"		"Сменить базу"
+			"build_camera"		"Вкл./откл. камеру строит."
+			"report_base"		"Сообщить об оскорбительной или неподобающей базе"
+			"build_paint"		"Перекрасить строительный элемент"
 			"build_nextpart"		"Прокрутить деталь базы"
 			"Set_BuildMenuPlacementMode"		"Размещение деталей базы"
 			"build_rotatey"		"Свободное вращение по оси Y"
@@ -2498,7 +2514,9 @@
 			"Action_Rotate"		"Повернуть прикрепляемую часть вправо"
 			"Build_ARotate_Left"		"Повернуть элемент влево"
 			"Build_ARotate_Right"		"Повернуть элемент вправо"
+			"build_switchbase"		"Сменить базу"
 			"build_snapping"		"Переключить режим свободного размещения деталей"
+			"build_rot_axis"		"Переключить ось свободного вращения"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Схема управления для Steam Deck с поддержкой гироскопа"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Схема управления, разработанная Hello Games для использования с Steam Deck. Включает поддержку гироскопа."
 		}
@@ -2508,7 +2526,6 @@
 			"Action_Cursor"		"光标移动"
 			"Action_Camera"		"查看"
 			"Char_Camera"		"旋转镜头"
-			"build_paint"		"重着色建筑部件"
 			"Action_Menu"		"发现物/选项"
 			"Menu_Select"		"确认（菜单）"
 			"Menu_Cancel"		"后退"
@@ -2522,7 +2539,7 @@
 			"Stack_Split_Down"		"减少物品堆叠"
 			"Menu_UpCat"		"上层类别/商店上一页"
 			"Menu_LowCat"		"下层类别/商店下一页"
-			"Inventory"		"库存"
+			"inventory"		"库存"
 			"Network_Retry"		"重新尝试网络连接"
 			"menu_upload"		"初始化过程"
 			"menu_delete"		"丢弃物品"
@@ -2538,7 +2555,7 @@
 			"disc_wonder"		"将发现添加为奇观"
 			"build_wiring"		"切换线路模式"
 			"build_pinrecipe"		"固定配方"
-			"Unbound"		"无"
+			"Unbound"		"解除"
 			"menu_transfer"		"快速传输"
 			"build_SelectionMode"		"切换编辑/建造"
 			"Set_Onfoot"		"步行"
@@ -2561,7 +2578,7 @@
 			"Action_Fire"		"开火"
 			"Action_Secondary"		"启动备用武器"
 			"Action_Reload"		"重新装填武器"
-			"Action_SwapWeapon"		"切换武器模式"
+			"Action_SwapWeapon"		"变更武器模式"
 			"Action_QuickMenu"		"快速菜单"
 			"Action_BuildMenu"		"建造菜单"
 			"deconstruct"		"选择技术"
@@ -2595,6 +2612,7 @@
 			"Ship_Target_Next"		"下个目标"
 			"Ship_Target_Prev"		"上个目标"
 			"Ship_Target_Current"		"最近目标"
+			"Ui_Power_Setting_Action_Name"		"循环飞船供能"
 			"Ship_Zoom"		"放大"
 			"Ship_Follow_Toggle"		"战斗自动驾驶（切换）"
 			"Ship_Follow_Hold"		"战斗自动驾驶（保持）"
@@ -2627,6 +2645,7 @@
 			"GM_PrevType"		"上一导航系统"
 			"GM_PrevFilter"		"上一筛选"
 			"GM_NextFilter"		"下一筛选"
+			"Galaxy_Back"		"切换自由视角"
 			"GM_MoveRight"		"向右移动"
 			"GM_MoveLeft"		"向左移动"
 			"GM_MoveUp"		"上移"
@@ -2634,7 +2653,6 @@
 			"GM_MoveForward"		"玩家移动（前进）"
 			"GM_MoveBack"		"玩家移动（退后）"
 			"Galaxy_Expand"		"展开恒星系信息"
-			"GM_Gesture"		"镜头视角"
 			"GM_FlyFaster"		"快速导航"
 			"Set_PhotoMode"		"相片模式（菜单）"
 			"Photo_ToggleCamera"		"查看/保存镜头效果"
@@ -2663,13 +2681,14 @@
 			"Action_QuickConfirm"		"确认（快捷菜单）"
 			"Terrain_SwitchMode"		"切换地形挖掘/创建"
 			"Set_ShipQuickMenu"		"快捷菜单 （飞船）"
-			"Set_VehicleQuickMenu"		"快速菜单 (强化艇)"
+			"Set_VehicleQuickMenu"		"快捷菜单（强化艇）"
 			"Set_BuildMenuSelectionMode"		"基地部件编辑"
 			"build_pickup"		"选择部件"
 			"build_duplicate"		"复制部件"
 			"build_delete"		"删除部件"
-			"Action_ToggleInfo"		"切换建造视角"
-			"build_switchbase"		"转换基地"
+			"build_camera"		"切换建造视角"
+			"report_base"		"举报过激或不当基地"
+			"build_paint"		"重着色建筑部件"
 			"build_nextpart"		"循环显示基地部件"
 			"Set_BuildMenuPlacementMode"		"基地部件放置"
 			"build_rotatey"		"Y轴自由旋转"
@@ -2681,7 +2700,9 @@
 			"Action_Rotate"		"向右旋转吸附对齐的部件"
 			"Build_ARotate_Left"		"向左旋转"
 			"Build_ARotate_Right"		"向右旋转"
+			"build_switchbase"		"转换基地"
 			"build_snapping"		"切换自由部件放置"
+			"build_rot_axis"		"切换自由旋转轴"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"带有陀螺仪适配的Steam Deck布局"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Hello Games创造的适配Steam Deck的界面布局。包括陀螺仪适配。"
 		}
@@ -2691,7 +2712,6 @@
 			"Action_Cursor"		"Movimiento del cursor"
 			"Action_Camera"		"Mirar"
 			"Char_Camera"		"Girar cámara"
-			"build_paint"		"Repintar pieza de edificio"
 			"Action_Menu"		"Descubrimientos/Opciones"
 			"Menu_Select"		"Confirmar (Menús)"
 			"Menu_Cancel"		"Atrás"
@@ -2705,7 +2725,7 @@
 			"Stack_Split_Down"		"Reducir acumulación de objetos"
 			"Menu_UpCat"		"Categoría superior/Avanzar página tienda"
 			"Menu_LowCat"		"Categoría inferior/Retroceder página tienda"
-			"Inventory"		"Inventarios"
+			"inventory"		"Inventarios"
 			"Network_Retry"		"Reintentar conexión de red"
 			"menu_upload"		"Iniciar proceso"
 			"menu_delete"		"Descartar objeto"
@@ -2721,9 +2741,9 @@
 			"disc_wonder"		"Añadir descubrimiento como maravilla"
 			"build_wiring"		"Cambiar modo de cableado"
 			"build_pinrecipe"		"Fijar fórmula"
-			"Unbound"		"Nulo"
+			"Unbound"		"Desvinculación"
 			"menu_transfer"		"Transferencia rápida"
-			"build_SelectionMode"		"Cambiar editar/construir"
+			"build_SelectionMode"		"Editar/construir"
 			"Set_Onfoot"		"A pie"
 			"Action_Move"		"Moverse"
 			"terrain_edit"		"Manipular terreno"
@@ -2744,7 +2764,7 @@
 			"Action_Fire"		"Disparar armas"
 			"Action_Secondary"		"Activar arma secundaria"
 			"Action_Reload"		"Recargar arma"
-			"Action_SwapWeapon"		"Cambiar modo de arma"
+			"Action_SwapWeapon"		"Cambiar el modo del arma"
 			"Action_QuickMenu"		"Menú rápido"
 			"Action_BuildMenu"		"Menú de construcción"
 			"deconstruct"		"Recoger tecnología"
@@ -2778,6 +2798,7 @@
 			"Ship_Target_Next"		"Siguiente objetivo"
 			"Ship_Target_Prev"		"Objetivo anterior"
 			"Ship_Target_Current"		"Objetivo más cercano"
+			"Ui_Power_Setting_Action_Name"		"Energía del ciclo de nave"
 			"Ship_Zoom"		"Acercar"
 			"Ship_Follow_Toggle"		"Piloto automático de combate (alternar)"
 			"Ship_Follow_Hold"		"Piloto automático de combate (mantener)"
@@ -2810,6 +2831,7 @@
 			"GM_PrevType"		"Modo de navegación anterior"
 			"GM_PrevFilter"		"Filtro anterior"
 			"GM_NextFilter"		"Siguiente filtro"
+			"Galaxy_Back"		"Activar observación libre"
 			"GM_MoveRight"		"Moverse a la derecha"
 			"GM_MoveLeft"		"Moverse a la izquierda"
 			"GM_MoveUp"		"Mover hacia arriba"
@@ -2817,7 +2839,6 @@
 			"GM_MoveForward"		"Movimiento del jugador (hacia delante)"
 			"GM_MoveBack"		"Movimiento del jugador (hacia atrás)"
 			"Galaxy_Expand"		"Ampliar información de sistema"
-			"GM_Gesture"		"Visión de cámara"
 			"GM_FlyFaster"		"Navegación rápida"
 			"Set_PhotoMode"		"Modo foto (Menú)"
 			"Photo_ToggleCamera"		"Ver/Guardar efectos de cámara"
@@ -2846,13 +2867,14 @@
 			"Action_QuickConfirm"		"Confirmar (Menú rápido)"
 			"Terrain_SwitchMode"		"Activar extraer/crear terreno"
 			"Set_ShipQuickMenu"		"Menú rápido (en nave)"
-			"Set_VehicleQuickMenu"		"Menú rápido (Exonave)"
+			"Set_VehicleQuickMenu"		"Menú rápido (exonave)"
 			"Set_BuildMenuSelectionMode"		"Editar pieza de base"
 			"build_pickup"		"Seleccionar pieza"
 			"build_duplicate"		"Duplicar pieza"
 			"build_delete"		"Borrar pieza"
-			"Action_ToggleInfo"		"Activar cámara de construcción"
-			"build_switchbase"		"Cambiar base"
+			"build_camera"		"Activar cámara de construcción"
+			"report_base"		"Denunciar base ofensiva o inapropiada"
+			"build_paint"		"Repintar pieza de edificio"
 			"build_nextpart"		"Pasar pieza de base"
 			"Set_BuildMenuPlacementMode"		"Colocar pieza de base"
 			"build_rotatey"		"Giro libre eje Y"
@@ -2864,7 +2886,9 @@
 			"Action_Rotate"		"Girar pieza de ajuste a la derecha"
 			"Build_ARotate_Left"		"Girar pieza a la izquierda"
 			"Build_ARotate_Right"		"Girar pieza a la derecha"
+			"build_switchbase"		"Cambiar base"
 			"build_snapping"		"Cambiar colocación libre de la pieza"
+			"build_rot_axis"		"Cambiar eje de rotación libre"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Diseño de Steam Deck con soporte para giroscopio"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"Diseño creado por Hello Games para usar con Steam Deck. Incluye soporte para giroscopio."
 		}
@@ -2874,7 +2898,6 @@
 			"Action_Cursor"		"游標移動"
 			"Action_Camera"		"查看"
 			"Char_Camera"		"旋轉視角"
-			"build_paint"		"變更建造零件顏色"
 			"Action_Menu"		"發現物／選項"
 			"Menu_Select"		"確認（選單）"
 			"Menu_Cancel"		"返回"
@@ -2888,7 +2911,7 @@
 			"Stack_Split_Down"		"減少道具堆放量"
 			"Menu_UpCat"		"上一層分類／商店向上捲動"
 			"Menu_LowCat"		"下一層分類／商店向下捲動"
-			"Inventory"		"道具欄"
+			"inventory"		"道具欄"
 			"Network_Retry"		"重試網路連線"
 			"menu_upload"		"啟動程序"
 			"menu_delete"		"捨棄道具"
@@ -2904,7 +2927,7 @@
 			"disc_wonder"		"將發現加入奇觀"
 			"build_wiring"		"切換線路模式"
 			"build_pinrecipe"		"釘選製作配方"
-			"Unbound"		"無"
+			"Unbound"		"無所拘束"
 			"menu_transfer"		"快速傳送"
 			"build_SelectionMode"		"切換編輯/建造"
 			"Set_Onfoot"		"步行"
@@ -2961,6 +2984,7 @@
 			"Ship_Target_Next"		"下個目標"
 			"Ship_Target_Prev"		"上個目標"
 			"Ship_Target_Current"		"最接近的目標"
+			"Ui_Power_Setting_Action_Name"		"切換太空船能量"
 			"Ship_Zoom"		"放大"
 			"Ship_Follow_Toggle"		"戰鬥自動駕駛 (切換)"
 			"Ship_Follow_Hold"		"戰鬥自動駕駛 (按住)"
@@ -2993,6 +3017,7 @@
 			"GM_PrevType"		"上一個導航模式"
 			"GM_PrevFilter"		"上一個篩選"
 			"GM_NextFilter"		"下一個篩選"
+			"Galaxy_Back"		"開關自由觀看"
 			"GM_MoveRight"		"向右移動"
 			"GM_MoveLeft"		"向左移動"
 			"GM_MoveUp"		"向上移動"
@@ -3000,7 +3025,6 @@
 			"GM_MoveForward"		"玩家移動（向前）"
 			"GM_MoveBack"		"玩家移動（向後）"
 			"Galaxy_Expand"		"展開系統資料"
-			"GM_Gesture"		"移動視角"
 			"GM_FlyFaster"		"快速航行"
 			"Set_PhotoMode"		"相片模式（選單）"
 			"Photo_ToggleCamera"		"檢視／儲存相機效果"
@@ -3029,13 +3053,14 @@
 			"Action_QuickConfirm"		"確認（快捷選單）"
 			"Terrain_SwitchMode"		"開關地形採礦／創造"
 			"Set_ShipQuickMenu"		"快捷選單（太空船）"
-			"Set_VehicleQuickMenu"		"快速選單 (強化艇)"
+			"Set_VehicleQuickMenu"		"快捷選單 (強化艇)"
 			"Set_BuildMenuSelectionMode"		"基地零件編輯"
 			"build_pickup"		"選擇零件"
 			"build_duplicate"		"複製零件"
 			"build_delete"		"刪除零件"
-			"Action_ToggleInfo"		"開關建造視角"
-			"build_switchbase"		"切換基地"
+			"build_camera"		"開關建造視角"
+			"report_base"		"舉報冒犯性或不適當的基地"
+			"build_paint"		"變更建造零件顏色"
 			"build_nextpart"		"回收基地零件"
 			"Set_BuildMenuPlacementMode"		"基地零件放置"
 			"build_rotatey"		"Y軸自由旋轉"
@@ -3047,7 +3072,9 @@
 			"Action_Rotate"		"向右旋轉扣合零件"
 			"Build_ARotate_Left"		"向左旋轉零件"
 			"Build_ARotate_Right"		"向右旋轉零件"
+			"build_switchbase"		"切換基地"
 			"build_snapping"		"切換自由零件放置"
+			"build_rot_axis"		"切換自由旋轉軸"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO"		"Steam Deck 配置，支援陀螺儀"
 			"INPUT_EXTERNAL_STEAMDECK_GYRO_D"		"由 Hello Games 建立的配置，用於搭配 Steam Deck。支援陀螺儀。"
 		}
@@ -3541,7 +3568,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action OnFootControls Back, , "
+							"binding"		"game_action OnFootControls back, , "
 						}
 					}
 				}
@@ -3643,6 +3670,17 @@
 							"haptic_intensity"		"2"
 						}
 					}
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action OnFootControls terrain_edit, , "
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
 				}
 				"disabled_activators"
 				{
@@ -3683,7 +3721,7 @@
 						"bindings"
 						{
 							"binding"		"game_action ShipControls boost, Boost, , "
-							"binding"		"game_action ShipControls Back, Back, , "
+							"binding"		"game_action ShipControls back, Back, , "
 						}
 					}
 				}
@@ -3784,7 +3822,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action ShipControls Forward, , "
+							"binding"		"game_action ShipControls forward, , "
 						}
 						"settings"
 						{
@@ -3835,7 +3873,7 @@
 						"bindings"
 						{
 							"binding"		"game_action FRONTEND menu_canceldelete, Mode Select: Cancel, , "
-							"binding"		"game_action FRONTEND Back, Back, , "
+							"binding"		"game_action FRONTEND back, Back, , "
 							"binding"		"game_action FRONTEND Exit, Exit Menu, , "
 						}
 					}
@@ -4346,7 +4384,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action OnFootQuickMenu Back, Back, , "
+							"binding"		"game_action OnFootQuickMenu back, Back, , "
 							"binding"		"game_action OnFootQuickMenu terrain_switch, Toggle Terrain Mine / Create, , "
 						}
 					}
@@ -4364,22 +4402,6 @@
 						"bindings"
 						{
 							"binding"		"game_action OnFootQuickMenu terrain_shape, Change Terrain Shape, , "
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
-			"button_y"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"game_action OnFootQuickMenu swap_weapon, Change Weapon Mode, , "
 						}
 					}
 				}
@@ -4415,26 +4437,6 @@
 		"description"		""
 		"inputs"
 		{
-			"edge"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"game_action OnFootQuickMenu terrain_edit, , "
-						}
-						"settings"
-						{
-							"haptic_intensity"		"2"
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
 		}
 		"settings"
 		{
@@ -4582,7 +4584,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action ShipQuickMenu Back, Back, , "
+							"binding"		"game_action ShipQuickMenu back, Back, , "
 						}
 					}
 				}
@@ -4790,7 +4792,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action GalacticMap Back, Back, , "
+							"binding"		"game_action GalacticMap galaxyback, , "
 						}
 					}
 				}
@@ -5759,7 +5761,7 @@
 						"bindings"
 						{
 							"binding"		"game_action VehicleMode vehicle_deletecheckpoint, Delete Checkpoint, , "
-							"binding"		"game_action VehicleMode Back, Back, , "
+							"binding"		"game_action VehicleMode back, Back, , "
 						}
 					}
 				}
@@ -6612,7 +6614,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuSelectionMode Back, , "
+							"binding"		"game_action BuildMenuSelectionMode back, , "
 						}
 					}
 				}
@@ -6742,7 +6744,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuPlacementMode Back, , "
+							"binding"		"game_action BuildMenuPlacementMode back, , "
 						}
 					}
 				}
@@ -6864,22 +6866,6 @@
 		"description"		""
 		"inputs"
 		{
-			"click"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"game_action BuildMenuPlacementMode toggle_info, , "
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
 		}
 		"settings"
 		{
@@ -6989,22 +6975,6 @@
 		"description"		""
 		"inputs"
 		{
-			"click"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"game_action BuildMenuSelectionMode toggle_info, , "
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
 		}
 		"settings"
 		{
@@ -7345,7 +7315,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action ShipControls ship_targetcur, , "
+							"binding"		"game_action ShipControls cycle_power, , "
 						}
 					}
 				}
@@ -8209,7 +8179,7 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"40"
+			"gyro_natural_sensitivity"		"40"
 			"acceleration"		"1"
 			"mouse_smoothing"		"22"
 			"gyro_yaw_scale"		"5500"
@@ -8228,7 +8198,7 @@
 		"settings"
 		{
 			"layer"		"1"
-			"sensitivity"		"40"
+			"gyro_natural_sensitivity"		"40"
 			"acceleration"		"1"
 			"gyro_yaw_scale"		"5500"
 			"gyro_roll_scale"		"5500"
@@ -8314,7 +8284,7 @@
 		}
 		"settings"
 		{
-			"sensitivity"		"40"
+			"gyro_natural_sensitivity"		"40"
 			"gyro_yaw_scale"		"5500"
 			"gyro_roll_scale"		"5500"
 		}
@@ -8331,7 +8301,7 @@
 		"settings"
 		{
 			"layer"		"1"
-			"sensitivity"		"40"
+			"gyro_natural_sensitivity"		"40"
 			"gyro_yaw_scale"		"5500"
 			"gyro_roll_scale"		"5500"
 		}
@@ -8348,7 +8318,7 @@
 		"settings"
 		{
 			"layer"		"1"
-			"sensitivity"		"40"
+			"gyro_natural_sensitivity"		"40"
 			"gyro_yaw_scale"		"5500"
 			"gyro_roll_scale"		"5500"
 		}
@@ -8902,7 +8872,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuSelectionMode toggle_info, , "
+							"binding"		"game_action BuildMenuSelectionMode build_camera, , "
 						}
 					}
 				}
@@ -8936,7 +8906,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuPlacementMode toggle_info, , "
+							"binding"		"game_action BuildMenuPlacementMode build_camera, , "
 						}
 					}
 				}
@@ -9255,13 +9225,6 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuSelectionMode build_switchbase, , "
-						}
-					}
-					"Full_Press"
-					{
-						"bindings"
-						{
 							"binding"		"game_action OnFootControls Run, , "
 						}
 					}
@@ -9296,7 +9259,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action BuildMenuPlacementMode build_switchbase, , "
+							"binding"		"game_action BuildMenuPlacementMode build_rot_axis, , "
 						}
 					}
 					"Full_Press"
@@ -9319,6 +9282,20 @@
 		"gameactions"
 		{
 			"OnFootControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"211"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
 		}
 	}
 	"group"
@@ -9459,7 +9436,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action OnFootControls Inventory, Inventories, , "
+							"binding"		"game_action OnFootControls inventory, Inventories, , "
 							"binding"		"game_action OnFootControls skipmessage, Skip, , "
 						}
 					}
@@ -9529,7 +9506,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action OnFootControls Inventory, , "
+							"binding"		"game_action OnFootControls inventory, , "
 						}
 					}
 				}
@@ -9651,7 +9628,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action ShipControls Inventory, Inventories, , "
+							"binding"		"game_action ShipControls inventory, Inventories, , "
 						}
 					}
 					"Full_Press"
@@ -9706,7 +9683,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action ShipControls Inventory, , "
+							"binding"		"game_action ShipControls inventory, , "
 						}
 					}
 				}
@@ -9835,7 +9812,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action FRONTEND Inventory, Inventories, , "
+							"binding"		"game_action FRONTEND inventory, Inventories, , "
 							"binding"		"game_action FRONTEND skipmessage, Skip, , "
 						}
 					}
@@ -9885,7 +9862,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action FRONTEND Inventory, , "
+							"binding"		"game_action FRONTEND inventory, , "
 						}
 					}
 				}
@@ -9951,22 +9928,6 @@
 		"description"		""
 		"inputs"
 		{
-			"button_back_right"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"game_action OnFootQuickMenu swap_weapon, , "
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
 			"button_capture"
 			{
 				"activators"
@@ -10325,7 +10286,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action PhotoModeMvCam Inventory, Inventories, , "
+							"binding"		"game_action PhotoModeMvCam inventory, Inventories, , "
 						}
 					}
 				}
@@ -10495,7 +10456,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action VehicleMode Inventory, , "
+							"binding"		"game_action VehicleMode inventory, , "
 						}
 					}
 					"Full_Press"
@@ -10550,7 +10511,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"game_action VehicleMode Inventory, , "
+							"binding"		"game_action VehicleMode inventory, , "
 						}
 					}
 				}
@@ -10658,6 +10619,22 @@
 		"description"		""
 		"inputs"
 		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action BuildMenuSelectionMode report_base, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
 			"left_bumper"
 			{
 				"activators"
@@ -10752,6 +10729,22 @@
 		"description"		""
 		"inputs"
 		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action BuildMenuPlacementMode build_switchbase, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
 			"left_bumper"
 			{
 				"activators"
@@ -11059,7 +11052,8 @@
 			"42"		"left_trackpad inactive"
 			"187"		"left_trackpad active"
 			"38"		"left_trigger active"
-			"39"		"right_trigger active"
+			"39"		"right_trigger inactive"
+			"211"		"right_trigger active"
 			"156"		"dpad active"
 			"167"		"right_joystick inactive"
 			"179"		"gyro inactive"
