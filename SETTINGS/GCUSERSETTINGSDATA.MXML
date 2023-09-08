@@ -1847,6 +1847,7 @@
 		<Property name="UnlockedTitles" value="T_MS_WARPS_1" />
 		<Property name="UnlockedTitles" value="T_MS_DIST_10" />
 		<Property name="UnlockedTitles" value="T_SHIP_EXOTIC" />
+		<Property name="UnlockedTitles" value="T_PET3" />
 		<Property name="UnlockedTitles" value="T_JM_FARM1" />
 		<Property name="UnlockedTitles" value="T_CORRUPT_SENT1" />
 		<Property name="UnlockedTitles" value="T_DEATH9" />
@@ -2025,7 +2026,7 @@
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
 	<Property name="LastSeenCommunityMission" value="79" />
-	<Property name="LastSeenCommunityMissionTier" value="0" />
+	<Property name="LastSeenCommunityMissionTier" value="1" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
