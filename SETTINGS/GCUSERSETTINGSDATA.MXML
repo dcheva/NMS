@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="0" />
-	<Property name="SfxVolume" value="50" />
+	<Property name="MusicVolume" value="60" />
+	<Property name="SfxVolume" value="80" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -445,6 +445,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_LADDER" />
 		<Property name="SeenProducts" value="S_WATERTOWER" />
 		<Property name="SeenProducts" value="FARMPROD7" />
+		<Property name="SeenProducts" value="€€.1‡#00000" />
 		<Property name="SeenProducts" value="CUBESTAIRS" />
 		<Property name="SeenProducts" value="S_GLOWGLOBE" />
 		<Property name="SeenProducts" value="FOOD_M_STRIDER" />
@@ -1939,8 +1940,10 @@
 		<Property name="UnlockedTitles" value="T_JM_WALK2" />
 	</Property>
 	<Property name="UnlockedSpecials">
+		<Property name="UnlockedSpecials" value="BLD_BUI_TENT" />
 		<Property name="UnlockedSpecials" value="SPEC_SENTPACK" />
 		<Property name="UnlockedSpecials" value="BLD_CRYS_SENT1" />
+		<Property name="UnlockedSpecials" value="BLD_BUI_HEAD" />
 		<Property name="UnlockedSpecials" value="BASE_TOYJELLY" />
 		<Property name="UnlockedSpecials" value="DECAL_HAZARD" />
 		<Property name="UnlockedSpecials" value="EXPD_BANNER10" />
@@ -1953,6 +1956,7 @@
 		<Property name="UnlockedSpecials" value="DECAL_HORROR" />
 		<Property name="UnlockedSpecials" value="S10_PART2" />
 		<Property name="UnlockedSpecials" value="SPOOKY_PLANT" />
+		<Property name="UnlockedSpecials" value="BLD_BUI_HAND" />
 		<Property name="UnlockedSpecials" value="S10_PART1B" />
 		<Property name="UnlockedSpecials" value="SPEC_HOOD01" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER10C" />
@@ -1987,7 +1991,9 @@
 		<Property name="UnlockedSpecials" value="EXPD_POSTER10A" />
 	</Property>
 	<Property name="UnlockedSeasonRewards">
+		<Property name="UnlockedSeasonRewards" value="BLD_BUI_TENT" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE10" />
+		<Property name="UnlockedSeasonRewards" value="BLD_BUI_HEAD" />
 		<Property name="UnlockedSeasonRewards" value="BLD_CRYS_DRONE" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_BANNER10" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART1A" />
@@ -1998,6 +2004,7 @@
 		<Property name="UnlockedSeasonRewards" value="JETS_ELECTRIC" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART5" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART2" />
+		<Property name="UnlockedSeasonRewards" value="BLD_BUI_HAND" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART1B" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART3" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER10B" />
