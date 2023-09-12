@@ -25,6 +25,7 @@
 		<Property name="AmbientOcclusion" value="GTAO_Low" />
 		<Property name="AnisotropyLevel" value="8" />
 		<Property name="AntiAliasing" value="FFXSR2" />
+		<Property name="FFXSR2Quality" value="Quality" />
 	</Property>
 	<Property name="MotionBlurStrength" value="100.000000" />
 	<Property name="VignetteAndScanlines" value="true" />

@@ -445,7 +445,6 @@
 		<Property name="SeenProducts" value="FRE_ROOM_LADDER" />
 		<Property name="SeenProducts" value="S_WATERTOWER" />
 		<Property name="SeenProducts" value="FARMPROD7" />
-		<Property name="SeenProducts" value="€€.1‡#00000" />
 		<Property name="SeenProducts" value="CUBESTAIRS" />
 		<Property name="SeenProducts" value="S_GLOWGLOBE" />
 		<Property name="SeenProducts" value="FOOD_M_STRIDER" />
@@ -1806,6 +1805,7 @@
 		<Property name="UnlockedTitles" value="T_MECH" />
 		<Property name="UnlockedTitles" value="T_JM_SHIPS1" />
 		<Property name="UnlockedTitles" value="T_JM_WORD2" />
+		<Property name="UnlockedTitles" value="T_SHIP_DROP" />
 		<Property name="UnlockedTitles" value="T_REALITY3" />
 		<Property name="UnlockedTitles" value="T_EXP_GUILD1" />
 		<Property name="UnlockedTitles" value="T_MS_SCANNER_5" />
