@@ -27,6 +27,18 @@
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Ship_CyclePower" />
+			<Property name="Button" value="KeyV" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Ship_AutoFollow_Hold" />
+			<Property name="Button" value="KeyQ" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="VehicleMode" />
 			<Property name="Action" value="Quick_Menu" />
 			<Property name="Button" value="Apostrophe" />
@@ -53,6 +65,18 @@
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="ShipControls" />
 			<Property name="Action" value="Quick_Menu" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Ship_CyclePower" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Ship_AutoFollow_Hold" />
 			<Property name="Button" value="MouseUnbound" />
 			<Property name="Axis" value="None" />
 		</Property>

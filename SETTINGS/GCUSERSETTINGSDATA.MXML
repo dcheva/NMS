@@ -366,6 +366,7 @@
 		<Property name="SeenTechnologies" value="LAUNCHER" />
 		<Property name="SeenTechnologies" value="UT_MINER" />
 		<Property name="SeenTechnologies" value="F_SCANNER" />
+		<Property name="SeenTechnologies" value="MECH_SENT_HEAD" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG6" />
 		<Property name="SeenTechnologies" value="SCANBINOC1" />
 		<Property name="SeenTechnologies" value="SHIPPLASMA" />
@@ -454,6 +455,7 @@
 		<Property name="SeenProducts" value="EXP_CURIO1" />
 		<Property name="SeenProducts" value="EXPD_TITLE03" />
 		<Property name="SeenProducts" value="PANEL_GLASS" />
+		<Property name="SeenProducts" value="WALKER_PROD_4" />
 		<Property name="SeenProducts" value="BASE_TREE03" />
 		<Property name="SeenProducts" value="S_MILKBOTTLE" />
 		<Property name="SeenProducts" value="EXPD_POSTER08B" />
@@ -509,6 +511,7 @@
 		<Property name="SeenProducts" value="S_PAN0" />
 		<Property name="SeenProducts" value="CUBEFLOOR" />
 		<Property name="SeenProducts" value="U_GRENADEX" />
+		<Property name="SeenProducts" value="WALKER_PROD_3" />
 		<Property name="SeenProducts" value="SCRAP_WEAP" />
 		<Property name="SeenProducts" value="S_TABLELAMP0" />
 		<Property name="SeenProducts" value="TRA_COMMODITY1" />
@@ -1445,6 +1448,7 @@
 		<Property name="SeenProducts" value="WALLLIGHTRED" />
 		<Property name="SeenProducts" value="BUILDGASHARVEST" />
 		<Property name="SeenProducts" value="BASE_SWAMP3" />
+		<Property name="SeenProducts" value=" …WXP;#58428" />
 		<Property name="SeenProducts" value="U_SHIELDBOOST4" />
 		<Property name="SeenProducts" value="STARCHART_B" />
 		<Property name="SeenProducts" value="BASE_RADPLANT02" />
@@ -1804,6 +1808,7 @@
 	<Property name="UnlockedTitles">
 		<Property name="UnlockedTitles" value="T_MECH" />
 		<Property name="UnlockedTitles" value="T_JM_SHIPS1" />
+		<Property name="UnlockedTitles" value="T_SHIP_FIGHT" />
 		<Property name="UnlockedTitles" value="T_JM_WORD2" />
 		<Property name="UnlockedTitles" value="T_SHIP_DROP" />
 		<Property name="UnlockedTitles" value="T_REALITY3" />
@@ -1818,6 +1823,7 @@
 		<Property name="UnlockedTitles" value="T_TRA2" />
 		<Property name="UnlockedTitles" value="T_JM_FLORASCAN2" />
 		<Property name="UnlockedTitles" value="T_MS_FLORA_4" />
+		<Property name="UnlockedTitles" value="T_BOUNTY1" />
 		<Property name="UnlockedTitles" value="T_JM_MINSCAN2" />
 		<Property name="UnlockedTitles" value="T_BUILDER1" />
 		<Property name="UnlockedTitles" value="T_DEATH10" />
@@ -1873,6 +1879,7 @@
 		<Property name="UnlockedTitles" value="T_FLEET3" />
 		<Property name="UnlockedTitles" value="T_JM_EXPLORE2" />
 		<Property name="UnlockedTitles" value="T_EXP6" />
+		<Property name="UnlockedTitles" value="T_DRONEFRIEND" />
 		<Property name="UnlockedTitles" value="T_TRA5" />
 		<Property name="UnlockedTitles" value="T_MS_DIST_4" />
 		<Property name="UnlockedTitles" value="T_JM_EXPLORE1" />
@@ -1907,6 +1914,7 @@
 		<Property name="UnlockedTitles" value="T_MS_WORDS_4" />
 		<Property name="UnlockedTitles" value="T_MS_SENT_8" />
 		<Property name="UnlockedTitles" value="T_WAR_GUILD2" />
+		<Property name="UnlockedTitles" value="T_BOUNTY2" />
 		<Property name="UnlockedTitles" value="T_MS_PLANTS_8" />
 		<Property name="UnlockedTitles" value="T_WAR1" />
 		<Property name="UnlockedTitles" value="T_LORE10" />
@@ -2034,7 +2042,7 @@
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
 	<Property name="LastSeenCommunityMission" value="79" />
-	<Property name="LastSeenCommunityMissionTier" value="1" />
+	<Property name="LastSeenCommunityMissionTier" value="2" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
