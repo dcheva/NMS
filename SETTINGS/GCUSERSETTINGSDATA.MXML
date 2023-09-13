@@ -267,6 +267,7 @@
 		<Property name="SeenTechnologies" value="VEHICLE_LASER" />
 		<Property name="SeenTechnologies" value="VEHICLE_GUN" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL13" />
+		<Property name="SeenTechnologies" value="UT_BUI_SCAN" />
 		<Property name="SeenTechnologies" value="WEAPSENT_DMG1" />
 		<Property name="SeenTechnologies" value="SUB_BINOCS" />
 		<Property name="SeenTechnologies" value="MAINT_FRIG2" />
@@ -281,6 +282,7 @@
 		<Property name="SeenTechnologies" value="UT_RAD" />
 		<Property name="SeenTechnologies" value="UT_SHIPMINI" />
 		<Property name="SeenTechnologies" value="UT_SHIPSHIELD" />
+		<Property name="SeenTechnologies" value="UT_BUI_SCAN2" />
 		<Property name="SeenTechnologies" value="LAUNCHER_ROBO" />
 		<Property name="SeenTechnologies" value="SHIPROCKETS" />
 		<Property name="SeenTechnologies" value="SCOPE" />
@@ -446,6 +448,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_LADDER" />
 		<Property name="SeenProducts" value="S_WATERTOWER" />
 		<Property name="SeenProducts" value="FARMPROD7" />
+		<Property name="SeenProducts" value="€‰V!×T#13191" />
 		<Property name="SeenProducts" value="CUBESTAIRS" />
 		<Property name="SeenProducts" value="S_GLOWGLOBE" />
 		<Property name="SeenProducts" value="FOOD_M_STRIDER" />
@@ -490,6 +493,7 @@
 		<Property name="SeenProducts" value="ACCESS2" />
 		<Property name="SeenProducts" value="STATUE_DIP_B" />
 		<Property name="SeenProducts" value="ATLAS_SEED_9" />
+		<Property name="SeenProducts" value="€‚$NÆè#28892" />
 		<Property name="SeenProducts" value="BLD_MAPTUBE" />
 		<Property name="SeenProducts" value="U_RAILX" />
 		<Property name="SeenProducts" value="EXPD_BANNER03" />
@@ -554,6 +558,7 @@
 		<Property name="SeenProducts" value="COMPUTER" />
 		<Property name="SeenProducts" value="LOG_KEY" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC1" />
+		<Property name="SeenProducts" value="€‰FNûY#00000" />
 		<Property name="SeenProducts" value="EXPD_FIREWORK01" />
 		<Property name="SeenProducts" value="U_SOLAR_S" />
 		<Property name="SeenProducts" value="U_SHIPMINI2" />
@@ -799,6 +804,7 @@
 		<Property name="SeenProducts" value="U_BOLTX" />
 		<Property name="SeenProducts" value="EXPD_DECAL10" />
 		<Property name="SeenProducts" value="SPEC_PETCUST2" />
+		<Property name="SeenProducts" value="NPCFARMTERM" />
 		<Property name="SeenProducts" value="MONITORDESK" />
 		<Property name="SeenProducts" value="BARRENPLANT" />
 		<Property name="SeenProducts" value="T_CHEV_WIN2" />
@@ -1005,6 +1011,7 @@
 		<Property name="SeenProducts" value="JETS_WORM" />
 		<Property name="SeenProducts" value="HOOD_GEK" />
 		<Property name="SeenProducts" value="SHIP_PIRATE" />
+		<Property name="SeenProducts" value="FRE_ROOM_NPCFAR" />
 		<Property name="SeenProducts" value="U_EXOBOOST2" />
 		<Property name="SeenProducts" value="BUILDDECALNUM6" />
 		<Property name="SeenProducts" value="BANNER_CAFE" />
@@ -1660,6 +1667,7 @@
 		<Property name="SeenProducts" value="FRIGATE_FUEL_1" />
 		<Property name="SeenProducts" value="DECAL_WORM_P1" />
 		<Property name="SeenProducts" value="GEODE_LAND" />
+		<Property name="SeenProducts" value="€‚XRè"#84467" />
 		<Property name="SeenProducts" value="S_DOOR1" />
 		<Property name="SeenProducts" value="BUILDSOFA2L" />
 		<Property name="SeenProducts" value="WALLFLAG3" />
@@ -1793,6 +1801,7 @@
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_COMBAT_3" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_COMBAT_2" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_TRADE_6" />
+		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_TRADE_2" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SURVIVAL_2" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SPACE_STATION" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_EXPLORATION_4" />
@@ -1876,6 +1885,7 @@
 		<Property name="UnlockedTitles" value="T_WAR8" />
 		<Property name="UnlockedTitles" value="T_MS_MONEY_6" />
 		<Property name="UnlockedTitles" value="T_WAR5" />
+		<Property name="UnlockedTitles" value="T_EXP8" />
 		<Property name="UnlockedTitles" value="T_FLEET3" />
 		<Property name="UnlockedTitles" value="T_JM_EXPLORE2" />
 		<Property name="UnlockedTitles" value="T_EXP6" />
