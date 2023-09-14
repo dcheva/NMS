@@ -21,6 +21,12 @@
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootControls" />
+			<Property name="Action" value="Player_PlaceMarker" />
+			<Property name="Button" value="Backspace" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="ShipControls" />
 			<Property name="Action" value="Quick_Menu" />
 			<Property name="Button" value="Apostrophe" />
@@ -39,9 +45,105 @@
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Player_TagMarker" />
+			<Property name="Button" value="Backspace" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="VehicleMode" />
 			<Property name="Action" value="Quick_Menu" />
 			<Property name="Button" value="Apostrophe" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleMode" />
+			<Property name="Action" value="Player_TagMarker" />
+			<Property name="Button" value="Backspace" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Right" />
+			<Property name="Button" value="KeyD" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Left" />
+			<Property name="Button" value="KeyA" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
+			<Property name="Button" value="KeyW" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="KeyS" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Right" />
+			<Property name="Button" value="KeyD" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Left" />
+			<Property name="Button" value="KeyA" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
+			<Property name="Button" value="KeyW" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="KeyS" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_NextNavType" />
+			<Property name="Button" value="KeyQ" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_PreviousNavType" />
+			<Property name="Button" value="KeyE" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_PreviousFilter" />
+			<Property name="Button" value="KeyW" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_NextFilter" />
+			<Property name="Button" value="KeyS" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="KeyS" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
+			<Property name="Button" value="KeyW" />
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
@@ -63,6 +165,12 @@
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootControls" />
+			<Property name="Action" value="Player_PlaceMarker" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="ShipControls" />
 			<Property name="Action" value="Quick_Menu" />
 			<Property name="Button" value="MouseUnbound" />
@@ -81,8 +189,104 @@
 			<Property name="Axis" value="None" />
 		</Property>
 		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipControls" />
+			<Property name="Action" value="Player_TagMarker" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
 			<Property name="ActionSet" value="VehicleMode" />
 			<Property name="Action" value="Quick_Menu" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleMode" />
+			<Property name="Action" value="Player_TagMarker" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Right" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Left" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="ShipQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Right" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Left" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="VehicleQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_NextNavType" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_PreviousNavType" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_PreviousFilter" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="GalacticMap" />
+			<Property name="Action" value="GalacticMap_NextFilter" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootQuickMenu" />
+			<Property name="Action" value="Quick_Down" />
+			<Property name="Button" value="MouseUnbound" />
+			<Property name="Axis" value="None" />
+		</Property>
+		<Property name="KeyMapping2" value="GcInputActionMapping2.xml">
+			<Property name="ActionSet" value="OnFootQuickMenu" />
+			<Property name="Action" value="Quick_Up" />
 			<Property name="Button" value="MouseUnbound" />
 			<Property name="Axis" value="None" />
 		</Property>

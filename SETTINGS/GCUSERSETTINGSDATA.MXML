@@ -448,7 +448,6 @@
 		<Property name="SeenProducts" value="FRE_ROOM_LADDER" />
 		<Property name="SeenProducts" value="S_WATERTOWER" />
 		<Property name="SeenProducts" value="FARMPROD7" />
-		<Property name="SeenProducts" value="€‰V!×T#13191" />
 		<Property name="SeenProducts" value="CUBESTAIRS" />
 		<Property name="SeenProducts" value="S_GLOWGLOBE" />
 		<Property name="SeenProducts" value="FOOD_M_STRIDER" />
@@ -468,6 +467,7 @@
 		<Property name="SeenProducts" value="BASE_TOYJELLY" />
 		<Property name="SeenProducts" value="BASE_DUSTPLANT1" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC2" />
+		<Property name="SeenProducts" value="BUI_HEAD_5" />
 		<Property name="SeenProducts" value="FREIGHT_PINK" />
 		<Property name="SeenProducts" value="S_ROOF_C" />
 		<Property name="SeenProducts" value="S_GAZEBO0" />
@@ -493,7 +493,6 @@
 		<Property name="SeenProducts" value="ACCESS2" />
 		<Property name="SeenProducts" value="STATUE_DIP_B" />
 		<Property name="SeenProducts" value="ATLAS_SEED_9" />
-		<Property name="SeenProducts" value="€‚$NÆè#28892" />
 		<Property name="SeenProducts" value="BLD_MAPTUBE" />
 		<Property name="SeenProducts" value="U_RAILX" />
 		<Property name="SeenProducts" value="EXPD_BANNER03" />
@@ -558,7 +557,6 @@
 		<Property name="SeenProducts" value="COMPUTER" />
 		<Property name="SeenProducts" value="LOG_KEY" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC1" />
-		<Property name="SeenProducts" value="€‰FNûY#00000" />
 		<Property name="SeenProducts" value="EXPD_FIREWORK01" />
 		<Property name="SeenProducts" value="U_SOLAR_S" />
 		<Property name="SeenProducts" value="U_SHIPMINI2" />
@@ -620,6 +618,7 @@
 		<Property name="SeenProducts" value="U_ENERGY2" />
 		<Property name="SeenProducts" value="TRA_COMMODITY3" />
 		<Property name="SeenProducts" value="S_HANGLAMP1" />
+		<Property name="SeenProducts" value="BUI_HEAD_8" />
 		<Property name="SeenProducts" value="MP_REP_PART1C" />
 		<Property name="SeenProducts" value="U_MECH_ENG3" />
 		<Property name="SeenProducts" value="WALKER_PROD_2" />
@@ -656,6 +655,7 @@
 		<Property name="SeenProducts" value="S_POSTER18" />
 		<Property name="SeenProducts" value="U_SHIPSHIELD3" />
 		<Property name="SeenProducts" value="GARAGE_SUB" />
+		<Property name="SeenProducts" value="STAFF_POLE4" />
 		<Property name="SeenProducts" value="F_ROOF_IC" />
 		<Property name="SeenProducts" value="F_ROOF_M_Q" />
 		<Property name="SeenProducts" value="S_POSTER16" />
@@ -680,6 +680,7 @@
 		<Property name="SeenProducts" value="DRONE_PART_E3" />
 		<Property name="SeenProducts" value="U_SENTGUN" />
 		<Property name="SeenProducts" value="GARAGE_S" />
+		<Property name="SeenProducts" value="BUI_HEAD_13" />
 		<Property name="SeenProducts" value="POWERLINE_HIDER" />
 		<Property name="SeenProducts" value="TRA_ENERGY4" />
 		<Property name="SeenProducts" value="FREI_TRAIL_YEL" />
@@ -787,6 +788,7 @@
 		<Property name="SeenProducts" value="BASE_WPLANT4" />
 		<Property name="SeenProducts" value="GARAGE_L" />
 		<Property name="SeenProducts" value="TRA_ENERGY2" />
+		<Property name="SeenProducts" value="BUI_HEAD_6" />
 		<Property name="SeenProducts" value="SPEC_VYK_LEGS" />
 		<Property name="SeenProducts" value="S10_PART1A" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD1" />
@@ -808,6 +810,7 @@
 		<Property name="SeenProducts" value="MONITORDESK" />
 		<Property name="SeenProducts" value="BARRENPLANT" />
 		<Property name="SeenProducts" value="T_CHEV_WIN2" />
+		<Property name="SeenProducts" value="BUI_ARMOUR_2" />
 		<Property name="SeenProducts" value="F_ROOF0" />
 		<Property name="SeenProducts" value="U_CANNONX" />
 		<Property name="SeenProducts" value="EXPD_BANNER09" />
@@ -831,6 +834,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_SCAN" />
 		<Property name="SeenProducts" value="TWITCH_SHIP34" />
 		<Property name="SeenProducts" value="EXPD_EGG_03" />
+		<Property name="SeenProducts" value="STAFF_HEAD4B" />
 		<Property name="SeenProducts" value="U_LASER3" />
 		<Property name="SeenProducts" value="BUILDSOFA" />
 		<Property name="SeenProducts" value="TRA_EXOTICS4" />
@@ -870,6 +874,7 @@
 		<Property name="SeenProducts" value="WEDGESHAPE" />
 		<Property name="SeenProducts" value="S_WALL_Q" />
 		<Property name="SeenProducts" value="S_GDOOR" />
+		<Property name="SeenProducts" value="STAFF_PART_B" />
 		<Property name="SeenProducts" value="BLD_DATASIGN" />
 		<Property name="SeenProducts" value="U_RAD3" />
 		<Property name="SeenProducts" value="S_MILKCRATE" />
@@ -879,6 +884,7 @@
 		<Property name="SeenProducts" value="BUILDHARVESTER" />
 		<Property name="SeenProducts" value="GRAVBALL" />
 		<Property name="SeenProducts" value="S_WALL_Q_H" />
+		<Property name="SeenProducts" value="STAFF_CORE1" />
 		<Property name="SeenProducts" value="S_LIGHTSTRIP0" />
 		<Property name="SeenProducts" value="SPEC_EMOTE02" />
 		<Property name="SeenProducts" value="CUBEINNERDOOR" />
@@ -965,6 +971,7 @@
 		<Property name="SeenProducts" value="BASECAPSULE" />
 		<Property name="SeenProducts" value="ATLAS_SEED_4" />
 		<Property name="SeenProducts" value="U_SHIPMINI3" />
+		<Property name="SeenProducts" value="BUI_CLOTH_1" />
 		<Property name="SeenProducts" value="S_ANTENNA2" />
 		<Property name="SeenProducts" value="S_TRIFLOOR_Q" />
 		<Property name="SeenProducts" value="T_ROOF_M" />
@@ -976,6 +983,7 @@
 		<Property name="SeenProducts" value="U_HAZARDX" />
 		<Property name="SeenProducts" value="AM_HOUSING" />
 		<Property name="SeenProducts" value="EXPD_BANNER11" />
+		<Property name="SeenProducts" value="STAFF_POLE2" />
 		<Property name="SeenProducts" value="CAPE_JELLY" />
 		<Property name="SeenProducts" value="F_WALL_WIN2" />
 		<Property name="SeenProducts" value="F_ROOF_M_CAP" />
@@ -1011,6 +1019,7 @@
 		<Property name="SeenProducts" value="JETS_WORM" />
 		<Property name="SeenProducts" value="HOOD_GEK" />
 		<Property name="SeenProducts" value="SHIP_PIRATE" />
+		<Property name="SeenProducts" value="BUI_HEAD_12" />
 		<Property name="SeenProducts" value="FRE_ROOM_NPCFAR" />
 		<Property name="SeenProducts" value="U_EXOBOOST2" />
 		<Property name="SeenProducts" value="BUILDDECALNUM6" />
@@ -1035,6 +1044,7 @@
 		<Property name="SeenProducts" value="STATUE_SHIP_B" />
 		<Property name="SeenProducts" value="BOBBLE_ART" />
 		<Property name="SeenProducts" value="EXPD_POSTER07B" />
+		<Property name="SeenProducts" value="BUI_HEAD_10" />
 		<Property name="SeenProducts" value="DECAL_QIT" />
 		<Property name="SeenProducts" value="TRA_COMPONENT3" />
 		<Property name="SeenProducts" value="BUILDTABLE2" />
@@ -1212,7 +1222,9 @@
 		<Property name="SeenProducts" value="U_SHIPSHIELD1" />
 		<Property name="SeenProducts" value="S_BUCKET_M" />
 		<Property name="SeenProducts" value="COMPOUND1" />
+		<Property name="SeenProducts" value="BUI_HEAD_4" />
 		<Property name="SeenProducts" value="FRE_ROOM_STORE3" />
+		<Property name="SeenProducts" value="BUI_HEAD_7" />
 		<Property name="SeenProducts" value="BASE_MEDPLANT03" />
 		<Property name="SeenProducts" value="S_CHEV_WALL" />
 		<Property name="SeenProducts" value="SPEC_HELMET05" />
@@ -1239,6 +1251,7 @@
 		<Property name="SeenProducts" value="FRE_EXT_PLATFOR" />
 		<Property name="SeenProducts" value="BUILDDECAL2" />
 		<Property name="SeenProducts" value="U_SHOTGUN1" />
+		<Property name="SeenProducts" value="BUI_HEAD_14" />
 		<Property name="SeenProducts" value="BUILDTABLE3" />
 		<Property name="SeenProducts" value="EXPD_DECAL06" />
 		<Property name="SeenProducts" value="CONTAINER5" />
@@ -1255,9 +1268,11 @@
 		<Property name="SeenProducts" value="U_SHIELDBOOST2" />
 		<Property name="SeenProducts" value="U_EXOGUN3" />
 		<Property name="SeenProducts" value="U_EXTRACTOR_S" />
+		<Property name="SeenProducts" value="STAFF_PART_C" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC8" />
 		<Property name="SeenProducts" value="F_CHEV_WIN1" />
 		<Property name="SeenProducts" value="F_CHEV_WIN0" />
+		<Property name="SeenProducts" value="BUI_HEAD_3" />
 		<Property name="SeenProducts" value="FRE_ROOM_STORE6" />
 		<Property name="SeenProducts" value="T_ARCH" />
 		<Property name="SeenProducts" value="BIOROOM" />
@@ -1280,6 +1295,7 @@
 		<Property name="SeenProducts" value="EXPD_POSTER07C" />
 		<Property name="SeenProducts" value="UP_STEALTH" />
 		<Property name="SeenProducts" value="F_WALL_Q" />
+		<Property name="SeenProducts" value="BUI_HEAD_2" />
 		<Property name="SeenProducts" value="F_ROOF8" />
 		<Property name="SeenProducts" value="U_ENERGYX" />
 		<Property name="SeenProducts" value="S_POSTER27" />
@@ -1376,6 +1392,7 @@
 		<Property name="SeenProducts" value="BASE_TREE01" />
 		<Property name="SeenProducts" value="S10_ROBO_LEGS" />
 		<Property name="SeenProducts" value="SPEC_TITLE2" />
+		<Property name="SeenProducts" value="BUI_CLOTH_2" />
 		<Property name="SeenProducts" value="S_CRATE2" />
 		<Property name="SeenProducts" value="BUILDDECALNUM5" />
 		<Property name="SeenProducts" value="CHART_ROBOT" />
@@ -1398,6 +1415,7 @@
 		<Property name="SeenProducts" value="S_TRIFLOOR" />
 		<Property name="SeenProducts" value="FREI_TRAIL_GRAV" />
 		<Property name="SeenProducts" value="EXPD_POSTER10C" />
+		<Property name="SeenProducts" value="BUI_ARMOUR_1" />
 		<Property name="SeenProducts" value="SPEC_TITLE10" />
 		<Property name="SeenProducts" value="NIPNIPBUDS" />
 		<Property name="SeenProducts" value="SHIP_GREEN" />
@@ -1421,6 +1439,7 @@
 		<Property name="SeenProducts" value="U_EXO_ENG2" />
 		<Property name="SeenProducts" value="S_CUP0" />
 		<Property name="SeenProducts" value="BASE_LAVA2" />
+		<Property name="SeenProducts" value="BUI_HEAD_1" />
 		<Property name="SeenProducts" value="U_SWITCHPRESS" />
 		<Property name="SeenProducts" value="ROOFMONITOR" />
 		<Property name="SeenProducts" value="EXPD_EGG_11" />
@@ -1487,12 +1506,14 @@
 		<Property name="SeenProducts" value="BUILDSIGNAL" />
 		<Property name="SeenProducts" value="S_PALLET_BRICK" />
 		<Property name="SeenProducts" value="DECAL_WORM_P3" />
+		<Property name="SeenProducts" value="BUI_HEAD_11" />
 		<Property name="SeenProducts" value="S_BARTAPS0" />
 		<Property name="SeenProducts" value="CYLINDERSHAPE" />
 		<Property name="SeenProducts" value="BLD_MINI_BIOFRI" />
 		<Property name="SeenProducts" value="BOBBLE_POLO" />
 		<Property name="SeenProducts" value="DRONE_SHARD" />
 		<Property name="SeenProducts" value="FRE_FACE_WINDOW" />
+		<Property name="SeenProducts" value="BUI_HEAD_9" />
 		<Property name="SeenProducts" value="DRAWS" />
 		<Property name="SeenProducts" value="F_CHEV_WALL" />
 		<Property name="SeenProducts" value="U_SWITCHBUTTON" />
@@ -1573,6 +1594,7 @@
 		<Property name="SeenProducts" value="CREATUREPLANT" />
 		<Property name="SeenProducts" value="EXPD_EGG_09" />
 		<Property name="SeenProducts" value="U_SHIPBLOB3" />
+		<Property name="SeenProducts" value="BUI_HEAD_15" />
 		<Property name="SeenProducts" value="S_POSTER15" />
 		<Property name="SeenProducts" value="STATUE_ASTRO_S" />
 		<Property name="SeenProducts" value="U_HYPER4" />
@@ -1619,6 +1641,7 @@
 		<Property name="SeenProducts" value="U_HOTPROT3" />
 		<Property name="SeenProducts" value="FRE_ROOM_PLANT0" />
 		<Property name="SeenProducts" value="T_FLOOR" />
+		<Property name="SeenProducts" value="U_ROBOSUIT" />
 		<Property name="SeenProducts" value="S_POSTER10" />
 		<Property name="SeenProducts" value="CUBEWINDOWSMALL" />
 		<Property name="SeenProducts" value="U_BYTEBEATLINE" />
@@ -1667,7 +1690,6 @@
 		<Property name="SeenProducts" value="FRIGATE_FUEL_1" />
 		<Property name="SeenProducts" value="DECAL_WORM_P1" />
 		<Property name="SeenProducts" value="GEODE_LAND" />
-		<Property name="SeenProducts" value="€‚XRè"#84467" />
 		<Property name="SeenProducts" value="S_DOOR1" />
 		<Property name="SeenProducts" value="BUILDSOFA2L" />
 		<Property name="SeenProducts" value="WALLFLAG3" />
@@ -1959,21 +1981,13 @@
 	</Property>
 	<Property name="UnlockedSpecials">
 		<Property name="UnlockedSpecials" value="BLD_BUI_TENT" />
-		<Property name="UnlockedSpecials" value="SPEC_SENTPACK" />
 		<Property name="UnlockedSpecials" value="BLD_CRYS_SENT1" />
-		<Property name="UnlockedSpecials" value="BLD_BUI_HEAD" />
-		<Property name="UnlockedSpecials" value="BASE_TOYJELLY" />
 		<Property name="UnlockedSpecials" value="DECAL_HAZARD" />
-		<Property name="UnlockedSpecials" value="EXPD_BANNER10" />
 		<Property name="UnlockedSpecials" value="BANNER_SPOOKY" />
-		<Property name="UnlockedSpecials" value="EXPD_DECAL10" />
 		<Property name="UnlockedSpecials" value="TWITCH_FIREW07C" />
 		<Property name="UnlockedSpecials" value="DECAL_JELLY" />
 		<Property name="UnlockedSpecials" value="FREI_TRAIL_YEL" />
-		<Property name="UnlockedSpecials" value="SLIME_MED" />
-		<Property name="UnlockedSpecials" value="DECAL_HORROR" />
 		<Property name="UnlockedSpecials" value="S10_PART2" />
-		<Property name="UnlockedSpecials" value="SPOOKY_PLANT" />
 		<Property name="UnlockedSpecials" value="BLD_BUI_HAND" />
 		<Property name="UnlockedSpecials" value="S10_PART1B" />
 		<Property name="UnlockedSpecials" value="SPEC_HOOD01" />
@@ -1981,32 +1995,45 @@
 		<Property name="UnlockedSpecials" value="JETS_RED" />
 		<Property name="UnlockedSpecials" value="SPEC_SPOOKYHEAD" />
 		<Property name="UnlockedSpecials" value="SPEC_TITLE10" />
-		<Property name="UnlockedSpecials" value="SPEC_ROCKETHAT" />
 		<Property name="UnlockedSpecials" value="TWITCH_GUN15" />
-		<Property name="UnlockedSpecials" value="DECAL_SKULL" />
-		<Property name="UnlockedSpecials" value="EXPD_TITLE10" />
 		<Property name="UnlockedSpecials" value="BLD_FIREPIT" />
 		<Property name="UnlockedSpecials" value="SPEC_VYK_LEGS" />
-		<Property name="UnlockedSpecials" value="BLD_CRYS_DRONE" />
 		<Property name="UnlockedSpecials" value="S10_PART1A" />
-		<Property name="UnlockedSpecials" value="S10_PART4" />
-		<Property name="UnlockedSpecials" value="JETS_CORRUPT" />
-		<Property name="UnlockedSpecials" value="FREI_TRAIL_RED" />
-		<Property name="UnlockedSpecials" value="TWITCH_SHIP34" />
 		<Property name="UnlockedSpecials" value="TWITCH_FIREW07D" />
-		<Property name="UnlockedSpecials" value="BANNER_QIT" />
 		<Property name="UnlockedSpecials" value="JETS_ELECTRIC" />
 		<Property name="UnlockedSpecials" value="S10_PART5" />
 		<Property name="UnlockedSpecials" value="BANNER_SLIMY" />
-		<Property name="UnlockedSpecials" value="S_POSTER23" />
-		<Property name="UnlockedSpecials" value="BLD_MAPTUBE" />
 		<Property name="UnlockedSpecials" value="S10_PART3" />
+		<Property name="UnlockedSpecials" value="BUI_HEAD_3" />
 		<Property name="UnlockedSpecials" value="SPEC_DIVEHELMET" />
 		<Property name="UnlockedSpecials" value="S_POSTER22" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER10B" />
 		<Property name="UnlockedSpecials" value="BLD_CRYS_SENT0" />
-		<Property name="UnlockedSpecials" value="SHIP_RED" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER10A" />
+		<Property name="UnlockedSpecials" value="BUI_HEAD_1" />
+		<Property name="UnlockedSpecials" value="SPEC_SENTPACK" />
+		<Property name="UnlockedSpecials" value="BLD_BUI_HEAD" />
+		<Property name="UnlockedSpecials" value="BASE_TOYJELLY" />
+		<Property name="UnlockedSpecials" value="EXPD_BANNER10" />
+		<Property name="UnlockedSpecials" value="BUI_HEAD_5" />
+		<Property name="UnlockedSpecials" value="EXPD_DECAL10" />
+		<Property name="UnlockedSpecials" value="SLIME_MED" />
+		<Property name="UnlockedSpecials" value="DECAL_HORROR" />
+		<Property name="UnlockedSpecials" value="SPOOKY_PLANT" />
+		<Property name="UnlockedSpecials" value="SPEC_ROCKETHAT" />
+		<Property name="UnlockedSpecials" value="BUI_HEAD_4" />
+		<Property name="UnlockedSpecials" value="DECAL_SKULL" />
+		<Property name="UnlockedSpecials" value="EXPD_TITLE10" />
+		<Property name="UnlockedSpecials" value="BUI_HEAD_2" />
+		<Property name="UnlockedSpecials" value="BLD_CRYS_DRONE" />
+		<Property name="UnlockedSpecials" value="S10_PART4" />
+		<Property name="UnlockedSpecials" value="JETS_CORRUPT" />
+		<Property name="UnlockedSpecials" value="FREI_TRAIL_RED" />
+		<Property name="UnlockedSpecials" value="TWITCH_SHIP34" />
+		<Property name="UnlockedSpecials" value="BANNER_QIT" />
+		<Property name="UnlockedSpecials" value="S_POSTER23" />
+		<Property name="UnlockedSpecials" value="BLD_MAPTUBE" />
+		<Property name="UnlockedSpecials" value="SHIP_RED" />
 	</Property>
 	<Property name="UnlockedSeasonRewards">
 		<Property name="UnlockedSeasonRewards" value="BLD_BUI_TENT" />
