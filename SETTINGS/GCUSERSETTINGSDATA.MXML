@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="0" />
-	<Property name="SfxVolume" value="60" />
+	<Property name="MusicVolume" value="75" />
+	<Property name="SfxVolume" value="75" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -1892,6 +1892,7 @@
 		<Property name="UnlockedTitles" value="T_PIR_STAND1" />
 		<Property name="UnlockedTitles" value="T_TRA3" />
 		<Property name="UnlockedTitles" value="T_TRA7" />
+		<Property name="UnlockedTitles" value="T_PIR_STAND2" />
 		<Property name="UnlockedTitles" value="T_EXP7" />
 		<Property name="UnlockedTitles" value="T_SPOOKY1" />
 		<Property name="UnlockedTitles" value="T_DEATH8" />
