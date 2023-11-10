@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="0" />
-	<Property name="SfxVolume" value="50" />
+	<Property name="MusicVolume" value="50" />
+	<Property name="SfxVolume" value="75" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -893,6 +893,7 @@
 		<Property name="SeenProducts" value="BUILDHARVESTER" />
 		<Property name="SeenProducts" value="GRAVBALL" />
 		<Property name="SeenProducts" value="ALIEN_TECHBOX" />
+		<Property name="SeenProducts" value="FOOD_M_DIPLO" />
 		<Property name="SeenProducts" value="S_WALL_Q_H" />
 		<Property name="SeenProducts" value="STAFF_CORE1" />
 		<Property name="SeenProducts" value="S_LIGHTSTRIP0" />
@@ -1858,6 +1859,7 @@
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SIGNALS" />
 	</Property>
 	<Property name="UnlockedTitles">
+		<Property name="UnlockedTitles" value="T_DEATH6" />
 		<Property name="UnlockedTitles" value="T_MECH" />
 		<Property name="UnlockedTitles" value="T_JM_SHIPS1" />
 		<Property name="UnlockedTitles" value="T_SHIP_FIGHT" />
@@ -2125,7 +2127,7 @@
 	<Property name="CrossPlatform" value="true" />
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
-	<Property name="LastSeenCommunityMission" value="79" />
+	<Property name="LastSeenCommunityMission" value="80" />
 	<Property name="LastSeenCommunityMissionTier" value="2" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />

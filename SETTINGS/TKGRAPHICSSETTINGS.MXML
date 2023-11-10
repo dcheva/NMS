@@ -5,7 +5,7 @@
 	<Property name="Borderless" value="true" />
 	<Property name="Monitor" value="0" />
 	<Property name="MonitorNames">
-		<Property name="MonitorNames" value="0|NVIDIA GeForce GTX 1660|Acer X223HQ " />
+		<Property name="MonitorNames" value="0|NVIDIA GeForce GTX 1660|Generic PnP Monitor" />
 	</Property>
 	<Property name="ResolutionWidth" value="1920" />
 	<Property name="ResolutionHeight" value="1080" />
@@ -23,12 +23,12 @@
 		<Property name="BaseQuality" value="TkGraphicsDetailTypes.xml" />
 		<Property name="DynamicResScalingSettings" value="TkDynamicResScalingSettings.xml" />
 		<Property name="AmbientOcclusion" value="GTAO_Medium" />
-		<Property name="AnisotropyLevel" value="2" />
+		<Property name="AntiAliasing" value="FFXSR2" />
 	</Property>
-	<Property name="MotionBlurStrength" value="180.000000" />
+	<Property name="MotionBlurStrength" value="60.000000" />
 	<Property name="VignetteAndScanlines" value="true" />
-	<Property name="FoVOnFoot" value="75.000000" />
-	<Property name="FoVInShip" value="75.000000" />
+	<Property name="FoVOnFoot" value="100.000000" />
+	<Property name="FoVInShip" value="100.000000" />
 	<Property name="Brightness" value="50" />
 	<Property name="MaxframeRate" value="60" />
 	<Property name="NumHighThreads" value="4" />
