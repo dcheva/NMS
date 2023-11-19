@@ -663,6 +663,7 @@
 		<Property name="SeenProducts" value="S_DOOR_H" />
 		<Property name="SeenProducts" value="S_POSTER18" />
 		<Property name="SeenProducts" value="STAFF_POLE6" />
+		<Property name="SeenProducts" value="€‚UWÔ #43174" />
 		<Property name="SeenProducts" value="U_SHIPSHIELD3" />
 		<Property name="SeenProducts" value="GARAGE_SUB" />
 		<Property name="SeenProducts" value="STAFF_POLE4" />
@@ -1033,6 +1034,7 @@
 		<Property name="SeenProducts" value="DECAL_STARTSHIP" />
 		<Property name="SeenProducts" value="BASE_SWAMP1" />
 		<Property name="SeenProducts" value="JETS_WORM" />
+		<Property name="SeenProducts" value="€€“Và~#52002" />
 		<Property name="SeenProducts" value="HOOD_GEK" />
 		<Property name="SeenProducts" value="SHIP_PIRATE" />
 		<Property name="SeenProducts" value="BUI_HEAD_12" />
@@ -1221,6 +1223,7 @@
 		<Property name="SeenProducts" value="S_RAMP" />
 		<Property name="SeenProducts" value="U_PORTALLINE" />
 		<Property name="SeenProducts" value="F_DOORWINDOW" />
+		<Property name="SeenProducts" value="BASE_SHARD" />
 		<Property name="SeenProducts" value="MEGAPROD1" />
 		<Property name="SeenProducts" value="S_LANDINGZONE" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC11" />
@@ -1228,6 +1231,7 @@
 		<Property name="SeenProducts" value="DRONE_SALVAGE" />
 		<Property name="SeenProducts" value="SPEC_TITLE26" />
 		<Property name="SeenProducts" value="S_CRATE3OPEN" />
+		<Property name="SeenProducts" value="€ˆWJÞI#24226" />
 		<Property name="SeenProducts" value="BUILDDECALNUM3" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC5" />
 		<Property name="SeenProducts" value="U_CANNON2" />
@@ -1357,6 +1361,7 @@
 		<Property name="SeenProducts" value="CORRIDORX_WATER" />
 		<Property name="SeenProducts" value="TRA_TECH1" />
 		<Property name="SeenProducts" value="S_POSTER9" />
+		<Property name="SeenProducts" value="€€Ð˜ú_#37164" />
 		<Property name="SeenProducts" value="U_BIOGENERATOR" />
 		<Property name="SeenProducts" value="U_SHIPSHOT4" />
 		<Property name="SeenProducts" value="MAGNET" />
@@ -1409,6 +1414,7 @@
 		<Property name="SeenProducts" value="BASE_TOXPLANT01" />
 		<Property name="SeenProducts" value="UP_T_WATERENERG" />
 		<Property name="SeenProducts" value="ATLAS_SEED_8" />
+		<Property name="SeenProducts" value="€ŠGLX#61042" />
 		<Property name="SeenProducts" value="DOOR2" />
 		<Property name="SeenProducts" value="F_RAMP_Q_TOP" />
 		<Property name="SeenProducts" value="PLANTPOT4" />
@@ -1763,6 +1769,7 @@
 		<Property name="SeenProducts" value="FARMPROD2" />
 		<Property name="SeenProducts" value="ATLAS_SEED_10" />
 		<Property name="SeenProducts" value="S_ROOF4" />
+		<Property name="SeenProducts" value="€€Á\¶#16978" />
 		<Property name="SeenProducts" value="U_SHOTGUN4" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD3" />
 		<Property name="SeenProducts" value="U_EXOGUN2" />
@@ -2126,7 +2133,7 @@
 	</Property>
 	<Property name="UnlockedPlatformRewards" />
 	<Property name="VoiceChat" value="true" />
-	<Property name="Multiplayer" value="false" />
+	<Property name="Multiplayer" value="true" />
 	<Property name="InstantUIInputs" value="false" />
 	<Property name="InstantUIDelete" value="true" />
 	<Property name="SpeechToText" value="true" />
@@ -2134,8 +2141,8 @@
 	<Property name="CrossPlatform" value="true" />
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
-	<Property name="LastSeenCommunityMission" value="80" />
-	<Property name="LastSeenCommunityMissionTier" value="3" />
+	<Property name="LastSeenCommunityMission" value="81" />
+	<Property name="LastSeenCommunityMissionTier" value="0" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
