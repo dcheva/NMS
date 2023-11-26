@@ -428,7 +428,6 @@
 	<Property name="SeenProducts">
 		<Property name="SeenProducts" value="BLD_BUI_TENT" />
 		<Property name="SeenProducts" value="PEARLPLANT" />
-		<Property name="SeenProducts" value="€€ÝY#88985" />
 		<Property name="SeenProducts" value="FARMPROD4" />
 		<Property name="SeenProducts" value="CAPE_WORM" />
 		<Property name="SeenProducts" value="BASE_NEXUS2" />
@@ -444,6 +443,7 @@
 		<Property name="SeenProducts" value="BUILDDECALNUM9" />
 		<Property name="SeenProducts" value="SHIP_INV_TOKEN" />
 		<Property name="SeenProducts" value="BLD_SKULL" />
+		<Property name="SeenProducts" value="UP_T_JUMP" />
 		<Property name="SeenProducts" value="U_SHIPGUN3" />
 		<Property name="SeenProducts" value="TECHPANEL" />
 		<Property name="SeenProducts" value="S_POSTER1" />
@@ -578,6 +578,7 @@
 		<Property name="SeenProducts" value="BASE_MEDPLANT02" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD7" />
 		<Property name="SeenProducts" value="UP_T_WATERJET" />
+		<Property name="SeenProducts" value="€ˆWJÞI#78390" />
 		<Property name="SeenProducts" value="U_MECHLAS3" />
 		<Property name="SeenProducts" value="BASE_TOXPLANT03" />
 		<Property name="SeenProducts" value="S_FENCE0" />
@@ -587,6 +588,7 @@
 		<Property name="SeenProducts" value="CRATELCYLINDER" />
 		<Property name="SeenProducts" value="S_BAR_C" />
 		<Property name="SeenProducts" value="BUILDFLATPANEL" />
+		<Property name="SeenProducts" value="€„éZ#68272" />
 		<Property name="SeenProducts" value="S_HANGLAMP3" />
 		<Property name="SeenProducts" value="BASE_ROCK03" />
 		<Property name="SeenProducts" value="U_PULSE3" />
@@ -718,7 +720,6 @@
 		<Property name="SeenProducts" value="TRA_EXOTICS3" />
 		<Property name="SeenProducts" value="FRE_ROOM_DRESS" />
 		<Property name="SeenProducts" value="WEAP_INV_TOKEN" />
-		<Property name="SeenProducts" value="€ˆá|¹T#00000" />
 		<Property name="SeenProducts" value="ATLAS_SEED_3" />
 		<Property name="SeenProducts" value="MP_REP_PART1" />
 		<Property name="SeenProducts" value="T_ROOF5" />
@@ -783,7 +784,6 @@
 		<Property name="SeenProducts" value="ATLAS_SEED_6" />
 		<Property name="SeenProducts" value="U_SMGX" />
 		<Property name="SeenProducts" value="U_SMG4" />
-		<Property name="SeenProducts" value="€€îýª°#48643" />
 		<Property name="SeenProducts" value="MP_REP_PART1B" />
 		<Property name="SeenProducts" value="S_SIGN_BAR3" />
 		<Property name="SeenProducts" value="STATUE_WALK_S" />
@@ -877,13 +877,13 @@
 		<Property name="SeenProducts" value="JETS_RED" />
 		<Property name="SeenProducts" value="SNOWPLANT" />
 		<Property name="SeenProducts" value="FRE_ROOM_BIO" />
-		<Property name="SeenProducts" value=" €ŽXO	#89459" />
 		<Property name="SeenProducts" value="FOOD_M_DIGGER" />
 		<Property name="SeenProducts" value="EXPD_CUBE_06" />
 		<Property name="SeenProducts" value="SPEC_EXOTIC6" />
 		<Property name="SeenProducts" value="U_EXOBOOST4" />
 		<Property name="SeenProducts" value="SPEC_EMOTE14" />
 		<Property name="SeenProducts" value="ARTIFACT_KEY" />
+		<Property name="SeenProducts" value="€€„*S#65797" />
 		<Property name="SeenProducts" value="FOOD_M_MOLE" />
 		<Property name="SeenProducts" value="BUILDLIGHT" />
 		<Property name="SeenProducts" value="BANNER_UFT" />
@@ -955,6 +955,7 @@
 		<Property name="SeenProducts" value="U_SHIPLASX" />
 		<Property name="SeenProducts" value="EXP_CURIO3" />
 		<Property name="SeenProducts" value="BLD_FLYJAR" />
+		<Property name="SeenProducts" value="€€îÅïö#87910" />
 		<Property name="SeenProducts" value="BASE_NEXUS1" />
 		<Property name="SeenProducts" value="SPEC_EMOTE01" />
 		<Property name="SeenProducts" value="CORRIDORX" />
@@ -1016,7 +1017,6 @@
 		<Property name="SeenProducts" value="S_POSTER2" />
 		<Property name="SeenProducts" value="BUILDDECALSIMP3" />
 		<Property name="SeenProducts" value="BUILDCANRACK" />
-		<Property name="SeenProducts" value="€€…\EÙ#20202" />
 		<Property name="SeenProducts" value="BASE_CAVE1" />
 		<Property name="SeenProducts" value="FRIG_BOOST_MIN" />
 		<Property name="SeenProducts" value="BASE_AQUARIUM" />
@@ -1195,7 +1195,6 @@
 		<Property name="SeenProducts" value="TRA_ALLOY4" />
 		<Property name="SeenProducts" value="HYPERFUEL1" />
 		<Property name="SeenProducts" value="BLD_CRYS_SENT1" />
-		<Property name="SeenProducts" value="€€S˜Ñ#00000" />
 		<Property name="SeenProducts" value="BUILDDECALVIS3" />
 		<Property name="SeenProducts" value="SCORCHEDPLANT" />
 		<Property name="SeenProducts" value="T_WALL_Q_H1" />
@@ -1324,7 +1323,6 @@
 		<Property name="SeenProducts" value="S_PLANTER_M" />
 		<Property name="SeenProducts" value="EXPD_POSTER07C" />
 		<Property name="SeenProducts" value="UP_STEALTH" />
-		<Property name="SeenProducts" value="€S³9#00000" />
 		<Property name="SeenProducts" value="F_WALL_Q" />
 		<Property name="SeenProducts" value="BUI_HEAD_2" />
 		<Property name="SeenProducts" value="F_ROOF8" />
@@ -1341,6 +1339,7 @@
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
 		<Property name="SeenProducts" value="S_CRATE0" />
 		<Property name="SeenProducts" value="S_BAR_H" />
+		<Property name="SeenProducts" value="€€·µÝ…#72675" />
 		<Property name="SeenProducts" value="MAINROOM_WATER" />
 		<Property name="SeenProducts" value="S_GFLOOR" />
 		<Property name="SeenProducts" value="STATUE_ASTRO_G" />
@@ -1527,7 +1526,6 @@
 		<Property name="SeenProducts" value="SPEC_TITLE9" />
 		<Property name="SeenProducts" value="EXPD_POSTER09C" />
 		<Property name="SeenProducts" value="U_TGRENADE3" />
-		<Property name="SeenProducts" value="€€£Z:#00000" />
 		<Property name="SeenProducts" value="T_WALL_WIN1" />
 		<Property name="SeenProducts" value="LUSHPLANT" />
 		<Property name="SeenProducts" value="U_MECHGUN3" />
@@ -1580,6 +1578,7 @@
 		<Property name="SeenProducts" value="S10_ROBO_ARMS" />
 		<Property name="SeenProducts" value="U_SCANNERX" />
 		<Property name="SeenProducts" value="BANNER_HUB" />
+		<Property name="SeenProducts" value="€€îÅïö#85196" />
 		<Property name="SeenProducts" value="CHART_HIVE" />
 		<Property name="SeenProducts" value="MEGAPROD3" />
 		<Property name="SeenProducts" value="COMPOUND3" />
