@@ -578,7 +578,6 @@
 		<Property name="SeenProducts" value="BASE_MEDPLANT02" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD7" />
 		<Property name="SeenProducts" value="UP_T_WATERJET" />
-		<Property name="SeenProducts" value="€ˆWJÞI#78390" />
 		<Property name="SeenProducts" value="U_MECHLAS3" />
 		<Property name="SeenProducts" value="BASE_TOXPLANT03" />
 		<Property name="SeenProducts" value="S_FENCE0" />
@@ -588,7 +587,6 @@
 		<Property name="SeenProducts" value="CRATELCYLINDER" />
 		<Property name="SeenProducts" value="S_BAR_C" />
 		<Property name="SeenProducts" value="BUILDFLATPANEL" />
-		<Property name="SeenProducts" value="€„éZ#68272" />
 		<Property name="SeenProducts" value="S_HANGLAMP3" />
 		<Property name="SeenProducts" value="BASE_ROCK03" />
 		<Property name="SeenProducts" value="U_PULSE3" />
@@ -867,6 +865,7 @@
 		<Property name="SeenProducts" value="T_CHEV_WIN1" />
 		<Property name="SeenProducts" value="SPEC_DECAL05" />
 		<Property name="SeenProducts" value="U_SHIPLAS4" />
+		<Property name="SeenProducts" value="€€ÜZ[¸#00000" />
 		<Property name="SeenProducts" value="BASE_WPLANT6" />
 		<Property name="SeenProducts" value="EXPD_POSTER05C" />
 		<Property name="SeenProducts" value="S_WALL_H" />
@@ -883,7 +882,6 @@
 		<Property name="SeenProducts" value="U_EXOBOOST4" />
 		<Property name="SeenProducts" value="SPEC_EMOTE14" />
 		<Property name="SeenProducts" value="ARTIFACT_KEY" />
-		<Property name="SeenProducts" value="€€„*S#65797" />
 		<Property name="SeenProducts" value="FOOD_M_MOLE" />
 		<Property name="SeenProducts" value="BUILDLIGHT" />
 		<Property name="SeenProducts" value="BANNER_UFT" />
@@ -955,7 +953,6 @@
 		<Property name="SeenProducts" value="U_SHIPLASX" />
 		<Property name="SeenProducts" value="EXP_CURIO3" />
 		<Property name="SeenProducts" value="BLD_FLYJAR" />
-		<Property name="SeenProducts" value="€€îÅïö#87910" />
 		<Property name="SeenProducts" value="BASE_NEXUS1" />
 		<Property name="SeenProducts" value="SPEC_EMOTE01" />
 		<Property name="SeenProducts" value="CORRIDORX" />
@@ -1289,7 +1286,6 @@
 		<Property name="SeenProducts" value="SPEC_VYK_TORSO" />
 		<Property name="SeenProducts" value="SALVAGE_TECH1" />
 		<Property name="SeenProducts" value="ULTRAPROD1" />
-		<Property name="SeenProducts" value="€‚GÉÓ#00000" />
 		<Property name="SeenProducts" value="EXPD_POSTER09A" />
 		<Property name="SeenProducts" value="STARCHART_C" />
 		<Property name="SeenProducts" value="BUILDDECALNUM7" />
@@ -1339,7 +1335,6 @@
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
 		<Property name="SeenProducts" value="S_CRATE0" />
 		<Property name="SeenProducts" value="S_BAR_H" />
-		<Property name="SeenProducts" value="€€·µÝ…#72675" />
 		<Property name="SeenProducts" value="MAINROOM_WATER" />
 		<Property name="SeenProducts" value="S_GFLOOR" />
 		<Property name="SeenProducts" value="STATUE_ASTRO_G" />
@@ -1430,6 +1425,7 @@
 		<Property name="SeenProducts" value="CHART_ROBOT" />
 		<Property name="SeenProducts" value="TRA_MINERALS5" />
 		<Property name="SeenProducts" value="PRODFUEL2" />
+		<Property name="SeenProducts" value="€R9Ù #00000" />
 		<Property name="SeenProducts" value="S_BAR" />
 		<Property name="SeenProducts" value="S10_ATLAS_SEED1" />
 		<Property name="SeenProducts" value="GARAGE_M" />
@@ -1457,7 +1453,6 @@
 		<Property name="SeenProducts" value="STATUE_WALK_B" />
 		<Property name="SeenProducts" value="BASE_GRASS5" />
 		<Property name="SeenProducts" value="U_SHIELDBOOSTX" />
-		<Property name="SeenProducts" value="€‚TF„)#00000" />
 		<Property name="SeenProducts" value="BASE_GRASS6" />
 		<Property name="SeenProducts" value="U_SHIPSHOT1" />
 		<Property name="SeenProducts" value="SPEC_PETCUST3" />
@@ -1578,7 +1573,6 @@
 		<Property name="SeenProducts" value="S10_ROBO_ARMS" />
 		<Property name="SeenProducts" value="U_SCANNERX" />
 		<Property name="SeenProducts" value="BANNER_HUB" />
-		<Property name="SeenProducts" value="€€îÅïö#85196" />
 		<Property name="SeenProducts" value="CHART_HIVE" />
 		<Property name="SeenProducts" value="MEGAPROD3" />
 		<Property name="SeenProducts" value="COMPOUND3" />
