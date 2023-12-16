@@ -25,8 +25,8 @@
 			"controller_type" : "holographic_controller"
 		}
 	],
-	"version" : 4,
-	"minimum_required_version" : 4,
+	"version" : 5,
+	"minimum_required_version" : 5,
 	"action_sets" : [
 		{
 			"name" : "/actions/FRONTEND",
@@ -2525,6 +2525,11 @@
 			"type" : "boolean"
 		},
 		{
+			"name" : "/actions/PhotoModeMvCam/in/vr_move",
+			"requirement" : "optional",
+			"type" : "boolean"
+		},
+		{
 			"name" : "/actions/PhotoModeMvCam/out/left_vibration",
 			"requirement" : "optional",
 			"type" : "vibration"
@@ -2675,6 +2680,11 @@
 			"type" : "boolean"
 		},
 		{
+			"name" : "/actions/BuildMenuSelectionMode_Right/in/select",
+			"requirement" : "optional",
+			"type" : "boolean"
+		},
+		{
 			"name" : "/actions/BuildMenuSelectionMode_Right/out/left_vibration",
 			"requirement" : "optional",
 			"type" : "vibration"
@@ -2701,6 +2711,11 @@
 		},
 		{
 			"name" : "/actions/BuildMenuSelectionMode_Left/in/Unbound",
+			"requirement" : "optional",
+			"type" : "boolean"
+		},
+		{
+			"name" : "/actions/BuildMenuSelectionMode_Left/in/select",
 			"requirement" : "optional",
 			"type" : "boolean"
 		},
@@ -2845,6 +2860,11 @@
 			"type" : "boolean"
 		},
 		{
+			"name" : "/actions/BuildMenuPlacementMode_Right/in/select",
+			"requirement" : "optional",
+			"type" : "boolean"
+		},
+		{
 			"name" : "/actions/BuildMenuPlacementMode_Right/out/left_vibration",
 			"requirement" : "optional",
 			"type" : "vibration"
@@ -2871,6 +2891,11 @@
 		},
 		{
 			"name" : "/actions/BuildMenuPlacementMode_Left/in/Unbound",
+			"requirement" : "optional",
+			"type" : "boolean"
+		},
+		{
+			"name" : "/actions/BuildMenuPlacementMode_Left/in/select",
 			"requirement" : "optional",
 			"type" : "boolean"
 		},
@@ -3340,6 +3365,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Smooth Turn Right",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Snap Turn Left",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Snap Turn Right",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Point to Move",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Take Screenshot",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Exit Photo Mode",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Unbound",
@@ -3362,10 +3388,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Back",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Toggle Edit/Build",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Unbound",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Confirm (Quick Menu)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Select Part",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Back",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Toggle Edit/Build",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Unbound",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Confirm (Quick Menu)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Place Building Part",
 			"/actions/BuildMenuPlacementMode/in/back" : "Back",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Toggle Part Previews",
@@ -3390,10 +3418,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Back",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Toggle Edit/Build",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Unbound",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Confirm (Quick Menu)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Place Building Part",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Back",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Toggle Edit/Build",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Unbound"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Unbound",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Confirm (Quick Menu)"
 		},
 		{
 			"language_tag" : "nl_NL",
@@ -3849,6 +3879,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Soepel naar rechts draaien",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Snel naar links draaien",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Snel naar rechts draaien",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Aanwijzen om te bewegen",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Screenshot maken",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Fotomodule afsluiten",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Vrij",
@@ -3871,10 +3902,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Terug",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Bewerken/Constructie",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Vrij",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Bevestigen (snelmenu)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Onderdeel selecteren",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Terug",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Bewerken/Constructie",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Vrij",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Bevestigen (snelmenu)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Bouwonderdeel plaatsen",
 			"/actions/BuildMenuPlacementMode/in/back" : "Terug",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Voorbeeldweergave onderdelen aan/uit",
@@ -3899,10 +3932,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Terug",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Bewerken/Constructie",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Vrij",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Bevestigen (snelmenu)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Bouwonderdeel plaatsen",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Terug",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Bewerken/Constructie",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Vrij"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Vrij",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Bevestigen (snelmenu)"
 		},
 		{
 			"language_tag" : "fr_FR",
@@ -4358,6 +4393,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Virage souple à droite",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Virage sec à gauche",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Virage sec à droite",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Pointer pour se déplacer",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Prendre capture d'écran",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Quitter le mode photo",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Libéré",
@@ -4380,10 +4416,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Retour",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Mode Modifier/Construire",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Libéré",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Confirmer (Menu rapide)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Sélectionner l'élément",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Retour",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Mode Modifier/Construire",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Libéré",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Confirmer (Menu rapide)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Placer l'élément de construction",
 			"/actions/BuildMenuPlacementMode/in/back" : "Retour",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Activer/désactiver la prévisualisation d'élément",
@@ -4408,10 +4446,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Retour",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Mode Modifier/Construire",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Libéré",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Confirmer (Menu rapide)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Placer l'élément de construction",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Retour",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Mode Modifier/Construire",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Libéré"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Libéré",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Confirmer (Menu rapide)"
 		},
 		{
 			"language_tag" : "de_DE",
@@ -4867,6 +4907,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Flüssiges Drehen nach rechts",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Rasterdrehung nach links",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Rasterdrehung nach rechts",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Deuten zum Bewegen",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Screenshot aufnehmen",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Fotomodus verlassen",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Entfesselt",
@@ -4889,10 +4930,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Zurück",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Bearbeiten/Bauen umschalten",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Entfesselt",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Bestätigen (Schnellmenü)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Teil auswählen",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Zurück",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Bearbeiten/Bauen umschalten",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Entfesselt",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Bestätigen (Schnellmenü)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Gebäudeteile platzieren",
 			"/actions/BuildMenuPlacementMode/in/back" : "Zurück",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Teilevorschau umschalten",
@@ -4917,10 +4960,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Zurück",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Bearbeiten/Bauen umschalten",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Entfesselt",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Bestätigen (Schnellmenü)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Gebäudeteile platzieren",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Zurück",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Bearbeiten/Bauen umschalten",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Entfesselt"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Entfesselt",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Bestätigen (Schnellmenü)"
 		},
 		{
 			"language_tag" : "it_IT",
@@ -5185,7 +5230,7 @@
 			"/actions/ShipControls/in/ship_targetnext" : "Bersaglio successivo",
 			"/actions/ShipControls/in/ship_targetprev" : "Bersaglio precedente",
 			"/actions/ShipControls/in/ship_targetcur" : "Bersaglio più vicino",
-			"/actions/ShipControls/in/cycle_power" : "Cambia energia nave",
+			"/actions/ShipControls/in/cycle_power" : "Ciclo energia nave",
 			"/actions/ShipControls/in/zoom" : "Ingrandisci",
 			"/actions/ShipControls/in/pause_menu" : "Scoperte/Opzioni",
 			"/actions/ShipControls/in/chat_toggle" : "Attiva/Disattiva chat testuale",
@@ -5376,6 +5421,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Virata fluida destra",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Virata brusca sinistra",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Virata brusca destra",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Indica per spostarti",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Scatta un'istantanea della schermata",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Esci dalla modalità Foto",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Liberazione",
@@ -5398,10 +5444,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Indietro",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Alterna Modifica/Costruisci",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Liberazione",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Conferma (menu rapido)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Seleziona parte",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Indietro",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Alterna Modifica/Costruisci",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Liberazione",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Conferma (menu rapido)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Posiziona parte di costruzione",
 			"/actions/BuildMenuPlacementMode/in/back" : "Indietro",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Attiva/Disattiva anteprima parti",
@@ -5426,10 +5474,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Indietro",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Alterna Modifica/Costruisci",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Liberazione",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Conferma (menu rapido)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Posiziona parte di costruzione",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Indietro",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Alterna Modifica/Costruisci",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Liberazione"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Liberazione",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Conferma (menu rapido)"
 		},
 		{
 			"language_tag" : "ja_JP",
@@ -5885,6 +5935,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "スムーズターン右",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "スナップターン左",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "スナップターン右",
+			"/actions/PhotoModeMvCam/in/vr_move" : "ポイント方向へ前進",
 			"/actions/PhotoModeMvCam_Right/in/select" : "スクリーンショットを撮影",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "フォトモード終了",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "解かれる呪縛",
@@ -5907,10 +5958,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "戻る",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "編集/建築の切り替え",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "解かれる呪縛",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "決定（クイックメニュー）",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "パーツを選択する",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "戻る",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "編集/建築の切り替え",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "解かれる呪縛",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "決定（クイックメニュー）",
 			"/actions/BuildMenuPlacementMode/in/fire" : "建築パーツを配置する",
 			"/actions/BuildMenuPlacementMode/in/back" : "戻る",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "パーツプレビューの切り替え",
@@ -5935,10 +5988,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "戻る",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "編集/建築の切り替え",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "解かれる呪縛",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "決定（クイックメニュー）",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "建築パーツを配置する",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "戻る",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "編集/建築の切り替え",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "解かれる呪縛"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "解かれる呪縛",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "決定（クイックメニュー）"
 		},
 		{
 			"language_tag" : "ko_KR",
@@ -6394,6 +6449,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "오른쪽으로 부드럽게 회전",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "왼쪽으로 급회전",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "오른쪽으로 급회전",
+			"/actions/PhotoModeMvCam/in/vr_move" : "가리켜서 이동",
 			"/actions/PhotoModeMvCam_Right/in/select" : "스크린샷 촬영",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "사진 모드에서 나가기",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "할당 해제",
@@ -6416,10 +6472,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "뒤로",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "편집/건설 토글",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "할당 해제",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "확인 (빠른 메뉴)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "부품 선택",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "뒤로",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "편집/건설 토글",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "할당 해제",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "확인 (빠른 메뉴)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "건물 부품 사용",
 			"/actions/BuildMenuPlacementMode/in/back" : "뒤로",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "부품 미리보기 토글",
@@ -6444,10 +6502,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "뒤로",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "편집/건설 토글",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "할당 해제",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "확인 (빠른 메뉴)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "건물 부품 사용",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "뒤로",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "편집/건설 토글",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "할당 해제"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "할당 해제",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "확인 (빠른 메뉴)"
 		},
 		{
 			"language_tag" : "pl_PL",
@@ -6903,6 +6963,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Płynny zwrot w prawo",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Ostry zwrot w lewo",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Ostry zwrot w prawo",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Wskaż, by się poruszyć",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Zrób zrzut ekranu",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Opuść tryb foto",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Wolność",
@@ -6925,10 +6986,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Wstecz",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Edycja/budowa",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Wolność",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Potwierdź (szybkie menu)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Wybierz element",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Wstecz",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Edycja/budowa",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Wolność",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Potwierdź (szybkie menu)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Umieść część budynku",
 			"/actions/BuildMenuPlacementMode/in/back" : "Wstecz",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Przełącz podgląd elementów",
@@ -6953,10 +7016,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Wstecz",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Edycja/budowa",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Wolność",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Potwierdź (szybkie menu)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Umieść część budynku",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Wstecz",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Edycja/budowa",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Wolność"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Wolność",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Potwierdź (szybkie menu)"
 		},
 		{
 			"language_tag" : "pt_PT",
@@ -7412,6 +7477,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Virar suave direita",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Virar brusco esquerda",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Virar brusco direita",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Apontar para mover",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Fazer captura de ecrã",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Sair do modo foto",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Libertação",
@@ -7434,10 +7500,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Retroceder",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Alternar Editar/Construir",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Libertação",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Confirmar (Menu Rápido)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Selecionar Componente",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Retroceder",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Alternar Editar/Construir",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Libertação",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Confirmar (Menu Rápido)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Colocar Peça de Construção",
 			"/actions/BuildMenuPlacementMode/in/back" : "Retroceder",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Ativar/Desativar Pré-visualização do Componente",
@@ -7462,10 +7530,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Retroceder",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Alternar Editar/Construir",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Libertação",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Confirmar (Menu Rápido)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Colocar Peça de Construção",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Retroceder",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Alternar Editar/Construir",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Libertação"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Libertação",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Confirmar (Menu Rápido)"
 		},
 		{
 			"language_tag" : "pt_BR",
@@ -7921,6 +7991,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Virada suave para a direita",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Virada brusca para a esquerda",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Virada brusca para a direita",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Apontar para mover",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Capturar tela",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Sair do modo de foto",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Não associado",
@@ -7943,10 +8014,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Voltar",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Alternar edit./constr.",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Não associado",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Confirmar (menu rápido)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Selecionar Peça",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Voltar",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Alternar edit./constr.",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Não associado",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Confirmar (menu rápido)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Posicionar peça de construção",
 			"/actions/BuildMenuPlacementMode/in/back" : "Voltar",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Alternar Visão das Peças",
@@ -7971,10 +8044,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Voltar",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Alternar edit./constr.",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Não associado",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Confirmar (menu rápido)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Posicionar peça de construção",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Voltar",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Alternar edit./constr.",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Não associado"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Não associado",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Confirmar (menu rápido)"
 		},
 		{
 			"language_tag" : "ru_RU",
@@ -8430,6 +8505,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Плавный поворот вправо",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Резкий поворот влево",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Резкий поворот вправо",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Перемещение за указателем",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Сделать снимок экрана",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Выйти из фоторежима",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Свобода",
@@ -8452,10 +8528,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Назад",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Переключить режим редактирования/строительства",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Свобода",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Подтвердить (быстрое меню)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Выбрать деталь",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Назад",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Переключить режим редактирования/строительства",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Свобода",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Подтвердить (быстрое меню)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Разместить строительный элемент",
 			"/actions/BuildMenuPlacementMode/in/back" : "Назад",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Переключить предпросмотр деталей",
@@ -8480,10 +8558,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Назад",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Переключить режим редактирования/строительства",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Свобода",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Подтвердить (быстрое меню)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Разместить строительный элемент",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Назад",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Переключить режим редактирования/строительства",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Свобода"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Свобода",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Подтвердить (быстрое меню)"
 		},
 		{
 			"language_tag" : "es_ES",
@@ -8939,6 +9019,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "Giro a la derecha suave",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "Giro a la izquierda brusco",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "Giro a la derecha brusco",
+			"/actions/PhotoModeMvCam/in/vr_move" : "Apuntar para mover",
 			"/actions/PhotoModeMvCam_Right/in/select" : "Hacer captura de pantalla",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "Salir del modo foto",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "Desvinculación",
@@ -8961,10 +9042,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "Atrás",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "Editar/construir",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "Desvinculación",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "Confirmar (Menú rápido)",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "Seleccionar pieza",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "Atrás",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "Editar/construir",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "Desvinculación",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "Confirmar (Menú rápido)",
 			"/actions/BuildMenuPlacementMode/in/fire" : "Colocar pieza de construcción",
 			"/actions/BuildMenuPlacementMode/in/back" : "Atrás",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "Cambiar vista previa de la pieza",
@@ -8989,10 +9072,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "Atrás",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "Editar/construir",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "Desvinculación",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "Confirmar (Menú rápido)",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "Colocar pieza de construcción",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "Atrás",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "Editar/construir",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Desvinculación"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "Desvinculación",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "Confirmar (Menú rápido)"
 		},
 		{
 			"language_tag" : "zh_CN",
@@ -9448,6 +9533,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "平穩右轉",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "急左轉",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "急右轉",
+			"/actions/PhotoModeMvCam/in/vr_move" : "移至指向位置",
 			"/actions/PhotoModeMvCam_Right/in/select" : "拍攝螢幕截圖",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "離開相片模式",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "無所拘束",
@@ -9470,10 +9556,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "返回",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "切換編輯/建造",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "無所拘束",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "確認（快捷選單）",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "選擇零件",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "返回",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "切換編輯/建造",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "無所拘束",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "確認（快捷選單）",
 			"/actions/BuildMenuPlacementMode/in/fire" : "放置建造零件",
 			"/actions/BuildMenuPlacementMode/in/back" : "返回",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "切換零件預覽",
@@ -9498,10 +9586,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "返回",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "切換編輯/建造",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "無所拘束",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "確認（快捷選單）",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "放置建造零件",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "返回",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "切換編輯/建造",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "無所拘束"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "無所拘束",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "確認（快捷選單）"
 		},
 		{
 			"language_tag" : "cn_CN",
@@ -9957,6 +10047,7 @@
 			"/actions/PhotoModeMvCam/in/vr_turnright" : "平稳右转",
 			"/actions/PhotoModeMvCam/in/vr_snapleft" : "向左急转",
 			"/actions/PhotoModeMvCam/in/vr_snapright" : "向右急转",
+			"/actions/PhotoModeMvCam/in/vr_move" : "点击移动",
 			"/actions/PhotoModeMvCam_Right/in/select" : "屏幕截图",
 			"/actions/PhotoModeMvCam_Right/in/exit" : "退出照片模式",
 			"/actions/PhotoModeMvCam_Right/in/Unbound" : "解除",
@@ -9979,10 +10070,12 @@
 			"/actions/BuildMenuSelectionMode_Right/in/back" : "后退",
 			"/actions/BuildMenuSelectionMode_Right/in/build_SelectionMode" : "切换编辑/建造",
 			"/actions/BuildMenuSelectionMode_Right/in/Unbound" : "解除",
+			"/actions/BuildMenuSelectionMode_Right/in/select" : "确认（快捷菜单）",
 			"/actions/BuildMenuSelectionMode_Left/in/build_pickup" : "选择部件",
 			"/actions/BuildMenuSelectionMode_Left/in/back" : "后退",
 			"/actions/BuildMenuSelectionMode_Left/in/build_SelectionMode" : "切换编辑/建造",
 			"/actions/BuildMenuSelectionMode_Left/in/Unbound" : "解除",
+			"/actions/BuildMenuSelectionMode_Left/in/select" : "确认（快捷菜单）",
 			"/actions/BuildMenuPlacementMode/in/fire" : "放置建筑配件",
 			"/actions/BuildMenuPlacementMode/in/back" : "后退",
 			"/actions/BuildMenuPlacementMode/in/build_togglevisions" : "切换部件预览",
@@ -10007,10 +10100,12 @@
 			"/actions/BuildMenuPlacementMode_Right/in/back" : "后退",
 			"/actions/BuildMenuPlacementMode_Right/in/build_SelectionMode" : "切换编辑/建造",
 			"/actions/BuildMenuPlacementMode_Right/in/Unbound" : "解除",
+			"/actions/BuildMenuPlacementMode_Right/in/select" : "确认（快捷菜单）",
 			"/actions/BuildMenuPlacementMode_Left/in/fire" : "放置建筑配件",
 			"/actions/BuildMenuPlacementMode_Left/in/back" : "后退",
 			"/actions/BuildMenuPlacementMode_Left/in/build_SelectionMode" : "切换编辑/建造",
-			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "解除"
+			"/actions/BuildMenuPlacementMode_Left/in/Unbound" : "解除",
+			"/actions/BuildMenuPlacementMode_Left/in/select" : "确认（快捷菜单）"
 		}
 	]
 }

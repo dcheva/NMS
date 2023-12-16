@@ -1,5 +1,5 @@
 {
-   "action_manifest_version" : 3,
+   "action_manifest_version" : 5,
    "alias_info" : {},
    "bindings" : {
       "/actions/buildmenuanaloguerotate" : {
@@ -252,6 +252,15 @@
                },
                "mode" : "trigger",
                "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_left/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -270,6 +279,15 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuplacementmode_right/in/fire"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_right/in/select"
                   }
                },
                "mode" : "trigger",
@@ -385,6 +403,15 @@
                },
                "mode" : "trigger",
                "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_left/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -403,6 +430,15 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/buildmenuselectionmode_right/in/build_pickup"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_right/in/select"
                   }
                },
                "mode" : "trigger",

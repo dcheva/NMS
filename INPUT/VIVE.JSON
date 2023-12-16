@@ -1,5 +1,5 @@
 {
-   "action_manifest_version" : 3,
+   "action_manifest_version" : 5,
    "alias_info" : {},
    "bindings" : {
       "/actions/buildmenuanaloguerotate" : {
@@ -249,6 +249,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_left/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -280,6 +289,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_right/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
             }
          ]
       },
@@ -366,6 +384,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_left/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -397,6 +424,15 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_right/in/select"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
             }
          ]
       },
@@ -1096,7 +1132,7 @@
                      "output" : "/actions/onfootcontrols/in/placemarker"
                   },
                   "west" : {
-                     "output" : "/actions/onfootcontrols/in/tagmarker"
+                     "output" : "/actions/onfootcontrols/in/bin_prevmode"
                   }
                },
                "mode" : "dpad",
@@ -1189,15 +1225,6 @@
             },
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/onfootcontrols/in/bin_prevmode"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
                   "north" : {
                      "output" : "/actions/onfootcontrols/in/swap_weapon_v"
                   }
@@ -1210,6 +1237,9 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/onfootcontrols/in/tagmarker"
+                  },
                   "east" : {
                      "output" : "/actions/onfootcontrols/in/alt_up"
                   },

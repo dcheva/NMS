@@ -1,152 +1,8 @@
 {
-   "action_manifest_version" : 3,
+   "action_manifest_version" : 5,
    "alias_info" : {},
    "bindings" : {
-      "/actions/buildmenuanaloguerotate" : {
-         "sources" : [
-            {
-               "inputs" : {
-                  "east" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arotright"
-                  },
-                  "west" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arotleft"
-                  }
-               },
-               "mode" : "dpad",
-               "parameters" : {
-                  "deadzone_pct" : "50",
-                  "overlap_pct" : "0",
-                  "sub_mode" : "click"
-               },
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_scaleup"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/vr_recentre1"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/application_menu"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/vr_recentre2"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/application_menu"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_scaledown"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/select"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/vr_recentre1"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/application_menu"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/vr_recentre2"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/application_menu"
-            },
-            {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/left/input/system"
-            },
-            {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/right/input/system"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arot1"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arot2"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "position" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/camera"
-                  }
-               },
-               "mode" : "joystick",
-               "parameters" : {
-                  "deadzone_pct" : "30"
-               },
-               "path" : "/user/hand/right/input/joystick"
-            },
-            {
-               "inputs" : {
-                  "east" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arot_right_z"
-                  },
-                  "west" : {
-                     "output" : "/actions/buildmenuanaloguerotate/in/build_arot_left_z"
-                  }
-               },
-               "mode" : "dpad",
-               "parameters" : {
-                  "overlap_pct" : "0",
-                  "sub_mode" : "touch"
-               },
-               "path" : "/user/hand/left/input/joystick"
-            },
-            {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/right/input/trackpad"
-            }
-         ]
-      },
+      
       "/actions/buildmenuplacementmode" : {
          "sources" : [
             {
@@ -256,7 +112,7 @@
                      "output" : "/actions/buildmenuplacementmode_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -265,7 +121,16 @@
                      "output" : "/actions/buildmenuplacementmode_left/in/fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_left/in/select"
+                  }
+               },
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -278,7 +143,7 @@
                      "output" : "/actions/buildmenuplacementmode_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -287,7 +152,16 @@
                      "output" : "/actions/buildmenuplacementmode_right/in/fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuplacementmode_right/in/select"
+                  }
+               },
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -360,7 +234,7 @@
                      "output" : "/actions/buildmenuselectionmode_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -369,7 +243,16 @@
                      "output" : "/actions/buildmenuselectionmode_left/in/build_pickup"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_left/in/select"
+                  }
+               },
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -382,7 +265,7 @@
                      "output" : "/actions/buildmenuselectionmode_right/in/build_pickup"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -391,8 +274,17 @@
                      "output" : "/actions/buildmenuselectionmode_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buildmenuselectionmode_right/in/select"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
             }
          ]
       },
@@ -646,7 +538,7 @@
                      "output" : "/actions/frontend_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -655,7 +547,7 @@
                      "output" : "/actions/frontend_left/in/gamemode_titlestart"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -664,7 +556,7 @@
                      "output" : "/actions/frontend_left/in/menu_altselect"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -673,7 +565,7 @@
                      "output" : "/actions/frontend_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -682,7 +574,7 @@
                      "output" : "/actions/frontend_left/in/menu_canceldelete"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -691,7 +583,7 @@
                      "output" : "/actions/frontend_left/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -722,7 +614,7 @@
                      "output" : "/actions/frontend_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -731,7 +623,7 @@
                      "output" : "/actions/frontend_right/in/gamemode_titlestart"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -758,7 +650,7 @@
                      "output" : "/actions/frontend_right/in/menu_altselect"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -767,7 +659,7 @@
                      "output" : "/actions/frontend_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -776,7 +668,7 @@
                      "output" : "/actions/frontend_right/in/menu_canceldelete"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -785,7 +677,7 @@
                      "output" : "/actions/frontend_right/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -935,7 +827,7 @@
                      "output" : "/actions/galacticmap_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -944,7 +836,7 @@
                      "output" : "/actions/galacticmap_left/in/boost"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -975,7 +867,7 @@
                      "output" : "/actions/galacticmap_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -984,7 +876,7 @@
                      "output" : "/actions/galacticmap_right/in/boost"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1261,7 +1153,7 @@
                      "output" : "/actions/onfootcontrols_left/in/alt_fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1270,7 +1162,7 @@
                      "output" : "/actions/onfootcontrols_left/in/fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1279,7 +1171,7 @@
                      "output" : "/actions/onfootcontrols_left/in/tagmarker"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1288,7 +1180,7 @@
                      "output" : "/actions/onfootcontrols_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1351,7 +1243,7 @@
                      "output" : "/actions/onfootcontrols_left/in/terrain_edit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -1364,7 +1256,7 @@
                      "output" : "/actions/onfootcontrols_right/in/alt_fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1373,7 +1265,7 @@
                      "output" : "/actions/onfootcontrols_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1382,7 +1274,7 @@
                      "output" : "/actions/onfootcontrols_right/in/fire"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1391,7 +1283,7 @@
                      "output" : "/actions/onfootcontrols_right/in/tagmarker"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1454,7 +1346,7 @@
                      "output" : "/actions/onfootcontrols_right/in/terrain_edit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -1544,7 +1436,7 @@
                      "output" : "/actions/onfootquickmenu_left/in/terrain_switch"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1553,7 +1445,7 @@
                      "output" : "/actions/onfootquickmenu_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -1566,7 +1458,7 @@
                      "output" : "/actions/onfootquickmenu_right/in/terrain_switch"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1575,7 +1467,7 @@
                      "output" : "/actions/onfootquickmenu_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -1730,7 +1622,7 @@
                      "output" : "/actions/photomodemenu_left/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1739,7 +1631,7 @@
                      "output" : "/actions/photomodemenu_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -1752,7 +1644,7 @@
                      "output" : "/actions/photomodemenu_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1761,7 +1653,7 @@
                      "output" : "/actions/photomodemenu_right/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -1948,7 +1840,7 @@
                      "output" : "/actions/photomodemvcam_left/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -1957,7 +1849,7 @@
                      "output" : "/actions/photomodemvcam_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -1970,7 +1862,7 @@
                      "output" : "/actions/photomodemvcam_right/in/exit"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -1979,7 +1871,7 @@
                      "output" : "/actions/photomodemvcam_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -2191,7 +2083,7 @@
                      "output" : "/actions/shipcontrols_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -2240,7 +2132,7 @@
                      "output" : "/actions/shipcontrols_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -2285,7 +2177,7 @@
                      "output" : "/actions/shipquickmenu_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -2294,7 +2186,7 @@
                      "output" : "/actions/shipquickmenu_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -2307,7 +2199,7 @@
                      "output" : "/actions/shipquickmenu_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -2316,7 +2208,7 @@
                      "output" : "/actions/shipquickmenu_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -2439,24 +2331,6 @@
          "sources" : [
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/vehiclemode/in/forward2"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/vehiclemode/in/reverse"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
                   "east" : {
                      "output" : "/actions/vehiclemode/in/alt_fire"
                   },
@@ -2568,6 +2442,24 @@
                "inputs" : {},
                "mode" : "none",
                "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vehiclemode/in/forward3"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vehiclemode/in/reverse2"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -2645,7 +2537,7 @@
                      "output" : "/actions/vehiclequickmenu_left/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -2654,7 +2546,7 @@
                      "output" : "/actions/vehiclequickmenu_left/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             }
          ]
@@ -2667,7 +2559,7 @@
                      "output" : "/actions/vehiclequickmenu_right/in/back"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -2676,7 +2568,7 @@
                      "output" : "/actions/vehiclequickmenu_right/in/select"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
