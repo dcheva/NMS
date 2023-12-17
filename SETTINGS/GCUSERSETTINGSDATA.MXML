@@ -7,7 +7,7 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="0" />
+	<Property name="MusicVolume" value="80" />
 	<Property name="SfxVolume" value="100" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
@@ -2140,8 +2140,8 @@
 	<Property name="CrossPlatform" value="true" />
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
-	<Property name="LastSeenCommunityMission" value="81" />
-	<Property name="LastSeenCommunityMissionTier" value="1" />
+	<Property name="LastSeenCommunityMission" value="82" />
+	<Property name="LastSeenCommunityMissionTier" value="5" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
