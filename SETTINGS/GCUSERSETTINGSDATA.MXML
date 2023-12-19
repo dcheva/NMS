@@ -497,6 +497,7 @@
 		<Property name="SeenProducts" value="EXPD_BACKPACK05" />
 		<Property name="SeenProducts" value="S_ANTENNA0" />
 		<Property name="SeenProducts" value="U_SWITCHWALL" />
+		<Property name="SeenProducts" value="UP_GROUND_SHIEL" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD6" />
 		<Property name="SeenProducts" value="U_CANNON1" />
 		<Property name="SeenProducts" value="ACCESS2" />
@@ -1442,6 +1443,7 @@
 		<Property name="SeenProducts" value="BLD_BUI_HAND" />
 		<Property name="SeenProducts" value="FRE_EXT_W_STA" />
 		<Property name="SeenProducts" value="T_ROOF_IC" />
+		<Property name="SeenProducts" value="€€2S­½#30605" />
 		<Property name="SeenProducts" value="S_TRIFLOOR" />
 		<Property name="SeenProducts" value="FREI_TRAIL_GRAV" />
 		<Property name="SeenProducts" value="EXPD_POSTER10C" />
@@ -1639,7 +1641,6 @@
 		<Property name="SeenProducts" value="BASE_HOUDINI3" />
 		<Property name="SeenProducts" value="JETS_FUSION" />
 		<Property name="SeenProducts" value="FOOD_P_GLITCH" />
-		<Property name="SeenProducts" value="€Sø’þ#44280" />
 		<Property name="SeenProducts" value="STATUE_GEK_G" />
 		<Property name="SeenProducts" value="F_ARCH" />
 		<Property name="SeenProducts" value="CONTAINER1" />
@@ -1715,7 +1716,6 @@
 		<Property name="SeenProducts" value="STAFF_CORE6" />
 		<Property name="SeenProducts" value="HYDRALIC" />
 		<Property name="SeenProducts" value="S10_ROBO_HEAD" />
-		<Property name="SeenProducts" value="€Sø’þ#80804" />
 		<Property name="SeenProducts" value="BASE_GRASS7" />
 		<Property name="SeenProducts" value="SPEC_DECAL08" />
 		<Property name="SeenProducts" value="BUILDDECALNUM8" />
@@ -1823,6 +1823,7 @@
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_COMBAT_3" />
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_COMBAT_2" />
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_TRADE_6" />
+		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_TRADE_2" />
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_SURVIVAL_2" />
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_SPACE_STATION" />
 		<Property name="SeenWikiTopics" value="UI_GUIDE_TOPIC_EXPLORATION_4" />
@@ -2171,14 +2172,14 @@
 	<Property name="EnableLargeLobbies" value="true" />
 	<Property name="FireteamSessionCount" value="3" />
 	<Property name="HeadsetVibrationStrength" value="10" />
-	<Property name="VibrationStrength" value="10" />
-	<Property name="CamerShakeStrength" value="10" />
+	<Property name="VibrationStrength" value="0" />
+	<Property name="CamerShakeStrength" value="0" />
 	<Property name="TriggerFeedbackStrength" value="10" />
 	<Property name="SpaceCombatFollowMode" value="Hold" />
 	<Property name="UpgradedUsers">
 		<Property name="UpgradedUsers" value="2535415199201437_Win" />
 	</Property>
-	<Property name="AllowWhiteScreenTransitions" value="true" />
+	<Property name="AllowWhiteScreenTransitions" value="false" />
 	<Property name="AccessibleText" value="false" />
 	<Property name="AutoScanDiscoveries" value="false" />
 	<Property name="SprintScanSwap" value="false" />
