@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="80" />
-	<Property name="SfxVolume" value="80" />
+	<Property name="MusicVolume" value="0" />
+	<Property name="SfxVolume" value="10" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -640,6 +640,7 @@
 		<Property name="SeenProducts" value="NOISEBOX" />
 		<Property name="SeenProducts" value="S_RUG0" />
 		<Property name="SeenProducts" value="S10_PART3" />
+		<Property name="SeenProducts" value="SALVAGE_TECHMT3" />
 		<Property name="SeenProducts" value="U_EXO_ENG4" />
 		<Property name="SeenProducts" value="FLAG3" />
 		<Property name="SeenProducts" value="BLD_CRYS_SENT0" />
@@ -1000,6 +1001,7 @@
 		<Property name="SeenProducts" value="ILLEGAL_PROD5" />
 		<Property name="SeenProducts" value="T_RAMP_Q_TOP" />
 		<Property name="SeenProducts" value="U_HAZARDX" />
+		<Property name="SeenProducts" value="S10_SOUL" />
 		<Property name="SeenProducts" value="AM_HOUSING" />
 		<Property name="SeenProducts" value="EXPD_BANNER11" />
 		<Property name="SeenProducts" value="STAFF_POLE2" />
@@ -1158,6 +1160,7 @@
 		<Property name="SeenProducts" value="EXPD_POSTER10A" />
 		<Property name="SeenProducts" value="S_WALL_WINDOW" />
 		<Property name="SeenProducts" value="CRATELRARE" />
+		<Property name="SeenProducts" value="€ˆú[¯C#27186" />
 		<Property name="SeenProducts" value="FREIGHT_WHITE" />
 		<Property name="SeenProducts" value="STATUE_BLOB_S" />
 		<Property name="SeenProducts" value="U_EXOGUN1" />
@@ -1187,6 +1190,7 @@
 		<Property name="SeenProducts" value="TECH_COMP" />
 		<Property name="SeenProducts" value="U_RAIL3" />
 		<Property name="SeenProducts" value="BANNER_QIT" />
+		<Property name="SeenProducts" value="SALVAGE_TECHMT4" />
 		<Property name="SeenProducts" value="WALLSCREEN" />
 		<Property name="SeenProducts" value="F_ROOF2" />
 		<Property name="SeenProducts" value="U_SMG3" />
