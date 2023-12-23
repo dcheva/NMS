@@ -735,6 +735,7 @@
 		<Property name="SeenProducts" value="SPEC_FIREWORK06" />
 		<Property name="SeenProducts" value="S_CHEV_WIN0" />
 		<Property name="SeenProducts" value="S_ROOF_M_CAP" />
+		<Property name="SeenProducts" value="€ˆ¶XH#00889" />
 		<Property name="SeenProducts" value="ATLAS_SEED_1" />
 		<Property name="SeenProducts" value="BUILDSAVE" />
 		<Property name="SeenProducts" value="F_GDOOR" />
@@ -1160,7 +1161,6 @@
 		<Property name="SeenProducts" value="EXPD_POSTER10A" />
 		<Property name="SeenProducts" value="S_WALL_WINDOW" />
 		<Property name="SeenProducts" value="CRATELRARE" />
-		<Property name="SeenProducts" value="€ˆú[¯C#27186" />
 		<Property name="SeenProducts" value="FREIGHT_WHITE" />
 		<Property name="SeenProducts" value="STATUE_BLOB_S" />
 		<Property name="SeenProducts" value="U_EXOGUN1" />
@@ -1243,6 +1243,7 @@
 		<Property name="SeenProducts" value="U_CANNON2" />
 		<Property name="SeenProducts" value="FOOD_V_COW" />
 		<Property name="SeenProducts" value="ODD_EGG" />
+		<Property name="SeenProducts" value="€€€	¥#00000" />
 		<Property name="SeenProducts" value="BUILDDECALNUM0" />
 		<Property name="SeenProducts" value="TRA_COMMODITY2" />
 		<Property name="SeenProducts" value="S_WALL_WIN1" />
@@ -2152,8 +2153,8 @@
 	<Property name="CrossPlatform" value="true" />
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
-	<Property name="LastSeenCommunityMission" value="82" />
-	<Property name="LastSeenCommunityMissionTier" value="5" />
+	<Property name="LastSeenCommunityMission" value="83" />
+	<Property name="LastSeenCommunityMissionTier" value="0" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
