@@ -735,7 +735,6 @@
 		<Property name="SeenProducts" value="SPEC_FIREWORK06" />
 		<Property name="SeenProducts" value="S_CHEV_WIN0" />
 		<Property name="SeenProducts" value="S_ROOF_M_CAP" />
-		<Property name="SeenProducts" value="€ˆ¶XH#00889" />
 		<Property name="SeenProducts" value="ATLAS_SEED_1" />
 		<Property name="SeenProducts" value="BUILDSAVE" />
 		<Property name="SeenProducts" value="F_GDOOR" />
@@ -1243,7 +1242,6 @@
 		<Property name="SeenProducts" value="U_CANNON2" />
 		<Property name="SeenProducts" value="FOOD_V_COW" />
 		<Property name="SeenProducts" value="ODD_EGG" />
-		<Property name="SeenProducts" value="€€€	¥#00000" />
 		<Property name="SeenProducts" value="BUILDDECALNUM0" />
 		<Property name="SeenProducts" value="TRA_COMMODITY2" />
 		<Property name="SeenProducts" value="S_WALL_WIN1" />
@@ -1512,6 +1510,7 @@
 		<Property name="SeenProducts" value="BUILDGASHARVEST" />
 		<Property name="SeenProducts" value="BASE_SWAMP3" />
 		<Property name="SeenProducts" value="U_SHIELDBOOST4" />
+		<Property name="SeenProducts" value="€€¥X§ä#42222" />
 		<Property name="SeenProducts" value="STARCHART_B" />
 		<Property name="SeenProducts" value="BASE_RADPLANT02" />
 		<Property name="SeenProducts" value="HOLO_DISCO_0" />
@@ -1673,6 +1672,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_STORE9" />
 		<Property name="SeenProducts" value="S_CEMENTBAG" />
 		<Property name="SeenProducts" value="S_PALLET" />
+		<Property name="SeenProducts" value="PALLET" />
 		<Property name="SeenProducts" value="ACCESS1" />
 		<Property name="SeenProducts" value="BP_SALVAGE" />
 		<Property name="SeenProducts" value="U_SCANNER4" />
@@ -1795,6 +1795,7 @@
 		<Property name="SeenProducts" value="FOOD_P_ALL3" />
 		<Property name="SeenProducts" value="SPEC_VYK_ARMOUR" />
 		<Property name="SeenProducts" value="SALVAGE_TECHMT2" />
+		<Property name="SeenProducts" value="€€âG¥#46492" />
 		<Property name="SeenProducts" value="EXPD_TITLE05" />
 		<Property name="SeenProducts" value="U_SWITCHPROX" />
 		<Property name="SeenProducts" value="F_WALL_WINDOW" />
@@ -2154,7 +2155,7 @@
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
 	<Property name="LastSeenCommunityMission" value="83" />
-	<Property name="LastSeenCommunityMissionTier" value="0" />
+	<Property name="LastSeenCommunityMissionTier" value="1" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
