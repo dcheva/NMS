@@ -608,6 +608,7 @@
 		<Property name="SeenProducts" value="WAR_CURIO3" />
 		<Property name="SeenProducts" value="SHIP_RAINBOW" />
 		<Property name="SeenProducts" value="BASE_HOTPLANT02" />
+		<Property name="SeenProducts" value="HEATER" />
 		<Property name="SeenProducts" value="L_FLOOR_Q" />
 		<Property name="SeenProducts" value="STAFF_CORE5" />
 		<Property name="SeenProducts" value="S_WALLHANGING1" />
@@ -804,6 +805,7 @@
 		<Property name="SeenProducts" value="TRA_ENERGY2" />
 		<Property name="SeenProducts" value="BUI_HEAD_6" />
 		<Property name="SeenProducts" value="SPEC_VYK_LEGS" />
+		<Property name="SeenProducts" value="TITLE_SPOOKY2" />
 		<Property name="SeenProducts" value="S10_PART1A" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD1" />
 		<Property name="SeenProducts" value="BOBBLE_APOLLO" />
@@ -1510,7 +1512,6 @@
 		<Property name="SeenProducts" value="BUILDGASHARVEST" />
 		<Property name="SeenProducts" value="BASE_SWAMP3" />
 		<Property name="SeenProducts" value="U_SHIELDBOOST4" />
-		<Property name="SeenProducts" value="€€¥X§ä#42222" />
 		<Property name="SeenProducts" value="STARCHART_B" />
 		<Property name="SeenProducts" value="BASE_RADPLANT02" />
 		<Property name="SeenProducts" value="HOLO_DISCO_0" />
@@ -1550,6 +1551,7 @@
 		<Property name="SeenProducts" value="DRONE_SHARD" />
 		<Property name="SeenProducts" value="FRE_FACE_WINDOW" />
 		<Property name="SeenProducts" value="BUI_HEAD_9" />
+		<Property name="SeenProducts" value="ABAND_CRATE_M" />
 		<Property name="SeenProducts" value="DRAWS" />
 		<Property name="SeenProducts" value="F_CHEV_WALL" />
 		<Property name="SeenProducts" value="U_SWITCHBUTTON" />
@@ -1795,7 +1797,6 @@
 		<Property name="SeenProducts" value="FOOD_P_ALL3" />
 		<Property name="SeenProducts" value="SPEC_VYK_ARMOUR" />
 		<Property name="SeenProducts" value="SALVAGE_TECHMT2" />
-		<Property name="SeenProducts" value="€€âG¥#46492" />
 		<Property name="SeenProducts" value="EXPD_TITLE05" />
 		<Property name="SeenProducts" value="U_SWITCHPROX" />
 		<Property name="SeenProducts" value="F_WALL_WINDOW" />
