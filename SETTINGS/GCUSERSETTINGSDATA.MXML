@@ -2047,6 +2047,7 @@
 		<Property name="UnlockedSpecials" value="BUI_HEAD_13" />
 		<Property name="UnlockedSpecials" value="DECAL_JELLY" />
 		<Property name="UnlockedSpecials" value="FREI_TRAIL_YEL" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER11C" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_12" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_14" />
 		<Property name="UnlockedSpecials" value="S10_PART2" />
@@ -2105,7 +2106,9 @@
 		<Property name="UnlockedSpecials" value="S10_PART4" />
 		<Property name="UnlockedSpecials" value="JETS_CORRUPT" />
 		<Property name="UnlockedSpecials" value="FREI_TRAIL_RED" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER11B" />
 		<Property name="UnlockedSpecials" value="TWITCH_SHIP34" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER11A" />
 		<Property name="UnlockedSpecials" value="BANNER_QIT" />
 		<Property name="UnlockedSpecials" value="S_POSTER23" />
 		<Property name="UnlockedSpecials" value="BLD_MAPTUBE" />
@@ -2124,8 +2127,11 @@
 		<Property name="UnlockedSeasonRewards" value="JETS_CORRUPT" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL10" />
 		<Property name="UnlockedSeasonRewards" value="FREI_TRAIL_RED" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER11B" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER11A" />
 		<Property name="UnlockedSeasonRewards" value="JETS_ELECTRIC" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART5" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER11C" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART2" />
 		<Property name="UnlockedSeasonRewards" value="BLD_BUI_HAND" />
 		<Property name="UnlockedSeasonRewards" value="S10_PART1B" />
