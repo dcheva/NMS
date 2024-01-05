@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="50" />
-	<Property name="SfxVolume" value="70" />
+	<Property name="MusicVolume" value="75" />
+	<Property name="SfxVolume" value="100" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -693,6 +693,7 @@
 		<Property name="SeenProducts" value="T_ROOF_C" />
 		<Property name="SeenProducts" value="FRIG_BOOST_EXP" />
 		<Property name="SeenProducts" value="U_LASERX" />
+		<Property name="SeenProducts" value="€€âG¥#27383" />
 		<Property name="SeenProducts" value="S_SCISSORLIFT" />
 		<Property name="SeenProducts" value="WALLFLOORLADDER" />
 		<Property name="SeenProducts" value="DRONE_PART_E3" />
@@ -1212,6 +1213,7 @@
 		<Property name="SeenProducts" value="BLD_CRYS_SENT1" />
 		<Property name="SeenProducts" value="BUILDDECALVIS3" />
 		<Property name="SeenProducts" value="SCORCHEDPLANT" />
+		<Property name="SeenProducts" value="€‚$NÆè#24007" />
 		<Property name="SeenProducts" value="T_WALL_Q_H1" />
 		<Property name="SeenProducts" value="F_WALL_H" />
 		<Property name="SeenProducts" value="S_BURNER0" />
@@ -1354,8 +1356,8 @@
 		<Property name="SeenProducts" value="NPCWEAPONTERM" />
 		<Property name="SeenProducts" value="EXPD_SHIP09" />
 		<Property name="SeenProducts" value="MAINROOMCUBE_W" />
+		<Property name="SeenProducts" value="€€ÌˆA#78296" />
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
-		<Property name="SeenProducts" value="€€­9Â,#32700" />
 		<Property name="SeenProducts" value="S_CRATE0" />
 		<Property name="SeenProducts" value="S_BAR_H" />
 		<Property name="SeenProducts" value="MAINROOM_WATER" />
@@ -1982,6 +1984,7 @@
 		<Property name="UnlockedTitles" value="T_EXP8" />
 		<Property name="UnlockedTitles" value="T_FLEET3" />
 		<Property name="UnlockedTitles" value="T_JM_EXPLORE2" />
+		<Property name="UnlockedTitles" value="T_RAIDER1" />
 		<Property name="UnlockedTitles" value="T_EXP6" />
 		<Property name="UnlockedTitles" value="T_DRONEFRIEND" />
 		<Property name="UnlockedTitles" value="T_TRA5" />
@@ -2085,6 +2088,7 @@
 		<Property name="UnlockedSpecials" value="BUI_HEAD_9" />
 		<Property name="UnlockedSpecials" value="BLD_FIREPIT" />
 		<Property name="UnlockedSpecials" value="SPEC_VYK_LEGS" />
+		<Property name="UnlockedSpecials" value="JETS_FUSION" />
 		<Property name="UnlockedSpecials" value="S10_PART1A" />
 		<Property name="UnlockedSpecials" value="BUI_CLOTH_3" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_10" />
@@ -2180,7 +2184,7 @@
 		<Property name="UnlockedTwitchRewards" value="TWITCH_229" />
 	</Property>
 	<Property name="UnlockedPlatformRewards" />
-	<Property name="VoiceChat" value="true" />
+	<Property name="VoiceChat" value="false" />
 	<Property name="Multiplayer" value="true" />
 	<Property name="InstantUIInputs" value="false" />
 	<Property name="InstantUIDelete" value="true" />
