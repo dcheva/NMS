@@ -693,7 +693,6 @@
 		<Property name="SeenProducts" value="T_ROOF_C" />
 		<Property name="SeenProducts" value="FRIG_BOOST_EXP" />
 		<Property name="SeenProducts" value="U_LASERX" />
-		<Property name="SeenProducts" value="€€âG¥#27383" />
 		<Property name="SeenProducts" value="S_SCISSORLIFT" />
 		<Property name="SeenProducts" value="WALLFLOORLADDER" />
 		<Property name="SeenProducts" value="DRONE_PART_E3" />
@@ -1213,7 +1212,6 @@
 		<Property name="SeenProducts" value="BLD_CRYS_SENT1" />
 		<Property name="SeenProducts" value="BUILDDECALVIS3" />
 		<Property name="SeenProducts" value="SCORCHEDPLANT" />
-		<Property name="SeenProducts" value="€‚$NÆè#24007" />
 		<Property name="SeenProducts" value="T_WALL_Q_H1" />
 		<Property name="SeenProducts" value="F_WALL_H" />
 		<Property name="SeenProducts" value="S_BURNER0" />
@@ -1356,7 +1354,6 @@
 		<Property name="SeenProducts" value="NPCWEAPONTERM" />
 		<Property name="SeenProducts" value="EXPD_SHIP09" />
 		<Property name="SeenProducts" value="MAINROOMCUBE_W" />
-		<Property name="SeenProducts" value="€€ÌˆA#78296" />
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
 		<Property name="SeenProducts" value="S_CRATE0" />
 		<Property name="SeenProducts" value="S_BAR_H" />
@@ -2185,7 +2182,7 @@
 	</Property>
 	<Property name="UnlockedPlatformRewards" />
 	<Property name="VoiceChat" value="false" />
-	<Property name="Multiplayer" value="true" />
+	<Property name="Multiplayer" value="false" />
 	<Property name="InstantUIInputs" value="false" />
 	<Property name="InstantUIDelete" value="true" />
 	<Property name="SpeechToText" value="true" />
