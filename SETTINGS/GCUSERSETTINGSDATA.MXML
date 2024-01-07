@@ -579,7 +579,6 @@
 		<Property name="SeenProducts" value="SPEC_ROCKETHAT" />
 		<Property name="SeenProducts" value="S_POSTER6" />
 		<Property name="SeenProducts" value="BUILDRAMP" />
-		<Property name="SeenProducts" value="€€`@#00000" />
 		<Property name="SeenProducts" value="BASE_MEDPLANT02" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD7" />
 		<Property name="SeenProducts" value="UP_T_WATERJET" />
@@ -1355,7 +1354,6 @@
 		<Property name="SeenProducts" value="NPCWEAPONTERM" />
 		<Property name="SeenProducts" value="EXPD_SHIP09" />
 		<Property name="SeenProducts" value="MAINROOMCUBE_W" />
-		<Property name="SeenProducts" value="€€ÌˆA#78296" />
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
 		<Property name="SeenProducts" value="S_CRATE0" />
 		<Property name="SeenProducts" value="S_BAR_H" />
@@ -2184,7 +2182,7 @@
 	</Property>
 	<Property name="UnlockedPlatformRewards" />
 	<Property name="VoiceChat" value="false" />
-	<Property name="Multiplayer" value="false" />
+	<Property name="Multiplayer" value="true" />
 	<Property name="InstantUIInputs" value="false" />
 	<Property name="InstantUIDelete" value="true" />
 	<Property name="SpeechToText" value="true" />
