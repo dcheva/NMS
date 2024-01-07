@@ -1,4 +1,8 @@
 # NMS GitHub repo
+
 ## v.4.41
 ### Reinstalled (4.40 bad release)
 ### Started in Survival mode with items drops on death
+
+## v.4.47
+### Added C:\Users\%%USER%%\AppData\Local\Packages\HelloGames.NoMansSky_bs190hzg1sesy\SystemAppData wgs folder (x-box savegame?)
