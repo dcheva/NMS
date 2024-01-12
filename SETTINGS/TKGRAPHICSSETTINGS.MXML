@@ -10,11 +10,9 @@
 	<Property name="ResolutionWidth" value="1920" />
 	<Property name="ResolutionHeight" value="1080" />
 	<Property name="ResolutionScale" value="1.000000" />
-	<Property name="VsyncEx" value="Triple" />
+	<Property name="VsyncEx" value="On" />
 	<Property name="GraphicsDetail" value="TkGraphicsDetailPreset.xml">
-		<Property name="TextureQuality" value="TkGraphicsDetailTypes.xml">
-			<Property name="GraphicDetail" value="High" />
-		</Property>
+		<Property name="TextureQuality" value="TkGraphicsDetailTypes.xml" />
 		<Property name="AnimationQuality" value="TkGraphicsDetailTypes.xml" />
 		<Property name="ShadowQuality" value="TkGraphicsDetailTypes.xml" />
 		<Property name="PostProcessingEffects" value="TkGraphicsDetailTypes.xml" />
@@ -25,9 +23,9 @@
 		<Property name="BaseQuality" value="TkGraphicsDetailTypes.xml" />
 		<Property name="DynamicResScalingSettings" value="TkDynamicResScalingSettings.xml" />
 		<Property name="AmbientOcclusion" value="GTAO_Medium" />
-		<Property name="AntiAliasing" value="FFXSR2" />
+		<Property name="AnisotropyLevel" value="2" />
 	</Property>
-	<Property name="MotionBlurStrength" value="60.000000" />
+	<Property name="MotionBlurStrength" value="75.000000" />
 	<Property name="VignetteAndScanlines" value="true" />
 	<Property name="FoVOnFoot" value="100.000000" />
 	<Property name="FoVInShip" value="100.000000" />
