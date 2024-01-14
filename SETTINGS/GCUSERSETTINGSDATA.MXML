@@ -1903,6 +1903,7 @@
 		<Property name="UnlockedTitles" value="T_MECH" />
 		<Property name="UnlockedTitles" value="T_JM_SHIPS1" />
 		<Property name="UnlockedTitles" value="T_SHIP_FIGHT" />
+		<Property name="UnlockedTitles" value="T_REALITY4" />
 		<Property name="UnlockedTitles" value="T_JM_WORD2" />
 		<Property name="UnlockedTitles" value="T_SHIP_DROP" />
 		<Property name="UnlockedTitles" value="T_BUI3" />
@@ -1935,6 +1936,7 @@
 		<Property name="UnlockedTitles" value="T_TRA3" />
 		<Property name="UnlockedTitles" value="T_TRA7" />
 		<Property name="UnlockedTitles" value="T_PIR_STAND2" />
+		<Property name="UnlockedTitles" value="T_REALITY5" />
 		<Property name="UnlockedTitles" value="T_EXP7" />
 		<Property name="UnlockedTitles" value="T_SPOOKY1" />
 		<Property name="UnlockedTitles" value="T_DEATH8" />
@@ -1948,6 +1950,7 @@
 		<Property name="UnlockedTitles" value="T_BUI4" />
 		<Property name="UnlockedTitles" value="T_EXP_GUILD2" />
 		<Property name="UnlockedTitles" value="T_MS_PLANTS_4" />
+		<Property name="UnlockedTitles" value="T_REALITY8" />
 		<Property name="UnlockedTitles" value="T_JM_WALK3" />
 		<Property name="UnlockedTitles" value="T_FLEET1" />
 		<Property name="UnlockedTitles" value="T_MS_NANITES_8" />
@@ -1962,7 +1965,9 @@
 		<Property name="UnlockedTitles" value="T_MS_ENEMIES_6" />
 		<Property name="UnlockedTitles" value="T_TRA1" />
 		<Property name="UnlockedTitles" value="T_GOAL" />
+		<Property name="UnlockedTitles" value="T_REALITY9" />
 		<Property name="UnlockedTitles" value="T_JM_RARESCAN2" />
+		<Property name="UnlockedTitles" value="T_REALITY6" />
 		<Property name="UnlockedTitles" value="T_JM_MINSCAN1" />
 		<Property name="UnlockedTitles" value="T_DEATH7" />
 		<Property name="UnlockedTitles" value="T_JM_SURVIVE3" />
@@ -2040,11 +2045,13 @@
 		<Property name="UnlockedTitles" value="T_JM_SHIPS3" />
 		<Property name="UnlockedTitles" value="T_RESET" />
 		<Property name="UnlockedTitles" value="T_SHOP10" />
+		<Property name="UnlockedTitles" value="T_REALITY7" />
 		<Property name="UnlockedTitles" value="T_ARTEMIS" />
 		<Property name="UnlockedTitles" value="T_WAR3" />
 		<Property name="UnlockedTitles" value="T_LORE9" />
 		<Property name="UnlockedTitles" value="T_PET1" />
 		<Property name="UnlockedTitles" value="T_JM_CHAT2" />
+		<Property name="UnlockedTitles" value="T_REALITY10" />
 		<Property name="UnlockedTitles" value="T_ABANDLORE1" />
 		<Property name="UnlockedTitles" value="T_EXP2" />
 		<Property name="UnlockedTitles" value="T_MS_SCANNER_8" />
