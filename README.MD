@@ -6,3 +6,6 @@
 
 ## v.4.47
 ### Added C:\Users\%%USER%%\AppData\Local\Packages\HelloGames.NoMansSky_bs190hzg1sesy\SystemAppData wgs folder (x-box savegame?)
+
+## v.4.50
+### Added Steam\steamapps\common\No Man's Sky folders
