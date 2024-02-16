@@ -239,6 +239,7 @@
 		<Property name="SeenTechnologies" value="MECH_LASER1" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL9" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL2" />
+		<Property name="SeenTechnologies" value="WEAPEASY_DMG3" />
 		<Property name="SeenTechnologies" value="T_SHIP_PIRATE" />
 		<Property name="SeenTechnologies" value="CANNON" />
 		<Property name="SeenTechnologies" value="MECH_MINER" />
@@ -289,6 +290,7 @@
 		<Property name="SeenTechnologies" value="UT_SMG" />
 		<Property name="SeenTechnologies" value="MAINT_TECH22" />
 		<Property name="SeenTechnologies" value="MAINT_TECH3" />
+		<Property name="SeenTechnologies" value="WEAPEASY_DMG2" />
 		<Property name="SeenTechnologies" value="UT_WATERENERGY" />
 		<Property name="SeenTechnologies" value="GROUND_SHIELD" />
 		<Property name="SeenTechnologies" value="UT_SHIPSHOT" />
@@ -305,12 +307,14 @@
 		<Property name="SeenTechnologies" value="UT_LAUNCHCHARGE" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG12" />
 		<Property name="SeenTechnologies" value="TERRAIN_GREN" />
+		<Property name="SeenTechnologies" value="SHIPEASY_DMG3" />
 		<Property name="SeenTechnologies" value="STRONGLASER" />
 		<Property name="SeenTechnologies" value="F_HDRIVEBOOST3" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG2" />
 		<Property name="SeenTechnologies" value="WEAPSENT_DMG2" />
 		<Property name="SeenTechnologies" value="UT_SHIPGUN" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL5" />
+		<Property name="SeenTechnologies" value="SHIPEASY_DMG4" />
 		<Property name="SeenTechnologies" value="VEHICLE_ENGINE" />
 		<Property name="SeenTechnologies" value="MECH_SCAN" />
 		<Property name="SeenTechnologies" value="UT_SHIPBLOB" />
@@ -325,6 +329,7 @@
 		<Property name="SeenTechnologies" value="RAILGUN" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG8" />
 		<Property name="SeenTechnologies" value="JET1" />
+		<Property name="SeenTechnologies" value="WEAPEASY_DMG1" />
 		<Property name="SeenTechnologies" value="UT_PULSEFUEL" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL16" />
 		<Property name="SeenTechnologies" value="WEAPSLOT_DMG6" />
@@ -400,10 +405,12 @@
 		<Property name="SeenTechnologies" value="WEAPSLOT_DMG3" />
 		<Property name="SeenTechnologies" value="EXOPOD_TECH1" />
 		<Property name="SeenTechnologies" value="VEHICLE_SCAN2" />
+		<Property name="SeenTechnologies" value="WEAPEASY_DMG4" />
 		<Property name="SeenTechnologies" value="UT_TRANSLATE1" />
 		<Property name="SeenTechnologies" value="BOLT" />
 		<Property name="SeenTechnologies" value="MAINT_MONONUB3" />
 		<Property name="SeenTechnologies" value="F_SCANNER" />
+		<Property name="SeenTechnologies" value="SHIPEASY_DMG1" />
 		<Property name="SeenTechnologies" value="SHIPPLASMA" />
 		<Property name="SeenTechnologies" value="LASER" />
 		<Property name="SeenTechnologies" value="POWERGLOVE" />
@@ -425,6 +432,7 @@
 		<Property name="SeenTechnologies" value="UT_PULSESPEED" />
 		<Property name="SeenTechnologies" value="VEHICLE_SCAN" />
 		<Property name="SeenTechnologies" value="MAINT_FUEL3" />
+		<Property name="SeenTechnologies" value="SHIPEASY_DMG2" />
 		<Property name="SeenTechnologies" value="MAINT_FRIG8" />
 		<Property name="SeenTechnologies" value="SUB_RECHARGE" />
 		<Property name="SeenTechnologies" value="LIFESUP_ROBO" />
@@ -2402,8 +2410,8 @@
 	<Property name="CrossPlatform" value="true" />
 	<Property name="TemperatureUnit" value="C" />
 	<Property name="UseOldMouseFlight" value="false" />
-	<Property name="LastSeenCommunityMission" value="83" />
-	<Property name="LastSeenCommunityMissionTier" value="4" />
+	<Property name="LastSeenCommunityMission" value="85" />
+	<Property name="LastSeenCommunityMissionTier" value="2" />
 	<Property name="MovementMode" value="Teleporter" />
 	<Property name="MovementDirectionPad" value="GcMovementDirection" />
 	<Property name="MovementDirectionHands" value="GcMovementDirection" />
@@ -2431,6 +2439,7 @@
 	<Property name="SpaceCombatFollowMode" value="Hold" />
 	<Property name="UpgradedUsers">
 		<Property name="UpgradedUsers" value="2535415199201437_Win" />
+		<Property name="UpgradedUsers" value="76561198412322587" />
 		<Property name="UpgradedUsers" value="" />
 	</Property>
 	<Property name="AllowWhiteScreenTransitions" value="false" />
