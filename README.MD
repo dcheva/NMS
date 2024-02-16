@@ -9,3 +9,5 @@
 
 ## v.4.50
 ### Added Steam\steamapps\common\No Man's Sky folders
+- Steam\steamapps\common\No Man's Sky\GAMEDATA\INPUT
+- Steam\steamapps\common\No Man's Sky\Binaries\SETTINGS
