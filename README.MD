@@ -11,3 +11,4 @@
 ### Added Steam\steamapps\common\No Man's Sky folders
 - Steam\steamapps\common\No Man's Sky\GAMEDATA\INPUT
 - Steam\steamapps\common\No Man's Sky\Binaries\SETTINGS
+#### Expedition Omega day 2 Tag omega-day2
