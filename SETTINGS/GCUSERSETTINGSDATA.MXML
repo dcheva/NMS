@@ -1167,6 +1167,7 @@
 		<Property name="SeenProducts" value="BASE_BUBPIPE" />
 		<Property name="SeenProducts" value="U_EXOBOOST3" />
 		<Property name="SeenProducts" value="S_CHEV_WIN2" />
+		<Property name="SeenProducts" value="S12_POI_SEED1" />
 		<Property name="SeenProducts" value="TRA_MINERALS2" />
 		<Property name="SeenProducts" value="S_CEMENTMIXER" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD8" />
@@ -1721,6 +1722,7 @@
 		<Property name="SeenProducts" value="BUILDWORKTOP" />
 		<Property name="SeenProducts" value="SALVAGE_TECH9" />
 		<Property name="SeenProducts" value="BUILDCHAIR2" />
+		<Property name="SeenProducts" value="UP_HDRIVEBOOST1" />
 		<Property name="SeenProducts" value="S_ARCH_H" />
 		<Property name="SeenProducts" value="EXPD_POSTER06A" />
 		<Property name="SeenProducts" value="TRA_CURIO2" />
