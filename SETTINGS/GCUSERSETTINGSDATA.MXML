@@ -1006,6 +1006,7 @@
 		<Property name="SeenProducts" value="STATUE_SHIP_S" />
 		<Property name="SeenProducts" value="SPEC_TITLE25" />
 		<Property name="SeenProducts" value="TELEPORTER" />
+		<Property name="SeenProducts" value="UP_T_MIDAIR" />
 		<Property name="SeenProducts" value="U_SHIPMINI1" />
 		<Property name="SeenProducts" value="SPIDER_PROD" />
 		<Property name="SeenProducts" value="WATERBUBBLE" />
