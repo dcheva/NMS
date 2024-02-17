@@ -563,6 +563,7 @@
 		<Property name="SeenProducts" value="BASE_MEDPLANT01" />
 		<Property name="SeenProducts" value="U_TRANSISTOR1" />
 		<Property name="SeenProducts" value="MESSAGE" />
+		<Property name="SeenProducts" value="EXPD_POSTER12A" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD4" />
 		<Property name="SeenProducts" value="U_ENERGY1" />
 		<Property name="SeenProducts" value="U_TOX2" />
@@ -1013,6 +1014,7 @@
 		<Property name="SeenProducts" value="BANNER_SLIMY" />
 		<Property name="SeenProducts" value="SUIT_INV_TOKEN" />
 		<Property name="SeenProducts" value="U_EXO_SUBGUN1" />
+		<Property name="SeenProducts" value="EXPD_POSTER12B" />
 		<Property name="SeenProducts" value="EXPD_TITLE08" />
 		<Property name="SeenProducts" value="FARMPROD9" />
 		<Property name="SeenProducts" value="EXPD_FIREPACK01" />
@@ -1746,6 +1748,7 @@
 		<Property name="SeenProducts" value="SALVAGE_TECH8" />
 		<Property name="SeenProducts" value="BUILDLOCKER" />
 		<Property name="SeenProducts" value="FRE_ROOM_NPCBUI" />
+		<Property name="SeenProducts" value="EXPD_POSTER12C" />
 		<Property name="SeenProducts" value="SPEC_TITLE24" />
 		<Property name="SeenProducts" value="POI_LOCATOR" />
 		<Property name="SeenProducts" value="FOOD_M_FLYER" />
@@ -2110,6 +2113,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_FLAG_06C" />
 		<Property name="UnlockedSpecials" value="BLD_FLYJAR" />
 		<Property name="UnlockedSpecials" value="SHIP_ROGUE" />
+		<Property name="UnlockedSpecials" value="BASE_ROBOTOY" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER11C" />
 		<Property name="UnlockedSpecials" value="EXPD_TITLE04" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_14" />
@@ -2149,6 +2153,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_POSTER08B" />
 		<Property name="UnlockedSpecials" value="S10_PART3" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_3" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER12B" />
 		<Property name="UnlockedSpecials" value="SPEC_DIVEHELMET" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER06A" />
 		<Property name="UnlockedSpecials" value="BLD_CRYS_SENT0" />
@@ -2193,6 +2198,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_EGG_03" />
 		<Property name="UnlockedSpecials" value="BANNER_QIT" />
 		<Property name="UnlockedSpecials" value="EXPD_SHIP09" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER12C" />
 		<Property name="UnlockedSpecials" value="EXPD_DECAL11" />
 		<Property name="UnlockedSpecials" value="BASE_CAVE1" />
 		<Property name="UnlockedSpecials" value="BLD_MAPTUBE" />
@@ -2205,6 +2211,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_POSTER05C" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER06C" />
 		<Property name="UnlockedSpecials" value="TWITCH_FIREW07C" />
+		<Property name="UnlockedSpecials" value="SPEC_DECAL08" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_13" />
 		<Property name="UnlockedSpecials" value="DECAL_JELLY" />
 		<Property name="UnlockedSpecials" value="JETS_WORM" />
@@ -2233,6 +2240,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_DECAL04" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER07B" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_10" />
+		<Property name="UnlockedSpecials" value="EXPD_POSTER12A" />
 		<Property name="UnlockedSpecials" value="S10_PART5" />
 		<Property name="UnlockedSpecials" value="EXPD_EGG_04" />
 		<Property name="UnlockedSpecials" value="BLD_DATASIGN" />
