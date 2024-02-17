@@ -12,3 +12,4 @@
 - Steam\steamapps\common\No Man's Sky\GAMEDATA\INPUT
 - Steam\steamapps\common\No Man's Sky\Binaries\SETTINGS
 #### Expedition Omega day 2 Tag omega-day2
+- Client updated (2GB)
