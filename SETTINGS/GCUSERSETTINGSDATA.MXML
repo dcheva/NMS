@@ -447,6 +447,7 @@
 		<Property name="SeenProducts" value="PEARLPLANT" />
 		<Property name="SeenProducts" value="FARMPROD4" />
 		<Property name="SeenProducts" value="CAPE_WORM" />
+		<Property name="SeenProducts" value="FOOD_R_CARAMEL" />
 		<Property name="SeenProducts" value="BASE_NEXUS2" />
 		<Property name="SeenProducts" value="EXPD_FLAG_06C" />
 		<Property name="SeenProducts" value="JELLY" />
@@ -760,6 +761,7 @@
 		<Property name="SeenProducts" value="BASE_HOTPLANT03" />
 		<Property name="SeenProducts" value="COMPOUND4" />
 		<Property name="SeenProducts" value="FRE_ROOM_IND" />
+		<Property name="SeenProducts" value="FOOD_B_CACTUS" />
 		<Property name="SeenProducts" value="SPEC_FIREWORK06" />
 		<Property name="SeenProducts" value="S_CHEV_WIN0" />
 		<Property name="SeenProducts" value="S_ROOF_M_CAP" />
@@ -869,6 +871,7 @@
 		<Property name="SeenProducts" value="BLD_EXPD_BASE01" />
 		<Property name="SeenProducts" value="S_CHEV_DOOR" />
 		<Property name="SeenProducts" value="BASE_ROCK01" />
+		<Property name="SeenProducts" value="FOOD_R_FLOUR" />
 		<Property name="SeenProducts" value="STARCHART_A" />
 		<Property name="SeenProducts" value="STATUE_BLOB_B" />
 		<Property name="SeenProducts" value="STATUE_GEK_B" />
@@ -1107,6 +1110,7 @@
 		<Property name="SeenProducts" value="BUI_HEAD_10" />
 		<Property name="SeenProducts" value="DECAL_QIT" />
 		<Property name="SeenProducts" value="TRA_COMPONENT3" />
+		<Property name="SeenProducts" value="FOOD_B_DOUGH" />
 		<Property name="SeenProducts" value="BUILDTABLE2" />
 		<Property name="SeenProducts" value="SPEC_HELMET02" />
 		<Property name="SeenProducts" value="T_DOOR" />
@@ -1151,6 +1155,7 @@
 		<Property name="SeenProducts" value="WAR_CURIO1" />
 		<Property name="SeenProducts" value="CONTAINER8" />
 		<Property name="SeenProducts" value="T_RAMP" />
+		<Property name="SeenProducts" value="FOOD_J_ALL3" />
 		<Property name="SeenProducts" value="S10_FRAGMENT" />
 		<Property name="SeenProducts" value="BLD_COVSILOS" />
 		<Property name="SeenProducts" value="U_UNW2" />
@@ -1218,6 +1223,7 @@
 		<Property name="SeenProducts" value="HEALTHSTATION" />
 		<Property name="SeenProducts" value="STAFF_HEAD1" />
 		<Property name="SeenProducts" value="U_RAIL1" />
+		<Property name="SeenProducts" value="FOOD_R_SUGAR" />
 		<Property name="SeenProducts" value="STAFF_HEAD5" />
 		<Property name="SeenProducts" value="BLD_HOLOGEK" />
 		<Property name="SeenProducts" value="BUILDCHAIR4" />
@@ -1301,6 +1307,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_STORE3" />
 		<Property name="SeenProducts" value="BUI_HEAD_7" />
 		<Property name="SeenProducts" value="BASE_MEDPLANT03" />
+		<Property name="SeenProducts" value="FOOD_B_PLAIN" />
 		<Property name="SeenProducts" value="S_CHEV_WALL" />
 		<Property name="SeenProducts" value="SPEC_HELMET05" />
 		<Property name="SeenProducts" value="SPEC_TITLE12" />
@@ -1389,6 +1396,7 @@
 		<Property name="SeenProducts" value="MAINROOMCUBE_W" />
 		<Property name="SeenProducts" value="BUILDLANDINGPAD" />
 		<Property name="SeenProducts" value="S_CRATE0" />
+		<Property name="SeenProducts" value="FOOD_P_DUSTFARM" />
 		<Property name="SeenProducts" value="S_BAR_H" />
 		<Property name="SeenProducts" value="MAINROOM_WATER" />
 		<Property name="SeenProducts" value="S_GFLOOR" />
@@ -2356,6 +2364,7 @@
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER07A" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER11B" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_EGG_03" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_ATLASPACK" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_SHIP09" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER12C" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL11" />
