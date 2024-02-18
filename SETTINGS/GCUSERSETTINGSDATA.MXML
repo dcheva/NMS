@@ -2188,6 +2188,7 @@
 		<Property name="UnlockedSpecials" value="SPOOKY_PLANT" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER09B" />
 		<Property name="UnlockedSpecials" value="EXPD_TITLE01" />
+		<Property name="UnlockedSpecials" value="EXPD_ATLASSTAFF" />
 		<Property name="UnlockedSpecials" value="EXPD_DECAL03" />
 		<Property name="UnlockedSpecials" value="EXPD_BANNER11" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER07C" />
@@ -2338,6 +2339,7 @@
 		<Property name="UnlockedSeasonRewards" value="JETS_SENT" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER09B" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE01" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_ATLASSTAFF" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL03" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_BANNER11" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER07C" />
