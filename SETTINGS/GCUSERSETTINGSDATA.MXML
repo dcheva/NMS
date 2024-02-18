@@ -1849,6 +1849,7 @@
 		<Property name="SeenProducts" value="ILLEGAL_PROD3" />
 		<Property name="SeenProducts" value="U_EXOGUN2" />
 		<Property name="SeenProducts" value="BUILDSIMPLEDESK" />
+		<Property name="SeenProducts" value="BASE_STARJOINT" />
 		<Property name="SeenProducts" value="U_SHIPSHIELD4" />
 		<Property name="SeenProducts" value="SPEC_FIREWORK02" />
 		<Property name="SeenProducts" value="SCRAP_TECH" />
