@@ -248,6 +248,7 @@
 		<Property name="SeenTechnologies" value="ENERGY" />
 		<Property name="SeenTechnologies" value="VEHICLE_LASER" />
 		<Property name="SeenTechnologies" value="VEHICLE_GUN" />
+		<Property name="SeenTechnologies" value="PHOTONIX_CORE" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL13" />
 		<Property name="SeenTechnologies" value="WEAPSENT_DMG1" />
 		<Property name="SeenTechnologies" value="MAINT_FRIG2" />
@@ -380,6 +381,7 @@
 		<Property name="SeenTechnologies" value="GRENADE" />
 		<Property name="SeenTechnologies" value="MAINT_TECH11" />
 		<Property name="SeenTechnologies" value="UT_BOLTBOUNCE" />
+		<Property name="SeenTechnologies" value="T_SHIP_DARK" />
 		<Property name="SeenTechnologies" value="MAINT_ARTIFACT" />
 		<Property name="SeenTechnologies" value="UT_TOX" />
 		<Property name="SeenTechnologies" value="MECH_PROT" />
@@ -1031,6 +1033,7 @@
 		<Property name="SeenProducts" value="DECAL_NEXUSM" />
 		<Property name="SeenProducts" value="BASECAPSULE" />
 		<Property name="SeenProducts" value="ATLAS_SEED_4" />
+		<Property name="SeenProducts" value="UP_MECH_PILOT" />
 		<Property name="SeenProducts" value="U_SHIPMINI3" />
 		<Property name="SeenProducts" value="BUI_CLOTH_1" />
 		<Property name="SeenProducts" value="S_ANTENNA2" />
@@ -1041,6 +1044,7 @@
 		<Property name="SeenProducts" value="EGG5" />
 		<Property name="SeenProducts" value="ILLEGAL_PROD5" />
 		<Property name="SeenProducts" value="T_RAMP_Q_TOP" />
+		<Property name="SeenProducts" value="EXPD_DECAL12" />
 		<Property name="SeenProducts" value="U_HAZARDX" />
 		<Property name="SeenProducts" value="S10_SOUL" />
 		<Property name="SeenProducts" value="AM_HOUSING" />
@@ -2047,6 +2051,7 @@
 		<Property name="UnlockedTitles" value="T_DRONEFRIEND" />
 		<Property name="UnlockedTitles" value="T_TRA5" />
 		<Property name="UnlockedTitles" value="T_MS_DIST_4" />
+		<Property name="UnlockedTitles" value="T_EXPD12" />
 		<Property name="UnlockedTitles" value="T_JM_EXPLORE1" />
 		<Property name="UnlockedTitles" value="T_EXPD9" />
 		<Property name="UnlockedTitles" value="T_WAR4" />
@@ -2191,6 +2196,7 @@
 		<Property name="UnlockedSpecials" value="BUI_HEAD_5" />
 		<Property name="UnlockedSpecials" value="EXPD_DECAL10" />
 		<Property name="UnlockedSpecials" value="BASE_CAVE5" />
+		<Property name="UnlockedSpecials" value="EXPD_DECAL12" />
 		<Property name="UnlockedSpecials" value="SLIME_MED" />
 		<Property name="UnlockedSpecials" value="BUI_ARMOUR_2" />
 		<Property name="UnlockedSpecials" value="JETS_SENT" />
@@ -2207,6 +2213,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_TITLE10" />
 		<Property name="UnlockedSpecials" value="CAPE_JELLY" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_2" />
+		<Property name="UnlockedSpecials" value="EXPD_BANNER12" />
 		<Property name="UnlockedSpecials" value="EXPD_BACKPACK05" />
 		<Property name="UnlockedSpecials" value="BLD_HOLOGEK" />
 		<Property name="UnlockedSpecials" value="EXPD_TITLE02A" />
@@ -2218,6 +2225,7 @@
 		<Property name="UnlockedSpecials" value="TWITCH_SHIP34" />
 		<Property name="UnlockedSpecials" value="EXPD_EGG_03" />
 		<Property name="UnlockedSpecials" value="BANNER_QIT" />
+		<Property name="UnlockedSpecials" value="EXPD_ATLASPACK" />
 		<Property name="UnlockedSpecials" value="EXPD_SHIP09" />
 		<Property name="UnlockedSpecials" value="EXPD_POSTER12C" />
 		<Property name="UnlockedSpecials" value="EXPD_DECAL11" />
@@ -2235,6 +2243,7 @@
 		<Property name="UnlockedSpecials" value="SPEC_DECAL08" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_13" />
 		<Property name="UnlockedSpecials" value="DECAL_JELLY" />
+		<Property name="UnlockedSpecials" value="EXPD_TITLE12" />
 		<Property name="UnlockedSpecials" value="JETS_WORM" />
 		<Property name="UnlockedSpecials" value="FREI_TRAIL_YEL" />
 		<Property name="UnlockedSpecials" value="EXPD_FLAG_06A" />
@@ -2249,6 +2258,7 @@
 		<Property name="UnlockedSpecials" value="JETS_RED" />
 		<Property name="UnlockedSpecials" value="BUI_HEAD_11" />
 		<Property name="UnlockedSpecials" value="BLD_MINI_BIOFRI" />
+		<Property name="UnlockedSpecials" value="EXPD_SHIP12" />
 		<Property name="UnlockedSpecials" value="BASE_CAVE2" />
 		<Property name="UnlockedSpecials" value="EXPD_EGG_05" />
 		<Property name="UnlockedSpecials" value="EXPD_CUBE_06" />
@@ -2345,6 +2355,7 @@
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE02B" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL10" />
 		<Property name="UnlockedSeasonRewards" value="BASE_CAVE5" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL12" />
 		<Property name="UnlockedSeasonRewards" value="JETS_SENT" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER09B" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE01" />
@@ -2356,6 +2367,7 @@
 		<Property name="UnlockedSeasonRewards" value="BASE_CAVE4" />
 		<Property name="UnlockedSeasonRewards" value="BLD_EXPD_BASE01" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE10" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_BANNER12" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_BACKPACK05" />
 		<Property name="UnlockedSeasonRewards" value="BLD_HOLOGEK" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE02A" />
@@ -2376,6 +2388,7 @@
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL05" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER05C" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_POSTER06C" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_TITLE12" />
 		<Property name="UnlockedSeasonRewards" value="JETS_WORM" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_FLAG_06A" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_BANNER01" />
@@ -2386,6 +2399,7 @@
 		<Property name="UnlockedSeasonRewards" value="EXPD_ATLASHELM" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_DECAL02" />
 		<Property name="UnlockedSeasonRewards" value="BLD_MINI_BIOFRI" />
+		<Property name="UnlockedSeasonRewards" value="EXPD_SHIP12" />
 		<Property name="UnlockedSeasonRewards" value="BASE_CAVE2" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_EGG_05" />
 		<Property name="UnlockedSeasonRewards" value="EXPD_CUBE_06" />
