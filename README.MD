@@ -15,3 +15,6 @@
 - Client updated (2GB)
 
 ## Merged v.4.50
+
+## gog.4.50
+- Ignore all cache folders
