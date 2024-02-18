@@ -1,2 +1,6 @@
 DefaultUser/cache/
 DefaultUser/cache/*
+SHADERCACHE/
+SHADERCACHE/*
+*/cache/
+*/cache/*
