@@ -6,7 +6,7 @@
 	<Property name="VRVehiclesUseWorldControls" value="true" />
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
-	<Property name="ScreenBrightness" value="50" />
+	<Property name="ScreenBrightness" value="75" />
 	<Property name="MusicVolume" value="0" />
 	<Property name="SfxVolume" value="20" />
 	<Property name="LookSensitivityMode1" value="50" />
