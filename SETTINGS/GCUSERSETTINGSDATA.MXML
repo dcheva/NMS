@@ -1150,6 +1150,7 @@
 		<Property name="SeenProducts" value="FRE_ROOM_REFINE" />
 		<Property name="SeenProducts" value="SALVAGE_TECH6" />
 		<Property name="SeenProducts" value="U_ENERGY3" />
+		<Property name="SeenProducts" value="€ˆLæ¿K#38724" />
 		<Property name="SeenProducts" value="TRA_ENERGY3" />
 		<Property name="SeenProducts" value="NANOTUBES" />
 		<Property name="SeenProducts" value="BLDWALLUNIT" />
@@ -1386,6 +1387,7 @@
 		<Property name="SeenProducts" value="S_PLANTER_M" />
 		<Property name="SeenProducts" value="EXPD_POSTER07C" />
 		<Property name="SeenProducts" value="UP_STEALTH" />
+		<Property name="SeenProducts" value="€S³9#00000" />
 		<Property name="SeenProducts" value="F_WALL_Q" />
 		<Property name="SeenProducts" value="BUI_HEAD_2" />
 		<Property name="SeenProducts" value="F_ROOF8" />
@@ -1592,6 +1594,7 @@
 		<Property name="SeenProducts" value="SPEC_TITLE9" />
 		<Property name="SeenProducts" value="EXPD_POSTER09C" />
 		<Property name="SeenProducts" value="U_TGRENADE3" />
+		<Property name="SeenProducts" value="€€£Z:#00000" />
 		<Property name="SeenProducts" value="T_WALL_WIN1" />
 		<Property name="SeenProducts" value="LUSHPLANT" />
 		<Property name="SeenProducts" value="U_MECHGUN3" />
@@ -1717,6 +1720,7 @@
 		<Property name="SeenProducts" value="F_ARCH" />
 		<Property name="SeenProducts" value="CONTAINER1" />
 		<Property name="SeenProducts" value="BUILDWORKTOP" />
+		<Property name="SeenProducts" value="€ˆú[¯C#47742" />
 		<Property name="SeenProducts" value="SALVAGE_TECH9" />
 		<Property name="SeenProducts" value="BUILDCHAIR2" />
 		<Property name="SeenProducts" value="UP_HDRIVEBOOST1" />
@@ -1947,6 +1951,7 @@
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_COMBAT_2" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_TRADE_6" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_TRADE_2" />
+		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SALVAGE" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SURVIVAL_2" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_SPACE_STATION" />
 		<Property name="UnlockedWikiTopics" value="UI_GUIDE_TOPIC_EXPLORATION_4" />
