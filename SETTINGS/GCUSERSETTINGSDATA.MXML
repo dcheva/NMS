@@ -1700,6 +1700,7 @@
 		<Property name="SeenProducts" value="S_SIGN_BAR0" />
 		<Property name="SeenProducts" value="CREATUREPLANT" />
 		<Property name="SeenProducts" value="EXPD_EGG_09" />
+		<Property name="SeenProducts" value="PIRATE_PROD" />
 		<Property name="SeenProducts" value="U_SHIPBLOB3" />
 		<Property name="SeenProducts" value="BUI_HEAD_15" />
 		<Property name="SeenProducts" value="S_POSTER15" />
