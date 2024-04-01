@@ -589,6 +589,7 @@
 		<Property name="SeenProducts" value="S12_POI_SEED4" />
 		<Property name="SeenProducts" value="TRA_EXOTICS5" />
 		<Property name="SeenProducts" value="U_HYPER3" />
+		<Property name="SeenProducts" value="SHIP_CORE_C" />
 		<Property name="SeenProducts" value="BUILD_REFINER1" />
 		<Property name="SeenProducts" value="GEODE_RARE" />
 		<Property name="SeenProducts" value="COMPUTER" />
@@ -623,6 +624,7 @@
 		<Property name="SeenProducts" value="S_RAMP_Q_TOP" />
 		<Property name="SeenProducts" value="SPEC_EMOTE12" />
 		<Property name="SeenProducts" value="EXPD_DECAL08" />
+		<Property name="SeenProducts" value="SHIP_CORE_B" />
 		<Property name="SeenProducts" value="BASE_DUSTPLANT3" />
 		<Property name="SeenProducts" value="CONTAINER7" />
 		<Property name="SeenProducts" value="VENTGEM" />
@@ -821,6 +823,7 @@
 		<Property name="SeenProducts" value="CAPE_BIOFRIG" />
 		<Property name="SeenProducts" value="EXPD_WORMHAT" />
 		<Property name="SeenProducts" value="REACTION1" />
+		<Property name="SeenProducts" value="SHIP_CORE_S" />
 		<Property name="SeenProducts" value="PIRATE_INVITE" />
 		<Property name="SeenProducts" value="TRA_ALLOY1" />
 		<Property name="SeenProducts" value="FREIGHT_ORANGE" />
@@ -1053,6 +1056,7 @@
 		<Property name="SeenProducts" value="UP_MECH_PILOT" />
 		<Property name="SeenProducts" value="U_SHIPMINI3" />
 		<Property name="SeenProducts" value="BUI_CLOTH_1" />
+		<Property name="SeenProducts" value="SHIP_CORE_A" />
 		<Property name="SeenProducts" value="S_ANTENNA2" />
 		<Property name="SeenProducts" value="S_TRIFLOOR_Q" />
 		<Property name="SeenProducts" value="T_ROOF_M" />
