@@ -742,6 +742,7 @@
 		<Property name="SeenProducts" value="T_CHEV_WIN0" />
 		<Property name="SeenProducts" value="UP_T_TRANSLATE1" />
 		<Property name="SeenProducts" value="U_SHIPSHOT3" />
+		<Property name="SeenProducts" value="EGG7" />
 		<Property name="SeenProducts" value="S_POSTER28" />
 		<Property name="SeenProducts" value="BASE_CAVE2" />
 		<Property name="SeenProducts" value="S_STREETLAMP0" />
@@ -1540,6 +1541,7 @@
 		<Property name="SeenProducts" value="FREI_TRAIL_GRAV" />
 		<Property name="SeenProducts" value="EXPD_POSTER10C" />
 		<Property name="SeenProducts" value="BUI_ARMOUR_1" />
+		<Property name="SeenProducts" value="FIGHT_ENGIB" />
 		<Property name="SeenProducts" value="SPEC_TITLE10" />
 		<Property name="SeenProducts" value="NIPNIPBUDS" />
 		<Property name="SeenProducts" value="SHIP_GREEN" />
