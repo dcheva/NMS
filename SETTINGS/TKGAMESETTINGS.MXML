@@ -4,12 +4,6 @@
 	<Property name="KeyMapping2">
 		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
 			<Property value="OnFootControls" name="ActionSet" />
-			<Property value="Player_Melee" name="Action" />
-			<Property value="LCtrl" name="Button" />
-			<Property value="None" name="Axis" />
-		</Property>
-		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
-			<Property value="OnFootControls" name="ActionSet" />
 			<Property value="Quick_Menu" name="Action" />
 			<Property value="Apostrophe" name="Button" />
 			<Property value="None" name="Axis" />
@@ -30,6 +24,12 @@
 			<Property value="OnFootControls" name="ActionSet" />
 			<Property value="Player_Binoculars" name="Action" />
 			<Property value="LAlt" name="Button" />
+			<Property value="None" name="Axis" />
+		</Property>
+		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
+			<Property value="OnFootControls" name="ActionSet" />
+			<Property value="Player_Melee" name="Action" />
+			<Property value="LCtrl" name="Button" />
 			<Property value="None" name="Axis" />
 		</Property>
 		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
@@ -154,12 +154,6 @@
 		</Property>
 		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
 			<Property value="OnFootControls" name="ActionSet" />
-			<Property value="Player_Melee" name="Action" />
-			<Property value="MouseUnbound" name="Button" />
-			<Property value="None" name="Axis" />
-		</Property>
-		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
-			<Property value="OnFootControls" name="ActionSet" />
 			<Property value="Quick_Menu" name="Action" />
 			<Property value="MouseUnbound" name="Button" />
 			<Property value="None" name="Axis" />
@@ -179,6 +173,12 @@
 		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
 			<Property value="OnFootControls" name="ActionSet" />
 			<Property value="Player_Binoculars" name="Action" />
+			<Property value="MouseUnbound" name="Button" />
+			<Property value="None" name="Axis" />
+		</Property>
+		<Property value="GcInputActionMapping2.xml" name="KeyMapping2">
+			<Property value="OnFootControls" name="ActionSet" />
+			<Property value="Player_Melee" name="Action" />
 			<Property value="MouseUnbound" name="Button" />
 			<Property value="None" name="Axis" />
 		</Property>

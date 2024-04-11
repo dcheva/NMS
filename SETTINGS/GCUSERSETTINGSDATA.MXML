@@ -2444,6 +2444,7 @@
 		<Property name="UnlockedSpecials" value="EXPD_EGG_04" />
 		<Property name="UnlockedSpecials" value="BLD_DATASIGN" />
 		<Property name="UnlockedSpecials" value="EXPD_PETCUST11" />
+		<Property name="UnlockedSpecials" value="TWITCH_SHIP33" />
 		<Property name="UnlockedSpecials" value="BASE_TOYCUBE" />
 		<Property name="UnlockedSpecials" value="SPEC_HELMET03" />
 		<Property name="UnlockedSpecials" value="BUI_ARMOUR_3" />
