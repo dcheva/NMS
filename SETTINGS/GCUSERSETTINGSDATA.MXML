@@ -316,6 +316,7 @@
 		<Property name="SeenTechnologies" value="STRONGLASER" />
 		<Property name="SeenTechnologies" value="F_HDRIVEBOOST3" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG2" />
+		<Property name="SeenTechnologies" value="MAINT_TECH24" />
 		<Property name="SeenTechnologies" value="WEAPSENT_DMG2" />
 		<Property name="SeenTechnologies" value="UT_SHIPGUN" />
 		<Property name="SeenTechnologies" value="MAINT_PORTAL5" />
@@ -348,6 +349,7 @@
 		<Property name="SeenTechnologies" value="F_HDRIVEBOOST2" />
 		<Property name="SeenTechnologies" value="SHIPSLOT_DMG4" />
 		<Property name="SeenTechnologies" value="MECH_FUEL" />
+		<Property name="SeenTechnologies" value="MAINT_TECH8" />
 		<Property name="SeenTechnologies" value="STORY_TRANSLATE" />
 		<Property name="SeenTechnologies" value="T_SHIP_GREEN" />
 		<Property name="SeenTechnologies" value="UT_SURVEY" />
@@ -392,6 +394,7 @@
 		<Property name="SeenTechnologies" value="MAINT_ARTIFACT" />
 		<Property name="SeenTechnologies" value="UT_TOX" />
 		<Property name="SeenTechnologies" value="MECH_PROT" />
+		<Property name="SeenTechnologies" value="MAINT_TECH15" />
 		<Property name="SeenTechnologies" value="ATLASSUIT" />
 		<Property name="SeenTechnologies" value="MAINT_TECH9" />
 		<Property name="SeenTechnologies" value="SUB_LASER" />
@@ -1420,6 +1423,7 @@
 		<Property name="SeenProducts" value="S_TROUGH0" />
 		<Property name="SeenProducts" value="COMPOUND2" />
 		<Property name="SeenProducts" value="FRE_ROOM_STORE8" />
+		<Property name="SeenProducts" value="€€&amp;òK3#00000" />
 		<Property name="SeenProducts" value="U_SHIPSHIELD1" />
 		<Property name="SeenProducts" value="S_BUCKET_M" />
 		<Property name="SeenProducts" value="COMPOUND1" />
