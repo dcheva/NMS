@@ -2192,6 +2192,7 @@
 		<Property name="UnlockedTitles" value="T_MS_NANITES_6" />
 		<Property name="UnlockedTitles" value="T_DEFAULT" />
 		<Property name="UnlockedTitles" value="T_JM_SURVIVE1" />
+		<Property name="UnlockedTitles" value="T_PIRATE_HIDE" />
 		<Property name="UnlockedTitles" value="T_SPOOKY2" />
 		<Property name="UnlockedTitles" value="T_PORTAL" />
 		<Property name="UnlockedTitles" value="T_WAR6" />
