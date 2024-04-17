@@ -7,8 +7,8 @@
 	<Property name="HUDHidden" value="false" />
 	<Property name="Vibration" value="true" />
 	<Property name="ScreenBrightness" value="50" />
-	<Property name="MusicVolume" value="50" />
-	<Property name="SfxVolume" value="80" />
+	<Property name="MusicVolume" value="75" />
+	<Property name="SfxVolume" value="100" />
 	<Property name="LookSensitivityMode1" value="50" />
 	<Property name="LookSensitivityMode2" value="25" />
 	<Property name="FlightSensitivityMode1" value="100" />
@@ -1055,7 +1055,6 @@
 		<Property name="SeenProducts" value="F_DOOR_H" />
 		<Property name="SeenProducts" value="T_WALL_Q" />
 		<Property name="SeenProducts" value="TWITCH_SHIP21" />
-		<Property name="SeenProducts" value="€€›¥æö#84290" />
 		<Property name="SeenProducts" value="TWITCH_PET05" />
 		<Property name="SeenProducts" value="SHIP_DARK" />
 		<Property name="SeenProducts" value="U_EXO_SUBGUN3" />
