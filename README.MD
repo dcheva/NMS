@@ -1,5 +1,10 @@
 # NMS GitHub repo
 
+## v.4.70 Adrift new branch 'adrift'
+### Start new expedition
+- Use 'autogit loop 600'
+- Use offline expeditions cache files from https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/tree/main
+
 ## v.4.65 Orbital + 1 DLC [GOG]
 ### Tag NewGallactic - goto Eissentam (Green)
 
