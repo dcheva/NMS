@@ -4,6 +4,7 @@
 ### Start new expedition
 - Use 'autogit loop 600'
 - Use offline expeditions cache files from https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/tree/main
+- Howto: https://www.gog.com/forum/no_mans_sky/how_to_enable_expeditions_quicksilver_missions_with_offline_gog_installer_in_2024
 
 ## v.4.65 Orbital + 1 DLC [GOG]
 ### Tag NewGallactic - goto Eissentam (Green)
